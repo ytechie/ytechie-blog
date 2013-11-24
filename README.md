@@ -1,9 +1,25 @@
-# Ewal.net
+Work in progress.
 
-This is the source for the [DocPad-based](http://docpad.org) blog hosted at [www.ewal.net](http://www.ewal.net).  For more information, see [this blog post](http://www.ewal.net/2013/10/08/blogging-with-docpad/).
+1. Download the source
+2. Run *npm install* in the folder
+3. Customize src\partials\me.html
+4. Replace your photo in src\files\images\Headshot-Square.jpg (100x100px)
+5. Customize the default page template
+ 1. Change the Google Analytics code to your own
+ 1. Change the Google Plus information to your own
+ 1. Change the feed title
+ 1. Change the meta description
+ 1. Change the twitter and github info
+ 1. Change the search site
+ 1. Change copyright
+6. Customize the rewrites in src\files\web.config
 
-## License
-Copyright (c) 2013 Erv Walter
+
+#### License
+
+Portions Copyright (c) 2013 Jason Young
+
+Portions Copyright (c) 2013 Erv Walter
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

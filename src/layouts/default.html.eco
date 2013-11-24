@@ -5,20 +5,26 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 
-    <script type="text/javascript">
-        // do not remove this hostname restriction unless you also change the API key below...
-        if (window.location.hostname == 'www.ewal.net') {
-            var analytics=analytics||[];(function(){var e=["identify","track","trackLink","trackForm","trackClick","trackSubmit","page","pageview","ab","alias","ready","group"],t=function(e){return function(){analytics.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var n=0;n<e.length;n++)analytics[e[n]]=t(e[n])})(),analytics.load=function(e){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"===document.location.protocol?"https://":"http://")+"d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/"+e+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)};
+    <meta name="description" content="Productive software development using Windows Azure, C#, and related technologies" />
 
-            // if you clone this app, please change the API key below to your own...
-            analytics.load("83mu6lzb7f");
+    <script type="text/javascript">
+        function initGoogleAnalytics() {
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-342471-4']);
+            _gaq.push(['_setDomainName', 'ytechie.com']);
+            _gaq.push(['_trackPageview']);
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
         }
     </script>
 
     <title><%= @getPreparedTitle() %></title>
     <meta name="author" content="<%= @site.author %>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/feed.xml" rel="alternate" title="Ewal.net" type="application/atom+xml">
+    <link href="/feed.xml" rel="alternate" title="YTECHIE.com" type="application/atom+xml">
     <link href="/favicon.png" rel="shortcut icon">
 
     <!-- Bootstrap -->
@@ -35,7 +41,7 @@
 </head>
 <body>
 <% if @googlePlusId: %>
-<a href="https://plus.google.com/103974853049200513652?rel=author" class="google googleplus-hidden" title="Google+">Google+</a>
+<a href="https://plus.google.com/<%= @googlePlusId %>?rel=author" class="google googleplus-hidden" title="Google+">Google+</a>
 <% end %>
 <div class="navbar navbar-default navbar-static-top">
     <div class="container">
@@ -50,19 +56,20 @@
         <div class="collapse navbar-collapse navbar-right">
             <ul class="nav navbar-nav">
                 <!--<li><a href="/">Blog</a></li>-->
-                <li><a href="/archives/">Archives</a></li>
-                <li><a href="/projects/">Projects</a></li>
+                <% for document in @getCollection('menuPages').toJSON(): %>
+                    <li><a href="<%= document.url %>"><%= document.menu %></a></li>
+                <% end %>
                 <li class="hidden-xs">
                     <a href="/feed.xml" class="rss"><span class="icon icon-feed"></span></a>
-                    <a href="http://twitter.com/ervwalter" class="twitter"><span class="icon icon-twitter"></span></a>
-                    <a href="https://github.com/ervwalter" class="github"><span class="icon icon-github"></span></a>
+                    <a href="http://twitter.com/ytechie" class="twitter"><span class="icon icon-twitter"></span></a>
+                    <a href="https://github.com/ytechie" class="github"><span class="icon icon-github"></span></a>
                 </li>
             </ul>
             <form class="navbar-form navbar-right hidden-xs" role="search" action="http://google.com/search"
                   method="get">
                 <div class="form-group">
                     <input type="search" name="q" class="form-control" placeholder="Search">
-                    <input type="hidden" name="q" value="site:www.ewal.net">
+                    <input type="hidden" name="q" value="site:www.ytechie.com">
                 </div>
             </form>
         </div>
@@ -71,7 +78,7 @@
 <%- @content %>
 <div class="container">
     <div class="navbar navbar-footer">
-        <p class="navbar-center navbar-text">Copyright &copy; 2011-2013 Erv Walter</p>
+        <p class="navbar-center navbar-text">Content copyright &copy; 2013 Jason Young</p>
     </div>
 </div>
 

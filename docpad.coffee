@@ -10,16 +10,16 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://www.ewal.net"
+			url: "http://www.ytechie.com"
 
 			# The default title of our website
-			title: "Ewal.net"
+			title: "YTECHIE.com"
 
 			# The website author's name
-			author: "Erv Walter"
+			author: "Jason Young"
 
 			# The website author's email
-			email: "erv@ewal.net"
+			email: "jason@ytechie.com"
 
 
 		# -----------------------------
@@ -45,8 +45,10 @@ docpadConfig = {
 			path = document.url
 			"tag:#{hostname},#{date},#{path}"
 
-		fixLinks: (content) ->
+		fixLinks: (content, baseUrlOverride) ->
 			baseUrl = @site.url
+			if baseUrlOverride
+				baseUrl = baseUrlOverride
 			regex = /^(http|https|ftp|mailto):/
 
 			$ = cheerio.load(content)
@@ -63,31 +65,27 @@ docpadConfig = {
 		moment: require('moment')
 
 		# Discus.com settings
-		disqusShortName: 'ewalnet'
+		disqusShortName: 'ytechie'
 
 		# Google+ settings
-		googlePlusId: '103974853049200513652'
+		googlePlusId: '105512648454315380048'
 
 	collections:
 		posts: ->
-			@getCollection('documents').findAllLive({relativeDirPath: 'posts'}, [date: -1])
-
-	environments:
-		development:
-			collections:
-				posts: ->
-					@getCollection('documents').findAllLive({relativeDirPath: {'$in' : ['posts', 'drafts']}}, [relativeDirPath: 1,  date: -1])
+			@getCollection("html").findAllLive({layout: 'post'},[{date:-1}])
+		menuPages: ->
+			@getCollection("html").findAllLive({menu: $exists: true},[{menuOrder:1}])
 
 	plugins:
 		tagging:
 			collectionName: 'posts'
 			indexPageLowercase: true
-		dateurls:
-			cleanurl: true
-			trailingSlashes: true
-			keepOriginalUrls: false
-			collectionName: 'posts'
-			dateIncludesTime: true
+		#dateurls:
+		#	cleanurl: true
+		#	trailingSlashes: true
+		#	keepOriginalUrls: false
+		#	collectionName: 'posts'
+		#	dateIncludesTime: true
 		paged:
 			cleanurl: true
 			startingPageNumber: 2

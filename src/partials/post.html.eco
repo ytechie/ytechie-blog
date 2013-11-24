@@ -9,7 +9,7 @@ cacheable: false
     <h1><a href='<%= @url %>'><%= @title %></a></h1>
     <% end %>
     <div class="post-content">
-        <%- @content %>
+        <%- @fixLinks(@content, @url) %>
     </div>
     <% if @tags?: %>
     <div class="post-tags">
