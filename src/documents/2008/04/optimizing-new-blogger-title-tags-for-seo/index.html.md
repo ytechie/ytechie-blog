@@ -16,7 +16,7 @@ YUCK! There are **two** **major** problems here. The first is that the titles ar
 The second problem is that my title tags don't tell Google anything interesting about my site. You want the search engines to figure out the keywords in each of your pages, and having those keywords in the title reinforces that.
 
 In &quot;classic&quot; blogger, you would simply use
-  <pre class="xml" name="code">&lt;title&gt;&lt;br /&gt;&lt;mainorarchivepage&gt;&lt;$BlogTitle$&gt;&lt;/mainorarchivepage&gt;&lt;br /&gt;&lt;itempage&gt;&lt;blogger&gt;&lt;$BlogItemTitle$&gt;&lt;/blogger&gt; - &lt;$BlogTitle$&gt;&lt;/itempage&gt;&lt;br /&gt;&lt;/title&gt;</pre>
+  <pre class="xml" name="code"><title>&lt;br /&gt;&lt;mainorarchivepage&gt;&lt;$BlogTitle$&gt;&lt;/mainorarchivepage&gt;&lt;br /&gt;&lt;itempage&gt;&lt;blogger&gt;&lt;$BlogItemTitle$&gt;&lt;/blogger&gt; - &lt;$BlogTitle$&gt;&lt;/itempage&gt;&lt;br /&gt;&lt;/title&gt;</pre>
 
 instead of:
 
@@ -26,7 +26,7 @@ This would use the title of the post item as the title of the page. The problem 
 
 *   Shorten your actual blog title. I was unable to figure out how to remove the blog title from each post page, without losing the post title. Unfortunately Blogger doesn't have a token for the item post title. For my blog, I changed the title to &quot;YTechie.com&quot;, which I think is a reasonable prefix for my post page titles.*   Customize the title tag in your template. Do this by editing the HTML, expand the widget templates, and put the following code in place of the existing title tag. This will allow you to have a custom title just for the front page.
 
-<pre class="xml" name="code">&lt;b:if cond='data:blog.pageType == &amp;quot;index&amp;quot;'&gt;
+<pre class="xml" name="code">&lt;b:if cond='data:blog.pageType == &quot;index&amp;quot;'&gt;
  &lt;title&gt;Front Page Title (change this)&lt;/title&gt;
 &lt;b:else/&gt;
  &lt;title&gt;&lt;data:blog.pageTitle/&gt;&lt;/title&gt;

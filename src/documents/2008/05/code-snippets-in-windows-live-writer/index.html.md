@@ -9,11 +9,11 @@ I was asked how I insert code snippets with Windows Live Writer. I actually did 
 
 I originally got scared away from it because when I switch to the HTML view in Live Writer, it shows up like this:
 
-   <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:fb6df324-42a8-4e46-959f-35188301bad4" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="xml">&lt;div class="wlWriterEditableSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:19d17d14-ac74-45e7-9276-5c6a3031b09d" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"&gt;&lt;DIV class=dp-highlighter&gt;
+   <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:fb6df324-42a8-4e46-959f-35188301bad4" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="xml"><div class="wlWriterEditableSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:19d17d14-ac74-45e7-9276-5c6a3031b09d" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px">&lt;DIV class=dp-highlighter&gt;
 &lt;DIV class=bar&gt;
 &lt;DIV class=tools&gt;&lt;A onclick="dp.sh.Toolbar.Command('ViewSource',this);return false;" href="about:blank#"&gt;view plain&lt;/A&gt;&lt;A onclick="dp.sh.Toolbar.Command('CopyToClipboard',this);return false;" href="about:blank#"&gt;copy to clipboard&lt;/A&gt;&lt;A onclick="dp.sh.Toolbar.Command('PrintSource',this);return false;" href="about:blank#"&gt;print&lt;/A&gt;&lt;A onclick="dp.sh.Toolbar.Command('About',this);return false;" href="about:blank#"&gt;?&lt;/A&gt;&lt;/DIV&gt;&lt;/DIV&gt;
 &lt;OL class=dp-xml&gt;
-&lt;LI class=alt&gt;&lt;SPAN&gt;&lt;SPAN&gt;test&amp;nbsp;&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/LI&gt;&lt;/OL&gt;&lt;/DIV&gt;&lt;PRE class=xml style="DISPLAY: none" name="code"&gt;test&lt;/PRE&gt;</pre></div>
+&lt;LI class=alt&gt;&lt;SPAN&gt;&lt;SPAN&gt;test&nbsp;&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/LI&gt;&lt;/OL&gt;&lt;/DIV&gt;&lt;PRE class=xml style="DISPLAY: none" name="code"&gt;test&lt;/PRE&gt;</pre></div>
 
 That is just unacceptable. Fortunately, I realized that it just renders that _temporarily,_ so that you can see a better preview of what it will actually look like on your site.
 

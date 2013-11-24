@@ -21,7 +21,7 @@ I've come up with a simple example to help illustrate. Suppose I need to process
 
 *   ProcessData(double[] xData, double[] yData);
 *   ProcessData(PointF[] points);
-*   ProcessData(IDictionary&lt;double, double&gt; points); 
+*   ProcessData(IDictionary<double, double> points); 
 
 For now, just ignore the performance implications ([they're going to be linear in this case](http://en.wikipedia.org/wiki/Big_O_notation#Orders_of_common_functions), or close to it anyway). To choose the correct signature, we need to know who the caller is.
 

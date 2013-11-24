@@ -26,7 +26,7 @@ yourName = &quot;Bob&quot;; //Glad you can't do this</pre>
 
 What are some really good examples of when it ideally should be used:
 
-<pre class="c-sharp" name="code">List&lt;Dictionary&lt;int, string&gt;&gt; customers = new List&lt;Dictionary&lt;int, string&gt;&gt;(); //Yuck!
+<pre class="c-sharp" name="code">List<Dictionary&lt;int, string>&gt; customers = new List&lt;Dictionary&lt;int, string&gt;&gt;(); //Yuck!
 var customers = new List&lt;Dictionary&lt;int, string&gt;&gt;(); //Yay!
 
 OrderRepository orderRepo = (OrderRepository)ctx.GetObject(&quot;orderRepository&quot;); //Yuck!

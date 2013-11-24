@@ -8,7 +8,7 @@ tags: ["asp.net"]
 Don't you hate it when you copy an ASP.NET server control without an ID, only to have it add one when you paste it?
 
 For example, look at this code:
-<pre class="xml">&lt;asp:RequiredFieldValidator runat="server" /&gt;
+<pre class="xml"><asp:RequiredFieldValidator runat="server" />
 &lt;asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" /&gt;</pre>
 I took the first line, copied it and pasted it, and got the second line. It's rare that I need to reference a validator in my CodeBehind.
 

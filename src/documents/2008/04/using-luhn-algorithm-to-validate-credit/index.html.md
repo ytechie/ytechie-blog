@@ -25,13 +25,13 @@ function luhn_check(s)
 
 The next step is to add an ASP.NET validator:
 
-<pre class="xml" name="code">&lt;asp:CustomValidator
+<pre class="xml" name="code"><asp:CustomValidator
     runat=&quot;server&quot;
     ControlToValidate=&quot;txtCCNumber&quot;
     ClientValidationFunction=&quot;ccValidator&quot;
     ErrorMessage=&quot;Invalid credit card number&quot;
     Display=&quot;Dynamic&quot;
-    EnableClientScript=&quot;true&quot; /&gt;</pre>
+    EnableClientScript=&quot;true&quot; /></pre>
 
 You'll need to change the &quot;ControlToValidate&quot; property to match the TextBox control that you're validating.
 

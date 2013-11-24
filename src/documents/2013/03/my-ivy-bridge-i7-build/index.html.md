@@ -8,9 +8,9 @@ I recently had an opportunity to sell my original i7 920 PC, and build a 3rd gen
 <table border="1" cellspacing="0">
 <tbody>
 <tr>
-<td>**Component**</td>
-<td>**Price**</td>
-<td>**Name**</td>
+<td>Component</td>
+<td>Price</td>
+<td>Name</td>
 </tr>
 <tr>
 <td>PSU</td>
@@ -54,9 +54,9 @@ I recently had an opportunity to sell my original i7 920 PC, and build a 3rd gen
 </tr>
 </tbody>
 </table>
-**Total Price: $897.36 + shipping**
+###Total Price: $897.36 + shipping
 
-**Processor: Intel Core i7-3770K 3.5GHz**
+###Processor: Intel Core i7-3770K 3.5GHz
 
 [![i7-3770K](http://www.ytechie.com/post-images/2013/03/i7-3770K.jpg)](i7-3770K.jpg)
 
@@ -64,7 +64,7 @@ This was the first component I picked out, as a suspected all of the other compo
 
 Since I don't have any intentions of using this system for high-end gaming, my goal is to actually use the Intel 4000 graphics that are integrated into the chip. Integrated graphics are still significantly behind their discrete counterparts, but this saves me over 100 watts of power usage.
 
-**Motherboard: ASRock Z77 Extreme 4**
+###Motherboard: ASRock Z77 Extreme 4
 
 [![Z77 Extreme4(m)](Z77-Extreme4m-300x169.jpg)](http://www.ytechie.com/post-images/2013/03/Z77-Extreme4m.jpg)
 
@@ -74,13 +74,13 @@ Below is a thermal image from the board. Notice that the ASRock chipset is at 14
 
 [![IR_1146](http://www.ytechie.com/post-images/2013/03/IR_1146.jpg)](IR_1146.jpg)
 
-**Memory: 32GB G.SKILL**
+###Memory: 32GB G.SKILL
 
 [![GSkill-Ares](http://www.ytechie.com/post-images/2013/03/GSkill-Ares.jpg)](GSkill-Ares.jpg)
 
 Memory speed used to have a significant impact on the real-world performance of your system. These days, buy memory that is well reviewed and falls within the memory speed requirements of your motherboard. At the time of my purchase, I was able to get the Ares memory for only $55 for 2x8GB strips. At this price, it was worth maxing out the board at **32GB** (I'm still in awe) just to avoid a future upgrade. One interesting feature of the motherboard is the ability to use part of the RAM as a RAMDISK, which is essentially a virtual hard drive that would outperform even the best SSD.
 
-**PSU: SeaSonic M12II 620 Bronze 620W**
+###PSU: SeaSonic M12II 620 Bronze 620W
 
 [![Seasonic-620](Seasonic-620-150x150.jpg)](http://www.ytechie.com/post-images/2013/03/Seasonic-620.jpg)
 
@@ -88,7 +88,7 @@ Bad power supplies create bad power, which kills components. A good power supply
 
 Why did I choose a 620W power supply? My experience has been that people often oversize their power supplies. If you use a 1000W power supply on a 50W load, it's going to be terribly inefficient. Power supply efficiencies, which measure the amount of power lost in the conversion from AC to DC, are only accurate when the power supply is under heavy load. As you get out of the sweet spot, efficiency drops. When sizing a power supply, the #1 power consumer is your video card. An inefficient video card will pull more power than the rest of your system. Add multiple cards and the power requirements go through the roof. In my case, I'm using integrated graphics and shooting for low power usage. My goal was to stay under 100W at load on the DC side of the power supply. With an 85% efficiency, that would be about 118 watts on the AC side. Even at 620W, this power supply is WAY oversized. However, I have a quality power supply that gives me plenty of headroom for any upgrades down the road. Besides, there are not many well-built power supplies at lower wattages these days.
 
-**Hard Drive: Crucial m4 128GB SSD**
+###Hard Drive: Crucial m4 128GB SSD
 
 [![Crucial-m4](http://www.ytechie.com/post-images/2013/03/Crucial-m4.jpg)](Crucial-m4.jpg)
 
@@ -98,13 +98,13 @@ I've had my fair share of bad luck with SSD's. Since they're a newer technology 
 
 Why only 128GB? I have a 3TB storage array that I use for my bulk data. Unless you install a number of large games on your SSD, or store other bulk data, 128GB is fine for just about everyone. If you feel more comfortable with the 256GB version, the price gap has closed significantly.
 
-**Case: Antec 300**
+###Case: Antec 300
 
 [![Antec300](http://www.ytechie.com/post-images/2013/03/Antec300.png)](Antec300.png)
 
 I hate choosing a case. Without seeing them in person, it's difficult to gauge their build quality and features. I've used this case in the past, and it's worked well enough. It's usually inexpensive, and easy to work with. It has excellent ventilation, a cleanable air filter, and a place to mount your SSD drive.
 
-**CPU Fan: ZALMAN 92mm**
+###CPU Fan: ZALMAN 92mm
 
 ![Zalman-CPU-Cooler](Zalman-CPU-Cooler1.jpg)
 
@@ -114,7 +114,7 @@ I ran some temperature tests on the i7 Ivy Bridge with a stock cooler, and found
 
 Here is a photo using a Flir thermal camera. Notice that there is almost no measurable heat coming from the heat sink on the right side of the image.
 
-**Blu-ray / DVD: LG Blu-ray Drive**
+###Blu-ray / DVD: LG Blu-ray Drive
 
 [![LG-Blu-Ray](http://www.ytechie.com/post-images/2013/03/LG-Blu-Ray1.jpg)](LG-Blu-Ray1.jpg)
 

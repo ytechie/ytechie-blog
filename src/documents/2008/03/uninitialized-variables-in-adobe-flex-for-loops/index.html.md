@@ -5,7 +5,7 @@ date: 2008-03-31
 tags: ["actionscript","flex"]
 ---
 
-<pre class="javascript" name="code">for(var j:int; j &lt; editAreas.length; j++)
+<pre class="javascript" name="code">for(var j:int; j < editAreas.length; j++)
     trace(&quot;doing something&quot;);</pre>
 
 What's wrong with this ActionScript code? This was a block of code that I fixed while tracking down a nasty bug. c# would have never let me do this.

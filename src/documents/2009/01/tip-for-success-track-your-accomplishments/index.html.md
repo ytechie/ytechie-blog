@@ -17,11 +17,11 @@ If you're not keeping track of all of the amazing things you're doing throughout
 
 What should this list look like? Each line should be in the same format as an [accomplishment on your resume](http://www.google.com/search?q=resume+accomplishments). After all, you're trying to sell yourself just as you would when applying for a job.
 
-<font color="#808080">Feb 09</font>
+>Feb 09
+>
+> * Implemented a new CMS system for the finance department saving $5300 annually.
+> * Shortened the project planning process by removing duplicate steps, allowing projects to be delivered an average of 10% faster.  
 
-*   <font color="#808080">Implemented a new CMS system for the finance department saving $5300 annually.</font>
-*   <font color="#808080">Shortened the project planning process by removing duplicate steps, allowing projects to be delivered an average of 10% faster.</font>  
+Personally, I've already starting tracking my accomplishments. The next time I have a performance review coming up, I can send my boss the highlights for the past year, keeping them fresh in his mind. I hope I can motivate as least one other person to do the same. If I ever want to make a career move, I believe the list will also be very useful when updating my resume.
 
-<font color="#000000">Personally, I've already starting tracking my accomplishments. The next time I have a performance review coming up, I can send my boss the highlights for the past year, keeping them fresh in his mind. I hope I can motivate as least one other person to do the same. If I ever want to make a career move, I believe the list will also be very useful when updating my resume.</font>
-
-<font color="#000000">Do you already keep a list of your accomplishments? How have you found it useful?</font>
+Do you already keep a list of your accomplishments? How have you found it useful?

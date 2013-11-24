@@ -8,17 +8,17 @@ A few years ago, I set up a privately hosted Subversion repository to hold the s
 
 In this post, I'll show you how I converted my repositories over to Mercurial to archive them in Kiln, complete with history. There are a number of ways to accomplish this goal, and I thought this method was fairly simple and straightforward.
 
-**Instructions**
+###Instructions
 
 First, install [TortoiseHg](http://tortoisehg.bitbucket.org/) if you haven't already done so. You actually won't need Subversion installed to do the conversion.
 
-Next, right click anywhere in an Explorer window, select TortoiseHg-&gt;Global Settings:![TortoiseHg-Menu](TortoiseHg-Menu.png "TortoiseHg-Menu")
+Next, right click anywhere in an Explorer window, select TortoiseHg->Global Settings:![TortoiseHg-Menu](TortoiseHg-Menu.png "TortoiseHg-Menu")
 
-Go to the &quot;Extensions" section, and check the "convert" checkbox, which will enable the conversion extension functionality:
+Go to the "Extensions" section, and check the "convert" checkbox, which will enable the conversion extension functionality:
 
 ![Enable-Convert-Extension](Enable-Convert-Extension.png "Enable-Convert-Extension")
 
-**One Repository vs Many**
+###One Repository vs Many
 
 In Subversion, there were two common repository structure camps. One that used a single repository for multiple projects, and those that used a separate repository for each project. Due to the complexity of setting up projects on the Subversion server, I always stuck with the "one giant repo" model.
 
@@ -26,23 +26,23 @@ In Git, repositories will be distributed and are ideally as lightweight as possi
 
 [![SNAGHTML141b8252](SNAGHTML141b8252_thumb.png "SNAGHTML141b8252")](http://www.ytechie.com/post-images/2013/04/SNAGHTML141b8252.png)
 
-**Creating a Filemap (optional)**
+###Creating a Filemap (optional)
 
-_<u>If you have separate repositories in Subversion, you can skip this step.</u>_
+_If you have separate repositories in Subversion, you can skip this step._
 
 Create a "filemap", which is just a text file with the name of your choosing that will look like this:
-  <pre>include &quot;Utilities/ProjRefToDll&quot;
-rename &quot;Utilities/ProjRefToDll&quot; .</pre>
+	include &quot;Utilities/ProjRefToDll&quot;
+	rename &quot;Utilities/ProjRefToDll&quot; .
 
 The first line is telling the converter to _only_ include the path specified. The second line is telling the converter to move the project to be in the root (note the period) of the new repository. If we leave this out, we'll only have the project we're looking for, but our source code will be nested under folders from our old structure.
 
 You'll need to update this file for each project you convert.
 
-**Convert!**
+###Convert!
 
 Run the following command line with the correct paths (omit the filemap parameter if converting the whole repo):
 
-<pre>&quot;&lt;path-to-hg&gt;\hg.exe&quot; convert -s svn &quot;&lt;path-to-svn-repo&gt;&quot; --filemap &quot;&lt;path-to-optional-filemap&gt;&quot;</pre>
+	"<path-to-hg>\hg.exe" convert -s svn "<path-to-svn-repo>" --filemap "<path-to-optional-filemap>"
 
 Here is the command I ran:
 

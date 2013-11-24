@@ -10,7 +10,7 @@ I ran into an interesting issue with output caching. If you have a page that use
 ![Redirect](redirect.jpg)
 
 Let's say that you have a page that redirects to the mobile version of your website if they have a mobile browser. Let's suppose that you're using a standard, generic output caching directive:
-  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:c62620a2-51e6-4a82-a112-72d2908d3912" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="xml">&lt;%@ OutputCache Duration="300" VaryByParam="*" %&gt;</pre></div>
+  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:c62620a2-51e6-4a82-a112-72d2908d3912" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="xml"><%@ OutputCache Duration="300" VaryByParam="*" %></pre></div>
 
 When the page renders, the rendered HTML will be cached. The next incoming request will get the cached HTML, and the page rendering and code execution will be completely avoided. If you get a visitor that is using a mobile device, **your code to determine if the request should be redirected will never get executed**.
 

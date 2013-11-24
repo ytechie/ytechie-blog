@@ -17,7 +17,7 @@ The solution is to handle the "DataBound" event on the GridView, and manually fi
 
 private void dgMyGrid_DataBound(object sender, EventArgs e)
 {
-    if (dgMyGrid.EditIndex &gt;= 0)
+    if (dgMyGrid.EditIndex >= 0)
     {
         //Turn off validation on the link buttons, because we don't want other page validation issues interfering.
         foreach (Control currControl in dgMyGrid.Rows[dgMyGrid.EditIndex].Cells[0].Controls)

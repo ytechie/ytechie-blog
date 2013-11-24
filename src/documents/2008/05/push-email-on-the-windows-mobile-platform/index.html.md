@@ -11,7 +11,7 @@ A few months ago, I went ahead a bought an [HTC Touch](http://www.htctouch.com/)
 
 At first, I didn't really like the HTC Touch. It's slow (compared to a standard phone or an iPhone). The biggest issue was getting push email to work. The guy at the Sprint store claimed that you would just enter your email credentials, and push email would magically be enabled. I ensured him that it wasn't that simple, but he still insisted.
 
-With pocket Outlook I was able to set up access to my GMail account using IMAP. The problem was that it was slow, and push email didn't really work at all. Research led me to the conclusion that Pocket Outlook really sucks at IMAP. I even tried another email client ([Flexmail](http://www.pocketinformant.com/products_info.php?p_id=mail&amp;)), but I still wasn't satisfied.
+With pocket Outlook I was able to set up access to my GMail account using IMAP. The problem was that it was slow, and push email didn't really work at all. Research led me to the conclusion that Pocket Outlook really sucks at IMAP. I even tried another email client ([Flexmail](http://www.pocketinformant.com/products_info.php?p_id=mail&)), but I still wasn't satisfied.
 
 Then, I found out that you could use the &quot;Live&quot; application on the phone to get real-time email from Hotmail using the option on the device for receiving emails &quot;as items arrive&quot;. I signed up for a Hotmail account, and set my GMail account to forward a copy of all messages. This option proved to be very flaky, but the email delay wasn't too bad. After doing some research, it seems as though this option pretends to be push email, but is in fact very frequent polling. I would occasionally lose my data connection, and the mail application would just give up.
 

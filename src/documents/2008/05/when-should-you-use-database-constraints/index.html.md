@@ -7,7 +7,7 @@ tags: ["productivity","sql"]
 
 A discussion came up at work recently about the extent of constraint usage in your databases. There were basically 2 camps:
 
-1.  Constrain everything humanly possible. If it's an integer that wouldn't normally be negative, add a &quot;&gt;= 0&quot; constraint.2.  Constrain primarily where it's necessary to maintain referential integrity.  
+1.  Constrain everything humanly possible. If it's an integer that wouldn't normally be negative, add a &quot;>= 0&quot; constraint.2.  Constrain primarily where it's necessary to maintain referential integrity.  
 
 Consider the following diagram. It's a map of the flow of data from your user, which eventually makes its way into the database.
 

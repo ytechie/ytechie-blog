@@ -27,4 +27,4 @@ Of course, as with anything, these are simply guidelines. People haven't been wr
 
 More reading:
 
-*   [Of Software &amp; Deadlines (Teknomancer)](http://the-teknomancer.blogspot.com/2007/06/of-software-deadlines.html)*   [Evidence Based Scheduling (Joel on Software)](http://www.joelonsoftware.com/items/2007/10/26.html)
+*   [Of Software & Deadlines (Teknomancer)](http://the-teknomancer.blogspot.com/2007/06/of-software-deadlines.html)*   [Evidence Based Scheduling (Joel on Software)](http://www.joelonsoftware.com/items/2007/10/26.html)

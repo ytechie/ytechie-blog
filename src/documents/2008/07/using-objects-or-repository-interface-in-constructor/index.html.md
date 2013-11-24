@@ -8,7 +8,7 @@ tags: ["c#","productivity"]
 I've been really trying to use the [Single Responsibility Pattern](http://www.ytechie.com/2008/06/agile-patterns-practices-and-the-developer-divide.html) in all of the classes I design. Recently, I needed to create code to query a list of holidays from the database, and then create a method that allows you to get the number of holidays between two given dates.
 
 Here was my first stab at the constructor:
-  <pre class="c#" name="code">public HolidayCalculator(IEnumerable&lt;DateTime&gt; holidays)</pre>
+  <pre class="c#" name="code">public HolidayCalculator(IEnumerable<DateTime> holidays)</pre>
 
 It's simple and easy to understand. Then I started thinking about some of the dependency injected examples I've seen. For example, [one of the Spring.NET IoC quickstarts](http://www.springframework.net/doc-latest/reference/html/quickstarts.html) has a similar example, except that they're trying to list movies. In their example, they use an IMovieFinder interface. That interface has a single method that retrieves a list of movies. Using this concept, my constructor would look like (and what I ultimately changed it to):
 

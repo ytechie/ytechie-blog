@@ -19,7 +19,7 @@ The other reason is that we get our code working, and keep telling ourselves tha
 
 Common things that are overlooked:
 
-*   Proper exception handling and failure modes*   Properly disposing of unmanaged resources (IDisposable)*   Inefficient coding style*   Missing documentation*   Well thought out architecture*   Comprehensive unit tests &amp; code coverage
+*   Proper exception handling and failure modes*   Properly disposing of unmanaged resources (IDisposable)*   Inefficient coding style*   Missing documentation*   Well thought out architecture*   Comprehensive unit tests & code coverage
 *   Following established coding standards
 *   Simplifying to minimize LoC to maintain  
 

@@ -5,7 +5,7 @@ date: 2008-06-20
 tags: ["productivity","software development"]
 ---
 
-In what little free time I have, I've been slowly working my way through the book &quot;[Agile Principles, Patterns, and Practices in C#](http://www.amazon.com/dp/product/0131857258/?tag=ytechie-20&amp;linkCode=asn&amp;creativeASIN=0131857258)&quot; by Robert C. Martin. This is a GREAT book, and a real eye opener.
+In what little free time I have, I've been slowly working my way through the book &quot;[Agile Principles, Patterns, and Practices in C#](http://www.amazon.com/dp/product/0131857258/?tag=ytechie-20&linkCode=asn&amp;creativeASIN=0131857258)&quot; by Robert C. Martin. This is a GREAT book, and a real eye opener.
 
 ![image](image2.png) 
 

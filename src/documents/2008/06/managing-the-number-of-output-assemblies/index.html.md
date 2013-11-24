@@ -47,6 +47,6 @@ In summary, make sure you at least consider the following factors:
 *   Code maintenance overhead
 *   The typical of functionality the user would use (vs rarely used screens or functionality)
 *   Patch/release policy
-*   Solution &amp; project management
+*   Solution & project management
 *   Build management
 *   Installer management

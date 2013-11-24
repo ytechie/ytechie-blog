@@ -9,13 +9,13 @@ tags: ["blogger","blogging"]
 
 It's simple!
 
-Edit the HTML for your template (Layout -&gt; Edit HTML), click on &quot;Expand Widget Templates&quot;. Look for this code:
-  <pre class="xml" name="code">&lt;p&gt;&lt;data:post.body/&gt;&lt;/p&gt;</pre>
+Edit the HTML for your template (Layout -> Edit HTML), click on &quot;Expand Widget Templates&quot;. Look for this code:
+  <pre class="xml" name="code"><p&gt;&lt;data:post.body/&gt;&lt;/p&gt;</pre>
 
 Immediately after that code, add this:
 
 <pre class="xml" name="code">
-&lt;p&gt;&lt;a expr:href='&amp;quot;http://www.dotnetkicks.com/submit/?url=&amp;quot; + data:post.url + &amp;quot;&amp;amp;title=&amp;quot; + data:post.title' expr:id='data:widget.instanceId + &amp;quot;_kickit&amp;quot;' rel='nofollow'&gt;&lt;img alt='Submit this story to DotNetKicks' expr:src='&amp;quot;http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=&amp;quot; + data:post.url'/&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a expr:href='&quot;http://www.dotnetkicks.com/submit/?url=&amp;quot; + data:post.url + &amp;quot;&amp;amp;title=&amp;quot; + data:post.title' expr:id='data:widget.instanceId + &amp;quot;_kickit&amp;quot;' rel='nofollow'&gt;&lt;img alt='Submit this story to DotNetKicks' expr:src='&amp;quot;http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=&amp;quot; + data:post.url'/&gt;&lt;/a&gt;
 &lt;br/&gt;
 &lt;script type='text/javascript'&gt;
 var dzone_url = &amp;#39;&lt;data:post.url/&gt;&amp;#39;;

@@ -26,4 +26,4 @@ After you add that registry key, simply reboot the server (XP), and reconnect. F
 
 So far, after using this option for a while, I haven't seen a significant performance impact over a VPN on the Internet.
 
-If you want to take this a step further, install [Consolas](http://www.microsoft.com/downloads/details.aspx?familyid=22e69ae4-7e40-4807-8a86-b3d36fab68d3&amp;displaylang=en), it's a font designed specifically for software development, and to take advantage of ClearType. It's a free download from Microsoft.
+If you want to take this a step further, install [Consolas](http://www.microsoft.com/downloads/details.aspx?familyid=22e69ae4-7e40-4807-8a86-b3d36fab68d3&displaylang=en), it's a font designed specifically for software development, and to take advantage of ClearType. It's a free download from Microsoft.

@@ -47,7 +47,7 @@ Now we can use the attribute to the enum I showed you previously:
 
 Now we can create a method that gets the data in a useful format:
 
-<pre class="c-sharp" name="code">public static Dictionary&lt;int, string&gt; GetListItems(Type enumType)
+<pre class="c-sharp" name="code">public static Dictionary<int, string> GetListItems(Type enumType)
 {
 	if (!enumType.IsEnum)
 		throw new ApplicationException(&quot;GetListItems does not support non-enum types&quot;);

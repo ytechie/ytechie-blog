@@ -15,7 +15,7 @@ However, they DON'T work! It took me a little while to figure it out, because th
 ![Blogger](blogger-logo.png) 
 
 This is the actual code that you need in your template:
-  <pre class="xml" name="code">&lt;p&gt;&lt;a expr:href='&amp;quot;http://www.dotnetkicks.com/submit/?url=&amp;quot; + data:post.url + &amp;quot;&amp;amp;title=&amp;quot; + data:post.title' expr:id='data:widget.instanceId + &amp;quot;_kickit&amp;quot;' rel='nofollow'&gt;&lt;img alt='Submit this story to DotNetKicks' expr:src='&amp;quot;http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=&amp;quot; + data:post.url'/&gt;&lt;/a&gt;&lt;/p&gt;</pre>
+  <pre class="xml" name="code"><p>&lt;a expr:href='&quot;http://www.dotnetkicks.com/submit/?url=&amp;quot; + data:post.url + &amp;quot;&amp;amp;title=&amp;quot; + data:post.title' expr:id='data:widget.instanceId + &amp;quot;_kickit&amp;quot;' rel='nofollow'&gt;&lt;img alt='Submit this story to DotNetKicks' expr:src='&amp;quot;http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=&amp;quot; + data:post.url'/&gt;&lt;/a&gt;&lt;/p&gt;</pre>
 
 **NOT** this:
 

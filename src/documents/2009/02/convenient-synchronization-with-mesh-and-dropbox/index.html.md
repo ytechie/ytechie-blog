@@ -17,7 +17,7 @@ One of the applications that I use the most is OneNote. Pretty much all of my di
 
 My one and only complaint about DropBox is that I can't create multiple DropBoxes. A single DropBox is simple and efficient, but it would be nice to have a little more flexibility.
 
-**Live Mesh**
+###Live Mesh
 
 A few nights ago, I got a demo of the Azure platform by a Microsoft Evangelist. Azure is a huge blank term for a group of confusing technologies. Even the name itself is confusing, since Azure is a cloud computing platform and is also the color of the sky when there are no clouds.
 
@@ -31,13 +31,13 @@ The Microsoft Azure Evangelist showed us a demo with the client installed on his
 
 As far as I can tell, Live Mesh doesn't have plans to support a revision system like DropBox. I think this is a horrible, horrible mistake. Having a file on multiple machines provides nice redundancy, yet if you accidentally delete a file on one computer, Live Mesh will happily delete every copy of it. [It even happened to Scott Hanselman](http://www.hanselman.com/blog/TechnicalPresentationsBePreparedForAbsoluteChaos.aspx). In my opinion, this completely destroys any hope it has of competing with DropBox (at least for me). I'm hoping that they'll add a backup feature, or someone will use their API to add it for them.
 
-**Others**
+###Others
 
 One service I have yet to try is [SugarSync](http://www.sugarsync.com/). It looks promising because it syncs multiple folders, stores revisions, and even has a Windows Mobile version (although it's missing real-time sync). On paper, it looks like it has all the options you would expect from this type of service.
 
 [Syncplicity](http://syncplicity.com) looks respectable, but with so many alternatives, I'm just not sure if they have anything unique that sets them apart.
 
-**Conclusion**
+###Conclusion
 
 I think this type of application is going to have a huge market. This is one of those few killer app's that if done well, will be on everyone's computer. Obviously Microsoft's offering will be positioned to dominate, but we all know that they don't always have the absolute best product.
 

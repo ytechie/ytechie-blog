@@ -8,7 +8,7 @@ Setting up even a basic website with any server-side logic used to be difficult 
 
 I'm going to show you a dead simple process for getting started with a simple workflow that is free to start, and nearly free to sustain.
 
-**Free PRIVATE Git Hosting**
+###Free PRIVATE Git Hosting
 
 If you're project is public, you can use a service like GitHub. There are, however, many who want to keep their source code private. In this case we turn to FogBugz and their Kiln product.
 
@@ -22,7 +22,7 @@ Most people are not aware that they offer free bug tracking and unlimited source
 
 Go ahead and [sign-up](https://secure.fogcreek.com/fogbugz/try/?fccmp=_tryfb_nav), log in, and move on to the next step.
 
-**Push Your Code**
+###Push Your Code
 
 ![Kiln](image.png "Kiln") 
 
@@ -43,7 +43,7 @@ Once you have a repository added to GitHub, the context menu provides an easy wa
 
 ![image](image3.png "image")
 
-**Set up Azure**
+###Set up Azure
 
 Set up an [Azure account](http://www.windowsazure.com/). If you have an MSDN account, you'll get free Azure time for dev/test. For production use, go ahead and get a [free trial](http://www.windowsazure.com/en-us/pricing/free-trial/). Don't worry, your website will be inexpensive, possibly even free to host. Azure offers a free hosting tier for websites, and a shared tier for only $9.68 as of the time of this writing.
 
@@ -65,12 +65,12 @@ On the right side, you'll want to choose the "Reset your deployment credentials"
 
 Now head over to the "Deployments" tab. This screen contains 2 key elements:
 
-*   The Git URL that when pushed to, will publish/deploy our project for us.
-*   A nearly real-time list of deployments and any success/error messages.  
+* The Git URL that when pushed to, will publish/deploy our project for us.
+* A nearly real-time list of deployments and any success/error messages.  
 
 ![SNAGHTMLeed99bd](SNAGHTMLeed99bd.png "SNAGHTMLeed99bd")
 
-**Automate!**
+###Automate!
 
 Now, head back over to your Kiln repository, and click "Settings", and then "Add, remove..." under the Web Hooks section.![SNAGHTML108cf9ee](SNAGHTML108cf9ee.png "SNAGHTML108cf9ee")
 
@@ -84,14 +84,14 @@ Now, fill in the publishing information:
 
 ![image](image6.png "image")
 
-**Wasn't That Easy?**
+###Wasn't That Easy?
 
 From this point on, every time you push your commits from your local repository, Kiln will automatically push your commits to the Azure repository and deploy your site. If you have problems, Kiln now supplies a web hook log on the hook configuration page, which will confirm if a call to Azure was made. The Azure deployments dialog will show the deployments and the corresponding log files.
 
-**Additional Options**
+###Additional Options
 
 The goal of this post was to demonstrate only one of the many ways that you can quickly and easily go from code to website with minimal time and effort. There are some additional variations that you will likely want to investigate:
 
-*   If you want more fine-grained control over deployments, you can configure Kiln to push a branch. You can then selectively push to that branch when you want a new deployment.
-*   Instead of using a Kiln hook, you can simply set up an alternative Git endpoint in Azure, and push directly from the Git command line when you want to deploy. For example, you would run "git push Azure master".
-*   For additional deployment configuration such as specifying the project to deploy, project Kudu is the deployment mechanism. Their GitHub site has [additional deployment customization options](https://github.com/projectkudu/kudu/wiki/Customizing-deployments).
+* If you want more fine-grained control over deployments, you can configure Kiln to push a branch. You can then selectively push to that branch when you want a new deployment.
+* Instead of using a Kiln hook, you can simply set up an alternative Git endpoint in Azure, and push directly from the Git command line when you want to deploy. For example, you would run "git push Azure master".
+* For additional deployment configuration such as specifying the project to deploy, project Kudu is the deployment mechanism. Their GitHub site has [additional deployment customization options](https://github.com/projectkudu/kudu/wiki/Customizing-deployments).

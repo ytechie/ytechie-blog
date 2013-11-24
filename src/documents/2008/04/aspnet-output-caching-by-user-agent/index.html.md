@@ -9,7 +9,7 @@ I received this question from [ObiShawn](http://www.Obishawn.com):
 &quot;Does .NET/IIS output caching vary by user-agent?&quot;
 
 Good question Shawn! By default, the output cache stores the same version of the page for all users, **regardless** of their user agent. To change this behavior, add the [VaryByHeader](http://msdn2.microsoft.com/en-us/library/system.web.ui.outputcacheparameters.varybyheader.aspx) parameter to your OutputCache declaration:
-  <pre class="xml" name="code">&lt;%@ OutputCache Duration=&quot;60&quot; VaryByParam=&quot;*&quot; VaryByHeader=&quot;User-Agent&quot;  %&gt;</pre>
+  <pre class="xml" name="code"><%@ OutputCache Duration=&quot;60&quot; VaryByParam=&quot;*&quot; VaryByHeader=&quot;User-Agent&quot;  %></pre>
 
 This is probably a good idea to include in your OutputCache directive, because ASP.NET will [render controls differently to some browsers](http://msdn2.microsoft.com/en-us/library/x3k2ssx2(VS.80).aspx). It modify the output HTML based on the browsers capabilities. 
 

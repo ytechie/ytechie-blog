@@ -17,7 +17,7 @@ The other issue is that my software RAID 1 array would randomly disappear on reb
 <pre class="csharpcode">sudo mdadm --create --verbose /dev/md0 --level=1 --raid-devices=2 --assume-clean /dev/sd[ab]
 </pre>
 
-The last major issue I had was with the VMware Server installation. Out of the gate, the installation was 10 times more difficult. It wasn't a click-&gt;next-&gt;next-&gt;next install. Once I got it installed, the VMware server console wouldn't connect.
+The last major issue I had was with the VMware Server installation. Out of the gate, the installation was 10 times more difficult. It wasn't a click->next-&gt;next-&gt;next install. Once I got it installed, the VMware server console wouldn't connect.
 
  ![Windows Server 2008](windows-server-2008.png) 
 

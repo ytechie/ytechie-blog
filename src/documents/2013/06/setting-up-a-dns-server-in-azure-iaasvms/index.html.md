@@ -9,9 +9,9 @@ With the recent GA release and rapidly growing usage of virtual machines within 
 
 After you've created your Azure network (outside the scope of this post), you can feel free to divide your network into logical subnets. The DNS server will work fine across any subnets within your network.
 
-**Installing the DNS Server Role**
+###Installing the DNS Server Role
 
-Typically, a DNS server should be configured with a static IP address. In the case of Azure, the servers must use DHCP, but <u>the lease they receive lasts for the life of the machine, as long as you don't shut down the machine through the management console, which will deallocate the VM.</u> Shutting down the machine through Windows itself, however, will preserve the lease. Here you can see the difference between a VM shutdown through Windows, and one shutdown &amp; deallocated through the Azure management console:
+Typically, a DNS server should be configured with a static IP address. In the case of Azure, the servers must use DHCP, but **the lease they receive lasts for the life of the machine, as long as you don't shut down the machine through the management console, which will deallocate the VM.** Shutting down the machine through Windows itself, however, will preserve the lease. Here you can see the difference between a VM shutdown through Windows, and one shutdown & deallocated through the Azure management console:
 
 ![image](image.png "image")
 
@@ -33,7 +33,9 @@ When you first remote into the server, you'll be presented with the _Server Mana
 
 ![SNAGHTMLad76224](SNAGHTMLad76224.png "SNAGHTMLad76224")
 
-Check the _DNS Server_ option and click _Next_.![image](image4.png "image")
+Check the _DNS Server_ option and click _Next_.
+
+![image](image4.png "image")
 
 You will get a validation warning that your server should have a static IP address, but recall that our DHCP lease is effectively the same thing, so we can disregard.
 
@@ -41,7 +43,7 @@ You will get a validation warning that your server should have a static IP addre
 
 Complete the wizard (I kept all settings default).
 
-**Configuring the DNS Service**
+###Configuring the DNS Service
 
 In the left pane of the Server Manger, select the DNS section. If it doesn't show up, click in the pane and hit F5 to refresh.
 
@@ -63,7 +65,7 @@ If you are not using the Azure VPN functionality, and you're building an Azure-o
 
 ![image](image9.png "image")
 
-**Testing your DNS Server**
+###Testing your DNS Server
 
 To test our DNS server, we're simply going to create a record, and then query the server to ensure it gives a proper response.
 
@@ -81,7 +83,7 @@ Open up a command prompt and run "nslookup", which will put us into interactive 
 
 Next, you'll want to test your DNS server using the same steps, but from a different computer within the same network. Keep in mind that you'll need to use the IP address of the DNS server instead of 127.0.0.1 since we're no longer on the same VM as the DNS server.
 
-**Configure DHCP**
+###Configure DHCP
 
 Azure provides a DHCP server out of the box, which hands out the Azure DNS server address by default. We want to go to the _Configure_ tab within our virtual network properties. Under the _dns servers_ section, enter a name to reference the DNS server (the name really doesn't matter). On the same line, enter the IP address of the server you configured in the previous steps. The next time a server within that network does a DHCP pull, or reboots, it will get the DNS server IP and start using the server you built.
 
@@ -91,19 +93,19 @@ You may have noticed that it is also possible to define DNS servers from the sta
 
 ![image](image13.png "image")
 
-**Configure DNS Suffix**
+###Configure DNS Suffix
 
-If you want to use short DNS names (eg: "test") instead of fully qualified names (eg: "test.my.net"), you'll need to update the DNS suffix of your virtual machine. Access the Advanced TCP/IP Settings (Network and Sharing Center-&gt;Change Adapter Settings-&gt;Ethernet Adapter-&gt;Properties-&gt;Internet Protocol Version 4-&gt;Advanced-&gt;DNS Tab) and set your DNS suffix as shown in the screenshot below.
+If you want to use short DNS names (eg: "test") instead of fully qualified names (eg: "test.my.net"), you'll need to update the DNS suffix of your virtual machine. Access the Advanced TCP/IP Settings (Network and Sharing Center->Change Adapter Settings->Ethernet Adapter->Properties->Internet Protocol Version 4->Advanced->DNS Tab) and set your DNS suffix as shown in the screenshot below.
 
 ![image](image14.png "image")
 
-**Backup DNS**
+###Backup DNS
 
 You should **always** configure at least 2 DNS servers and configure Azure to use both. This ensures that if one is rebooting, fails, etc. the other server can answer the DNS queries. It also ensures that if one machine becomes deallocated, your servers will failover and give you time to update the DNS settings for the newly assigned IP address of the re-built replacement server.
 
-**Dynamic DNS Updating**
+###Dynamic DNS Updating
 
 In a typical on-premise DNS installation, the records are kept up-to-date by the DHCP server. Since we don't have control over our DHCP server, we have to update the records ourselves. In the interest of article length, I'll keep out the full details. This should get you started:
 
-*   For Windows, take a look at the PowerShell cmdlet called [Add-DnsServerResourceRecordA](http://technet.microsoft.com/en-us/library/jj649847.aspx).
-*   For Linux, take a look at a command called "[nsupdate](http://linux.die.net/man/8/nsupdate)".
+* For Windows, take a look at the PowerShell cmdlet called [Add-DnsServerResourceRecordA](http://technet.microsoft.com/en-us/library/jj649847.aspx).
+* For Linux, take a look at a command called "[nsupdate](http://linux.die.net/man/8/nsupdate)".

@@ -27,7 +27,7 @@ Simple enough? **Every **class in the diagram above implements the same interfac
 
 Now I can wire it up with Spring.NET:
 
-<pre class="xml" name="code">&lt;object name=&quot;postUtility&quot; type=&quot;YTech.ShipperInterface.Tracking.Http.PostUtility, YTech.ShipperInterface&quot; /&gt;
+<pre class="xml" name="code"><object name=&quot;postUtility&quot; type=&quot;YTech.ShipperInterface.Tracking.Http.PostUtility, YTech.ShipperInterface&quot; />
 
 &lt;!-- The trackers that actually do the work --&gt;
 &lt;object name=&quot;uspsTracker&quot; type=&quot;YTech.ShipperInterface.Usps.Tracking.UspsTracker, YTech.ShipperInterface&quot;&gt;

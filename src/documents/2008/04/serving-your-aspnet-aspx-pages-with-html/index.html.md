@@ -10,7 +10,7 @@ Many SEO experts believe that Google prefers pages that end with the &quot;html&
 ![carrying www](carrying-www.png) 
 
 To support a custom extension, my first thought was to put the following code in my web.config:
-  <pre class="xml" name="code">&lt;compilation&gt;
+  <pre class="xml" name="code"><compilation>
 &lt;buildProviders&gt;
 &lt;add extension=&quot;.html&quot; type=&quot;System.Web.Compilation.PageBuildProvider&quot; /&gt;
 &lt;/buildProviders&gt;

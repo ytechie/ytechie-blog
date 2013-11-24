@@ -20,7 +20,7 @@ Anyway, I was eventually able to write some LINQ code. A great tool to get start
 Right now, we're using [NHibernate](http://www.hibernate.org/343.html) in the main project that I've been working on for the past couple of months. It's amazing, but there are a couple of things that would be nice:
 
 *   Better optimization of queries - It looks like LINQ does an amazing job with this.
-*   Batched reads &amp; writes - LINQ does batched writes, but lazy loading by default. Maybe not as big a deal as I think.
+*   Batched reads & writes - LINQ does batched writes, but lazy loading by default. Maybe not as big a deal as I think.
 *   Cross session saving - I spent hours battling with some code that loaded a complex object with relationships in one session, and then saved them in another. It appears that LINQ solves this, but I'll have to run some tests to be sure.
 *   Less work generating mapping files and relationships.  
 

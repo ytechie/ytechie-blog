@@ -5,7 +5,7 @@ date: 2008-04-24
 ---
 
 In my master page, I have a ContentPlaceHolder defined:
-  <pre class="xml" name="code">&lt;asp:ContentPlaceHolder runat=&quot;server&quot; ID=&quot;AfterScripts&quot;&gt;
+  <pre class="xml" name="code"><asp:ContentPlaceHolder runat=&quot;server&quot; ID=&quot;AfterScripts&quot;>
 &lt;/asp:ContentPlaceHolder&gt;</pre>
 
 In the page, I have the content defined:

@@ -6,7 +6,7 @@ tags: ["asp.net","seo"]
 ---
 
 A common question that comes up, is what do [LinkButton's](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.linkbutton.aspx) do for [SEO](http://en.wikipedia.org/wiki/Search_engine_optimization) (Search Engine Optimization)? Well, let's take a look what a LinkButton actually renders for HTML:
-  <pre class="javascript" name="code">&lt;a href=&quot;javascript:__doPostBack('ctl01','')&quot;&gt;Click me!&lt;/a&gt;</pre>
+  <pre class="javascript" name="code"><a href=&quot;javascript:__doPostBack('ctl01','')&quot;>Click me!&lt;/a&gt;</pre>
 
 Notice that it's simply a standard hyperlink with a JavaScript call. Typically, the search engines are only going to look at your HTML. They're not going to evaluate the JavaScript. Doing so would be a big can of worms.
 

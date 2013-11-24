@@ -24,7 +24,7 @@ Reading the uploaded file is easy using ASP.NET:
 
 <pre class="c-sharp" name="code">private byte[] readPostedFile()
 {
-   if (Request.ContentLength &gt; 0)
+   if (Request.ContentLength > 0)
    {
        byte[] buffer = new byte[Request.ContentLength];
        using (BinaryReader br = new BinaryReader(Request.InputStream))

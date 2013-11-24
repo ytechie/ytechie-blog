@@ -29,7 +29,7 @@ Most of the instructions I found through Google for securing the utility paths s
 
 The first thing I did was lock down Apache security so that it's very restrictive by default (apache/httpd.conf):
 
- <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:8cd376e9-1946-4c7b-9be7-f6a978446954" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="xml">&lt;Directory /&gt;
+ <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:8cd376e9-1946-4c7b-9be7-f6a978446954" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="xml"><Directory />
     Options Indexes FollowSymLinks Includes ExecCGI
     AllowOverride All
     Order deny,allow

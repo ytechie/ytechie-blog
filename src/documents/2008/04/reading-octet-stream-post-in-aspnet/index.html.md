@@ -17,7 +17,7 @@ loader.load(req);</pre>
 
 I assumed this code was incorrect, but it was actually the code in the receiving page. Instead of checking the &quot;Files&quot; property on the request object, I needed to read the InputStream on the request. Here is the working code: 
 
-<pre class="c-sharp" name="code">if (Request.ContentLength &gt; 0)
+<pre class="c-sharp" name="code">if (Request.ContentLength > 0)
 {
     byte[] buffer = new byte[Request.ContentLength];
     using (BinaryReader br = new BinaryReader(Request.InputStream))

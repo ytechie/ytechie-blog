@@ -17,7 +17,7 @@ The first step is to download and install both programs. Here are the links to t
 
 *   <div align="left">[Windows OpenSSH](http://sshwindows.sourceforge.net/download/)</div>*   <div align="left">[Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)</div>  
 
-On your the server, where OpenSSH was installed, we need to run a couple of quick commands at the command line (go to start-&gt;run and type &quot;cmd&quot;):
+On your the server, where OpenSSH was installed, we need to run a couple of quick commands at the command line (go to start->run and type &quot;cmd&quot;):
 
 *   <div align="left">mkgroup -l &gt;&gt; ..etcgroup</div>*   <div align="left">mkpasswd -l &gt;&gt; ..etcpasswd</div>*   <div align="left">net start opensshd</div>  
 

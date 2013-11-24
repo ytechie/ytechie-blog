@@ -11,7 +11,7 @@ Here is the original code from the page that accepts each uploaded file, and add
   <pre class="c#" name="code">if (Session[SESSION_ORDER_FILES] == null)
 {
 	//Our dictionary hasn't been created, so we do it now
-	files = new Dictionary&lt;string, byte[]&gt;();
+	files = new Dictionary<string, byte[]>();
 	Session[SESSION_ORDER_FILES] = files;
 }
 else
