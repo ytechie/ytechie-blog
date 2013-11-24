@@ -25,7 +25,7 @@
     <meta name="author" content="<%= @site.author %>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/feed.xml" rel="alternate" title="YTECHIE.com" type="application/atom+xml">
-    <link href="/favicon.png" rel="shortcut icon">
+    <link href="/favicon.ico?v=2" rel="shortcut icon">
 
     <!-- Bootstrap -->
     <link href="/styles/site.css" rel="stylesheet" media="screen">
