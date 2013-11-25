@@ -165,7 +165,7 @@ Then, the *ReadLatestPosts* method reads the items from the RSS feed, and popula
         }
     }
 
-![Recent Posts Flyout Menu](Recent-Posts-Menu.png)@50
+![Recent Posts Flyout Menu](Recent-Posts-Menu.png)
 
 The end result is that the app lazy loads the recent posts and renders the items on the fly. The experience is very fast and doesn't feel laggy.
 
