@@ -24,7 +24,7 @@
     <title><%= @getPreparedTitle() %></title>
     <meta name="author" content="<%= @site.author %>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/feed.xml" rel="alternate" title="YTECHIE.com" type="application/atom+xml">
+    <link href="/feed/" rel="alternate" title="YTECHIE.com" type="application/atom+xml">
     <link href="/favicon.ico?v=2" rel="shortcut icon">
 
     <!-- Bootstrap -->
@@ -51,7 +51,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">// <span class="text-primary"><%= @site.title %></span></a>
+            <a class="navbar-brand" href="/"><span class="text-primary"><%= @site.title %></span></a>
         </div>
         <div class="collapse navbar-collapse navbar-right">
             <ul class="nav navbar-nav">
@@ -60,7 +60,7 @@
                     <li><a href="<%= document.url %>"><%= document.menu %></a></li>
                 <% end %>
                 <li class="hidden-xs">
-                    <a href="/feed.xml" class="rss"><span class="icon icon-feed"></span></a>
+                    <a href="/feed/" class="rss"><span class="icon icon-feed"></span></a>
                     <a href="http://twitter.com/ytechie" class="twitter"><span class="icon icon-twitter"></span></a>
                     <a href="https://github.com/ytechie" class="github"><span class="icon icon-github"></span></a>
                 </li>
