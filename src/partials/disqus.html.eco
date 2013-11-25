@@ -3,7 +3,7 @@
     var disqus_shortname = '<%= @disqusShortName %>';
     var disqus_url = '<%= @getPageUrlWithHostname() %>';
     var disqus_identifier = disqus_url;
-    var disqus_title = '<%= @document.title %>';
+    var disqus_title = '<%= @getJavascriptEncodedTitle(@document.title) %>';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

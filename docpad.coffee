@@ -45,6 +45,9 @@ docpadConfig = {
 			path = document.url
 			"tag:#{hostname},#{date},#{path}"
 
+		getOldUrl: (newUrl) ->
+			newUrl.substr(0,newUrl.length-1) + '.html'
+
 		fixLinks: (content, baseUrlOverride) ->
 			baseUrl = @site.url
 			if baseUrlOverride
@@ -63,6 +66,9 @@ docpadConfig = {
 			$.html()
 
 		moment: require('moment')
+
+		getJavascriptEncodedTitle: (title) ->
+			title.replace("'", "\\'")
 
 		# Discus.com settings
 		disqusShortName: 'ytechie'
