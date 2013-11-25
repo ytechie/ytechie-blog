@@ -24,7 +24,7 @@ With my original constructor, I had to load all of the holidays from the reposit
 
 In my original design, I was accepting in a list that would get cached in my holiday calculator. My class now has two responsibilities. It has to calculate holidays, and it has to cache the holiday list. What if I wanted to change how the list was cached? I would have to change the class, which is not ideal.
 
-[![Holiday-Calculator-Design](holiday-calculator-design-thumb.gif)](http://www.ytechie.com/post-images/2008/07/holiday-calculator-design.gif)
+![Holiday-Calculator-Design](holiday-calculator-design-thumb.gif)
 
 Ideally, this class would load the holiday list each time it needs to perform a calculation. The implementation passed into the constructor would be responsible for caching. In fact, we can now easily separate out the caching feature, and the holiday loading feature. Both classes would implement the IHolidayRepository interface and would be chained together. The caching class would take an IHolidayRepository.
 

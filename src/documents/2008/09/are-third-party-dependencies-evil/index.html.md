@@ -15,7 +15,7 @@ For example, a recent website I worked on had a requirement that every page had 
 
 Ok, so why is it alright to use Microsoft's controls instead of something from a third party? In **my experience**, the code the Microsoft gives you tends to be lacking in real functionality, but is usually very reliable. Even when they've had an issue, there was enough support to get a work-around, and probably a fix in the next service pack. Microsoft products tend to get better over time, and without any upgrade fees. They are a well established business with a **guaranteed audience**.
 
-[![The 500 lb Gorilla](image-thumb.png)](http://www.ytechie.com/post-images/2008/09/image1.png) 
+![The 500 lb Gorilla](image-thumb.png)
 
 Let's take the .NET TextBox as an example. Ever run into a situation where you've found it to be unreliable? I haven't. I have run into a situation where a third party alternative had all the bells and whistles you could think of, but had some major issues. You push the up arrow and the application bombs. Darn. You could only use it in a certain way, or it wouldn't work at all.
 

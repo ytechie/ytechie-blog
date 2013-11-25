@@ -5,7 +5,7 @@ date: 2008-04-18
 tags: ["software"]
 ---
 
-I've gotten so much feedback from my post "[I switched from Linux to Windows Server 2008](/2008/04/i-switched-from-linux-to-windows-server/)" that I think I need to clarify a few things. The responses have ranged from agreement to personal attacks. I'm impressed by the emotion of the people that really believe in their operating system. Personally, I've always tried to use each tool for different situations.
+I've gotten so much feedback from my post "[I switched from Linux to Windows Server 2008](http://www.ytechie.com/2008/04/i-switched-from-linux-to-windows-server/)" that I think I need to clarify a few things. The responses have ranged from agreement to personal attacks. I'm impressed by the emotion of the people that really believe in their operating system. Personally, I've always tried to use each tool for different situations.
 
 Most importantly, I'd like to explain why I wrote the post. I was simply sharing my personal experience, which may or may not be your experience. I know that Linux is very popular, and my opinion is that it is a superior operating system in many ways.
 
@@ -16,7 +16,11 @@ Now for a little history of my experience, which may help understand my feelings
 Years ago I was running Windows 2003 for a home server. I was frustrated by the poor performance, high resource usage at idle, and tricky to configure. I have years of Windows experience, and I could never quite get it set up the way I wanted. I also wanted to avoid the cryptic Windows licensing, and their policy of locking you into the products of their choosing.
 
 So, I built a brand new computer, and installed Ubuntu Server 64 bit edition. I spent weeks getting it configured (not continuously of course). I kept notes, and I was pleased at the fact that I could use a single command line to install pretty much everything I needed:
-<pre class="csharpcode">Sudo apt-get update; sudo apt-get upgrade; sudo apt-get -y install ssh subversion dovecot-imapd samba xinetd build-essential getmail4 p7zip-full ia32-libs mdadm bind
+
+	Sudo apt-get update;
+	sudo apt-get upgrade;
+	sudo apt-get -y install
+	ssh subversion dovecot-imapd samba xinetd build-essential getmail4 p7zip-full ia32-libs mdadm bind
 </pre>
 
 &nbsp;

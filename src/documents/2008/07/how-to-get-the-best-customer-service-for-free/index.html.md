@@ -7,7 +7,7 @@ tags: ["productivity","software development"]
 
 Today's tip is a hack for getting awesome tech support from a company for a product that you may or may not have purchased. It may not be polite, but it may be a method of last resort.
 
-[![Helpful-Crowd](helpful-crowd-thumb.jpg)](http://www.ytechie.com/post-images/2008/10/helpful-crowd.jpg) 
+![Helpful-Crowd](helpful-crowd-thumb.jpg)
 
 We all knows what happens if you buy a product and then call for support. If you're lucky, you get put on hold. If you're unlucky, you've called outside of their business hours of 1am to 3am. When you do talk to someone, you're treated like an idiot (in their defense, it's a learned behavior).
 

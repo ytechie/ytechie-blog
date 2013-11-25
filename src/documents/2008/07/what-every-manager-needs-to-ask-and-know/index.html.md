@@ -7,7 +7,7 @@ tags: ["productivity"]
 
 I've read books about what makes employees happy. If you manage people, I recommend reading the book [First, Break all the rules - What the world's greatest managers do differently](http://www.amazon.com/exec/obidos/ASIN/0684852861/ytechie-20). In that book, they surveyed tends of thousands of the best managers and employees. In their extensive research, they were able to come up with the 12 most important factors that make employees happy, increase productivity, and decrease turn-over.
 
-![First, break all the files, what the world's greatest managers do differently](0684852861.01.MZZZZZZZ.jpg)
+![First, break all the files, what the world's greatest managers do differently](First-Break-All-The-Rules.jpg)
 
 1.  Do I know what is expected of me at work?2.  Do I have the materials and equipment I need to do my work right?3.  At work, do I have the opportunity to do what I do best every day?4.  In the last seven days, have I received recognition or praise for good work?5.  Does my supervisor, or someone at work, seem to care about me as a person?6.  Is there someone at work who encourages my development?7.  At work, do my opinions seem to count?8.  Does the mission/purpose of my company make me feel like my work is important?9.  Are my co-workers committed to doing quality work?10.  Do I have a best friend at work?11.  In the last six months, have I talked with someone about my progress?12.  At work, have I had the opportunities to learn and grow?  
 
