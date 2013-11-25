@@ -17,8 +17,8 @@ Type this into Google: site:http://www.**yoursite**.com
 
 I'm using blogger, and by default here are some pages that are indexed that should not be:
 
-* http://www.ytechie.com/2008/04/aspnet-linkbutton-and-seo.html?widgetType=BlogArchive&widgetId=BlogArchive1&amp;action=toggle&amp;dir=close&amp;toggle=YEARLY-1199167200000&amp;toggleopen=MONTHLY-1207026000000
-* http://www.ytechie.com/2008_03_01_archive.html 
+* http://<span></span>www.ytechie.com/2008/04/aspnet-linkbutton-and-seo.html?widgetType=BlogArchive&widgetId=BlogArchive1&amp;action=toggle&amp;dir=close&amp;toggle=YEARLY-1199167200000&amp;toggleopen=MONTHLY-1207026000000
+* http://<span></span>www.ytechie.com/2008_03_01_archive.html 
 
 Now that we've identified the offending pages, we can create or modify our **robots.txt** file, at the root of our site.
 
