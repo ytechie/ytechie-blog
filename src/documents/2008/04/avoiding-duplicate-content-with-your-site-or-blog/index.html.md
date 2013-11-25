@@ -13,7 +13,7 @@ You also want Google find pages on your site that have substance, and that are n
 
 So how do you avoid it on your site? The first step is to identify potential pages that have duplicate content. It's probably happening without you even being aware of it.
 
-Type this into Google: site:http://www.**yoursite**.com
+Type this into Google: site: http://<span></span>www.**yoursite**.com
 
 I'm using blogger, and by default here are some pages that are indexed that should not be:
 
