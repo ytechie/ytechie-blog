@@ -7,7 +7,7 @@ tags: ["software"]
 
 Ever since the [Google App Engine](http://code.google.com/appengine/) was released, I've been fascinated with cloud computing frameworks. The vision is to have a website that can scale from nothing to infinity, without having to worry about servers, viruses, uptime, etc. I've finally gotten a chance to play around with Azure, and I must say that I'm in love with the concept, but disappointed by the current reality.
 
-[![Azure](azure-thumb.jpg "Azure")](http://www.ytechie.com/post-images/2009/02/azure.jpg) 
+![Azure](azure-thumb.jpg "Azure") 
 
 ###Performance
 
@@ -17,11 +17,11 @@ To gauge performance, I used the Firefox add-in called Firebug. This let me see 
 
 This is the baseline data from [http://www.simpletracking.com](http://www.simpletracking.com). As you can see, the page is served up very quickly. The page takes less than 100ms to render (1/10 of a second), and the entire page comes through in less than half of a second.
 
-[![simpletracking.com](simpletrackingcom-thumb.png "simpletracking.com")](http://www.ytechie.com/post-images/2009/02/simpletrackingcom.png)
+![simpletracking.com](simpletrackingcom-thumb.png)
 
 Now take a look at the same code running on Azure:
 
-[![simpletracking.cloudapp.net](simpletrackingcloudappnet-thumb.png "simpletracking.cloudapp.net")](http://www.ytechie.com/post-images/2009/02/simpletrackingcloudappnet1.png)
+![simpletracking.cloudapp.net](simpletrackingcloudappnet-thumb.png)
 
 To render the page, instead of 89ms, it now takes ~650ms. It takes a full second for the entire page and its elements to be sent down to the client.
 

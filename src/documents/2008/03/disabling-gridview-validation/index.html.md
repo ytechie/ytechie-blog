@@ -7,7 +7,7 @@ tags: ["asp.net","c#"]
 
 If you want to put a gridview on a form with validators, you'll run into validation issues very quickly. The LinkButton controls cause the page validation. Immediately I looked for a "ValidationGroup" property on the GridView, but unfortunately, none exists.
 
-[![DatagridValidationGroupExample](http://www.ytechie.com/post-images/2008/03/DatagridValidationGroupExample5.png)](DatagridValidationGroupExample5.png)
+![DatagridValidationGroupExample](DatagridValidationGroupExample5.png)
 
 The solution is to handle the "DataBound" event on the GridView, and manually find the link buttons. The following code loops through the controls in the first cell of the row currently being edited.
 <pre name="code" class="c#">protected void Page_Load(object sender, EventArgs e)

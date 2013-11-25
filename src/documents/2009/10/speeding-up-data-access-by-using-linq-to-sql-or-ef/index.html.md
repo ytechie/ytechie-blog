@@ -35,7 +35,7 @@ A nice, simple SQL query. There are a few disadvantages that may not be immediat
 
 Now, let's take our example to the other end of the spectrum, which will help show where LINQ can really shine where straight SQL does not. This example is a query for a search page. I set up a simple ASPX page to demonstrate. Here is a sample of the user interface:
 
-[![image](image_thumb1.png "image")](http://www.ytechie.com/post-images/2009/10/image.png) 
+![image](image_thumb1.png)
 
 The user enters a number of search criteria, and the results are displayed. I literally coded this in under 5 minutes. If you're used to using stored procedures to retrieve this type of data, think about how you would go about creating this. You have a couple of options that I'm aware of:
 

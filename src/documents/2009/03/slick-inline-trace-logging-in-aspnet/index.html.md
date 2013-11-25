@@ -7,7 +7,7 @@ tags: ["asp.net"]
 
 I'm going to show you a slick way to configure [log4net](http://logging.apache.org/log4net/index.html) to your trace log, and then make it extremely simple to view the trace log for a page **while** viewing that page. Ultimately, we'll end up with something that looks like this:
 
-[![page-tracing](pagetracing-thumb.png "page-tracing")](http://www.ytechie.com/post-images/2009/03/pagetracing.png) 
+![page-tracing](pagetracing-thumb.png) 
 
 It may be difficult to see from the screenshot, but I'm looking at a standard ASP.NET page, but there is tracing information at the bottom. This tracing information is the same information you would see if you configured tracing your _web.config_, and then used the _trace.axd_ page. However, we're displaying it right along with the page request. To allow tracing to be enabled with a simple URL parameter, you can add the following code into your _Global.asax_ file:
 

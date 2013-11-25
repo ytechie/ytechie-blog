@@ -13,7 +13,7 @@ The &quot;what if&quot; game consists of over thinking your plan. Planning in ge
 
 Sometimes the side effect isn't just a fear to write code. It often leads to code that is generic beyond usefulness. For example, a database with all columns being VARCHAR(MAX).
 
-![](chart?chs=225x125&cht=gom&amp;chd=t:50&amp;chl=Useful) 
+![](www.google.com/chart?chs=225x125&cht=gom&amp;chd=t:50&amp;chl=Useful) 
 
 Specialization is basically a spectrum. At one end, we have code that is so specialized that it is basically un-reusable. At the other end, the end I'm talking about, we have code that can be used everywhere, but doesn't really do anything.
 

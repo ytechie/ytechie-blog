@@ -7,7 +7,7 @@ tags: ["software development"]
 
 You're in an interview, getting asked dozens of questions. At the end of the interview, the interviewer asks if you have any questions about the company. Heck yeah! This is your time to learn about the company. Getting hired is a commitment from you AND the company.
 
-[![Interview](istock-000006399873xsmall-thumb.jpg)](http://www.ytechie.com/post-images/2008/09/istock-000006399873xsmall.jpg) 
+![Interview](istock-000006399873xsmall-thumb.jpg)
 
 While I haven't had a lot of jobs, I have certainly enjoyed some more than others. Sure, at the end of the day it's just a job, but you'll be averaging about 40 hours out of each week there, so it better not be that bad. That's a significant part of your life. If my math isn't too bad, it works out to be about 10 years of your life working for someone else.
 

@@ -7,7 +7,7 @@ tags: ["asp.net","mvc","seo"]
 
 I've started working the the latest preview of the ASP.NET MVC framework. I'm completely converting one of my sites, because learning by _doing _is typically the best way. Unfortunately, I've run into some alarming SEO (Search Engine Optimization) issues with this new paradigm (or more specifically, the Microsoft implementation).
 
-[![Duplicate Ducks!](istock-000006003382xsmall-thumb.jpg)](http://www.ytechie.com/post-images/2008/10/istock-000006003382xsmall.jpg)
+![Duplicate Ducks!](istock-000006003382xsmall-thumb.jpg)
 
 **Duplicate Content**
 
@@ -29,6 +29,7 @@ Since routes can be configured to reuse actions and controllers, it makes more p
 *   a.com/Home/Firefox
 *   a.com/Home/Firefox/
 *   a.com/Home/Firefox/anythingyouwant
+
 **If you're lucky,** Google won't penalize duplicate content. However, if Google indexes the same content using multiple URL's, you won't get the benefit of focusing the PageRank. A similar situation occurs with you have a site that can be addressed like "cnn.com" and "www.cnn.com". They counted as separate pages, that end up competing for good rank.
 
 **Legacy URL's**

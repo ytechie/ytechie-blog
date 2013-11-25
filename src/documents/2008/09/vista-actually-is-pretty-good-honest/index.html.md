@@ -7,7 +7,7 @@ tags: ["software"]
 
 I know that Microsoft doesn't need anyone defending them, but I think that the series of events surrounding Vista were certainly not ideal. I've highly anticipated every new release of Windows, and Vista was no exception.
 
-[![Vista Logo](image-thumb1.png)](http://www.ytechie.com/post-images/2008/09/image3.png) 
+![Vista Logo](image-thumb1.png) 
 
 Watching the progress of Vista, I couldn't help being disappointed. Vista was supposed to change the world. There would be an amazing new file system, a cutting edge graphics system, and .NET driving many of the core functionality. But one by one, the features got neutered or disappeared completely.
 
@@ -21,11 +21,11 @@ Recently, I purchased a new laptop. It's shocking what you can get for a mere $6
 
 It runs great on my laptop, and I've had no complaints whatsoever. In fact, I think I've had less issues than if I was running XP. Much to my surprise, a few days ago I get a prompt to install updates. **The update in the list was SP1.** Yes, that's right, I wasn't even using SP1\. Maybe Vista was bad when it came out, but I think the horsepower of modern computers combined with finally decent driver support erases the bad history.
 
-[![Vista Copy Dialog](image-thumb2.png)](http://www.ytechie.com/post-images/2008/09/image4.png)
+![Vista Copy Dialog](image-thumb2.png)
 
 I'll sum up what I love about Vista over XP in one paragraph. Integrated search from the start menu rocks, and I use it **constantly**. I also love the new copy dialog, which tells me the actual speed of file transfers. As far as 64-bit support, I've been very impressed. It's very possible to run the 64-bit version and have a decent change of all of your devices working as expected. This is a must since typical new high-end computers are going to start going over 4GB RAM soon (if they haven't already). There are even hard to find features that are very nice. When you copy a folder over another folder, it actually gives you a reasonable set of options, as well as enough information to make a decision about merging, overwriting, or even renaming them.
 
-[![Vista UAC Dialog](image-thumb3.png)](http://www.ytechie.com/post-images/2008/09/image5.png)&#160; 
+![Vista UAC Dialog](image-thumb3.png)
 
 Now what about UAC? You know, the feature that pops up an annoying dialog every 5 seconds? Well, if you run your computer as a local administrator (like you did in XP), you'll rarely see them. I actually appreciate them because it does make your computer safer.
 

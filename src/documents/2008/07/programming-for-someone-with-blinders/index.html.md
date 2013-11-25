@@ -7,7 +7,7 @@ tags: ["productivity","software development"]
 
 One of your goals as a developer should be to make your code as readable as possible, both for yourself, and for the other developers you work with.
 
-[![Horse with Blinders](image-thumb.png)](http://www.ytechie.com/post-images/2008/07/image9.png) 
+![Horse with Blinders](image-thumb.png)
 
 One great way to determine if your code is well written, is to ask yourself if the code you're writing is readable by itself. Another developer should be able to jump into a module, and have a fairly easy time seeing what's going on. They shouldn't have to sift through thousands of lines of interweaved code to figure out what's going on.
 

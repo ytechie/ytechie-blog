@@ -9,7 +9,7 @@ I'm going to describe a methodology that will help you save time by writing bett
 
 Developers such as myself often have a tendency to just focus on the class we're currently working on. Of course I believe [this is a good thing](http://www.ytechie.com/2008/07/programming-for-someone-with-blinders.html), because we all know [the importance of focus](http://www.ytechie.com/2008/05/focus-is-the-key-to-success.html). However, you should never forget the reason you're actually writing that class. It is because **other code will be consuming it**.
 
-[![Consumer-Approach](consumer-approach-thumb.gif)](http://www.ytechie.com/post-images/2008/08/consumer-approach.gif) 
+![Consumer-Approach](consumer-approach-thumb.gif)
 
 There have been far too many instances where I would figure out which pieces I needed to build, and then build each one, from the bottom up. The problem is that I would write the class in the most short-sighted and **easiest** way possible, which is usually not the best way to use it.
 

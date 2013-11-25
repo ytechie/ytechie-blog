@@ -12,11 +12,13 @@ In this post, I'll show you how I converted my repositories over to Mercurial to
 
 First, install [TortoiseHg](http://tortoisehg.bitbucket.org/) if you haven't already done so. You actually won't need Subversion installed to do the conversion.
 
-Next, right click anywhere in an Explorer window, select TortoiseHg->Global Settings:![TortoiseHg-Menu](TortoiseHg-Menu.png "TortoiseHg-Menu")
+Next, right click anywhere in an Explorer window, select TortoiseHg->Global Settings:
+
+![TortoiseHg-Menu](TortoiseHg-Menu.png)
 
 Go to the "Extensions" section, and check the "convert" checkbox, which will enable the conversion extension functionality:
 
-![Enable-Convert-Extension](Enable-Convert-Extension.png "Enable-Convert-Extension")
+![Enable-Convert-Extension](Enable-Convert-Extension.png)
 
 ###One Repository vs Many
 
@@ -24,13 +26,14 @@ In Subversion, there were two common repository structure camps. One that used a
 
 In Git, repositories will be distributed and are ideally as lightweight as possible. The typical pattern is to create a new repository for each project. This obviously means that we have to do some work to separate out a single Subversion repository into multiple Git repos.
 
-[![SNAGHTML141b8252](SNAGHTML141b8252_thumb.png "SNAGHTML141b8252")](http://www.ytechie.com/post-images/2013/04/SNAGHTML141b8252.png)
+![SNAGHTML141b8252](SNAGHTML141b8252_thumb.png)
 
 ###Creating a Filemap (optional)
 
 _If you have separate repositories in Subversion, you can skip this step._
 
 Create a "filemap", which is just a text file with the name of your choosing that will look like this:
+
 	include &quot;Utilities/ProjRefToDll&quot;
 	rename &quot;Utilities/ProjRefToDll&quot; .
 
@@ -46,15 +49,15 @@ Run the following command line with the correct paths (omit the filemap paramete
 
 Here is the command I ran:
 
-[![image](image_thumb.png "image")](http://www.ytechie.com/post-images/2013/04/image.png)
+![image](image_thumb.png)
 
 It will then iterate through every revision in the source repository, even if it's not relevant to the filter you're applying. It will create a new folder next to the folder you're converting, but with a "-hg" suffix, like this:
 
-[![image](image_thumb1.png "image")](http://www.ytechie.com/post-images/2013/04/image1.png)
+![image](image_thumb1.png)
 
 Open it up, and it will be a full-fledged Mercurial repository. Do an "update" to confirm that everything looks like you expect:
 
-[![SNAGHTML1392a450](SNAGHTML1392a450_thumb.png "SNAGHTML1392a450")](http://www.ytechie.com/post-images/2013/04/SNAGHTML1392a450.png)
+![SNAGHTML1392a450](SNAGHTML1392a450_thumb.png)
 
 _At this point, you have successfully converted a project from your Subversion repository into a Mercurial repository, revisions and all._
 

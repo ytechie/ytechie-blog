@@ -16,7 +16,7 @@ Note: TFS is a more comprehensive solution, and has a [free tier for 5 users](ht
 
 Most people are not aware that they offer free bug tracking and unlimited source control, and they have a unique system called [Kiln Harmony](http://blog.fogcreek.com/announcing-kiln-harmony-the-future-of-dvcs/) that allows you to seamlessly transition between Mercurial and Git.
 
-![FogbugzLogo](FogbugzLogo.gif "FogbugzLogo")
+![FogbugzLogo](FogbugzLogo.gif)
 
 [Take a look a their pricing page](http://www.fogcreek.com/fogbugz/pricing.html), which confirms that as long as you are a startup or student and have 1 or 2 users, their service is completely free. If you have a company that only has 1 or 2 employees, I think it's safe to assume you're a startup.
 
@@ -24,24 +24,25 @@ Go ahead and [sign-up](https://secure.fogcreek.com/fogbugz/try/?fccmp=_tryfb_nav
 
 ###Push Your Code
 
-![Kiln](image.png "Kiln") 
+![Kiln](image.png) 
 
 Now, while logged in, click on the Kiln button to access the hosted source control product. Then, create a new repository (I'm not going to include a lot of detail here).
 
-![image](image1.png "image") 
+![image](image1.png) 
 
 Once you have set up your repository, clone it locally using the provided URL, and add your source code:
- `git clone [http://URL_SUPPLIED_BY_KILN](http://URL_SUPPLIED_BY_KILN)`   
+
+	`git clone [http://URL_SUPPLIED_BY_KILN](http://URL_SUPPLIED_BY_KILN)`   
 
 I like to use the [GitHub for Windows client](http://windows.github.com/), because it provides a great history viewer, an easy way to see pending changes, and provides a simple commit interface. You can use it _without_ using the GitHub website. However, if you DO want to use GitHub.com as well, it can automatically pull down your GitHub project list.
 
 Adding local projects to GitHub is a breeze. Simply drag the project folder you cloned into the Window and you'll see it activate.
 
-![image](image2.png "image")
+![image](image2.png)
 
 Once you have a repository added to GitHub, the context menu provides an easy way to view the folder in explorer, or even open a shell to use command line functionality. Double-clicking on the project will show revision history, pending changes with a commit dialog, and a sync button for the online repo (works for any Git remote, not just GitHub.com).
 
-![image](image3.png "image")
+![image](image3.png)
 
 ###Set up Azure
 
@@ -49,30 +50,32 @@ Set up an [Azure account](http://www.windowsazure.com/). If you have an MSDN acc
 
 Once you log in, familiarize yourself with the interface. To add an additional hosted service, use the ![image](image4.png "image") button at the bottom to bring up the service creation dialog and choose Compute -&gt; Web Site -&gt; Custom Create.
 
-![image](image1_thumb.png "image")
+![image](image1_thumb.png)
 
 Creating a web site only requires a name. We'll also be checking the "Publish from source control" checkbox to create an Azure Git repository. We'll configure Kiln to push changes to this repository later.
 
-[![image](image8_thumb.png "image")](http://www.ytechie.com/post-images/2013/08/image8.png)
+![image](image8_thumb.png)
 
 To enable automated publishing, we need to tell our Azure website where our source code is located. There are options for TFS, GitHub, even Dropbox. Select the "Local Git repository" option.
 
-[![image](image12_thumb.png "image")](http://www.ytechie.com/post-images/2013/08/image12.png)
+![image](image12_thumb.png)
 
 On the right side, you'll want to choose the "Reset your deployment credentials" option. This will enable you to configure the username and password for your Git repository.
 
-![image](image5.png "image")
+![image](image5.png)
 
 Now head over to the "Deployments" tab. This screen contains 2 key elements:
 
 * The Git URL that when pushed to, will publish/deploy our project for us.
 * A nearly real-time list of deployments and any success/error messages.  
 
-![SNAGHTMLeed99bd](SNAGHTMLeed99bd.png "SNAGHTMLeed99bd")
+![SNAGHTMLeed99bd](SNAGHTMLeed99bd.png)
 
 ###Automate!
 
-Now, head back over to your Kiln repository, and click "Settings", and then "Add, remove..." under the Web Hooks section.![SNAGHTML108cf9ee](SNAGHTML108cf9ee.png "SNAGHTML108cf9ee")
+Now, head back over to your Kiln repository, and click "Settings", and then "Add, remove..." under the Web Hooks section.
+
+![SNAGHTML108cf9ee](SNAGHTML108cf9ee.png)
 
 Now, fill in the publishing information:
 
@@ -82,7 +85,7 @@ Now, fill in the publishing information:
 4.  The password you supplied for the deployment credentials in an earlier step.
 5.  Select the repository that will be deployed.  
 
-![image](image6.png "image")
+![image](image6.png)
 
 ###Wasn't That Easy?
 

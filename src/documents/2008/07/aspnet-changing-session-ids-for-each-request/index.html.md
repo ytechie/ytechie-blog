@@ -7,7 +7,7 @@ tags: ["asp.net"]
 
 I ran into an issue where ASP.NET was changing the Session.SessionId for every request from the same user. A quick Google search revealed 2.3 million pages. I'll summarize one of the main reasons this can happen, and discuss 2 ways to fix it.
 
-[![Hand-Counting](hand-counting-thumb.jpg)](http://www.ytechie.com/post-images/2008/07/hand-counting.jpg) 
+![Hand-Counting](hand-counting-thumb.jpg)
 
 I've been working on a search function for a website I'm working on. We're taking the [Lean software approach](http://en.wikipedia.org/wiki/Lean_software_development) and implementing an extremely basic search for now. We're going to track the searches that users are making, and will have the data we'll need to make a better search in the next version.
 

@@ -58,7 +58,7 @@ I recently had an opportunity to sell my original i7 920 PC, and build a 3rd gen
 
 ###Processor: Intel Core i7-3770K 3.5GHz
 
-[![i7-3770K](http://www.ytechie.com/post-images/2013/03/i7-3770K.jpg)](i7-3770K.jpg)
+![i7-3770K](i7-3770K.jpg)
 
 This was the first component I picked out, as a suspected all of the other components would be dependent on the processor. We have built some AMD machines at work, but they are severely lagging behind their Intel-based counterparts for performance and power usage. Intel is a little pricier, but definitely worth it. I went on the high-end as far as speed to minimize video encoding time, and hopefully prolong my next upgrade as long as possible.
 
@@ -66,23 +66,23 @@ Since I don't have any intentions of using this system for high-end gaming, my g
 
 ###Motherboard: ASRock Z77 Extreme 4
 
-[![Z77 Extreme4(m)](Z77-Extreme4m-300x169.jpg)](http://www.ytechie.com/post-images/2013/03/Z77-Extreme4m.jpg)
+![Z77 Extreme4(m)](Z77-Extreme4m-300x169.jpg)
 
 I always find the motherboard the hardest component to spec for a new build. In the past I've chosen Gigabyte boards for their low price and innovative features such as long-life [solid state capacitors](http://www.badcaps.net/pages.php?vid=4). However, I ran into some buggy firmware with my last build, and hoped to avoid them this round. Solid state capacitors are now the norm, so features and stability were my primary goals. We've used a few ASRock boards for builds at work, and they have worked flawlessly. They are also the current leader for [fast booting](http://www.youtube.com/watch?v=JdOAvlncCOw&amp;feature=youtu.be) when using UEFI. At $105 for this board, it seemed like a great price/value ratio. It has dual-monitor outputs so that I can use the integrated graphics while still keeping 2 monitors.
 
 Below is a thermal image from the board. Notice that the ASRock chipset is at 143F. I can't explain why it runs so hot. It's not hot enough to be a huge concern, but I would prefer to keep every component cool for long life.
 
-[![IR_1146](http://www.ytechie.com/post-images/2013/03/IR_1146.jpg)](IR_1146.jpg)
+![IR_1146](IR_1146.jpg)
 
 ###Memory: 32GB G.SKILL
 
-[![GSkill-Ares](http://www.ytechie.com/post-images/2013/03/GSkill-Ares.jpg)](GSkill-Ares.jpg)
+![GSkill-Ares](GSkill-Ares.jpg)
 
 Memory speed used to have a significant impact on the real-world performance of your system. These days, buy memory that is well reviewed and falls within the memory speed requirements of your motherboard. At the time of my purchase, I was able to get the Ares memory for only $55 for 2x8GB strips. At this price, it was worth maxing out the board at **32GB** (I'm still in awe) just to avoid a future upgrade. One interesting feature of the motherboard is the ability to use part of the RAM as a RAMDISK, which is essentially a virtual hard drive that would outperform even the best SSD.
 
 ###PSU: SeaSonic M12II 620 Bronze 620W
 
-[![Seasonic-620](Seasonic-620-150x150.jpg)](http://www.ytechie.com/post-images/2013/03/Seasonic-620.jpg)
+![Seasonic-620](Seasonic-620-150x150.jpg)
 
 Bad power supplies create bad power, which kills components. A good power supply will provide clean power, which will make your system more stable, and will help ensure a long lifespan for all of the other components.
 
@@ -90,7 +90,7 @@ Why did I choose a 620W power supply? My experience has been that people often o
 
 ###Hard Drive: Crucial m4 128GB SSD
 
-[![Crucial-m4](http://www.ytechie.com/post-images/2013/03/Crucial-m4.jpg)](Crucial-m4.jpg)
+![Crucial-m4](Crucial-m4.jpg)
 
 SSD's are undoubtedly the biggest technological breakthrough in computing as it relates to the perceived speed of the computer. People usually quote 7 second boot times, but the value is truly in the fact that applications open **instantly**.
 
@@ -100,7 +100,7 @@ Why only 128GB? I have a 3TB storage array that I use for my bulk data. Unless y
 
 ###Case: Antec 300
 
-[![Antec300](http://www.ytechie.com/post-images/2013/03/Antec300.png)](Antec300.png)
+![Antec300](Antec300.png)
 
 I hate choosing a case. Without seeing them in person, it's difficult to gauge their build quality and features. I've used this case in the past, and it's worked well enough. It's usually inexpensive, and easy to work with. It has excellent ventilation, a cleanable air filter, and a place to mount your SSD drive.
 
@@ -116,6 +116,6 @@ Here is a photo using a Flir thermal camera. Notice that there is almost no meas
 
 ###Blu-ray / DVD: LG Blu-ray Drive
 
-[![LG-Blu-Ray](http://www.ytechie.com/post-images/2013/03/LG-Blu-Ray1.jpg)](LG-Blu-Ray1.jpg)
+![LG-Blu-Ray](LG-Blu-Ray1.jpg)
 
 This was probably overkill, but it was the only Blu-Ray drive that I could find that got exceptional reviews, and is 16x.
