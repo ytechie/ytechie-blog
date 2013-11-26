@@ -5,6 +5,10 @@ date: 2013-11-26
 ---
 You'll notice I have a completely updated blog, and it's blazing fast! I've been through a lot of blogging platforms, and was never quite happy. Now, I've taken an entirely new approach that completely changes how I blog.
 
+To show you just how fast it is, I can now spider every page on my blog, over 800+ pages, in 20 seconds or less:
+
+![Broken Link Checker Results](link-checker-results.png)
+
 ### The Problem with Traditional Blog Engines
 
 Blog engines typically work by generating pages on-the-fly from a database. As features get added, the code complexity increases, and the performance suffers. Web applications take the approach of generating their content at the last possible moment, when a request is made, while the user is waiting for their content. To solve this problem, the blog engines add yet another layer of complexity for caching. What we end up with is a beast like WordPress, with a massive caching solution like [W3 Total Cache](http://wordpress.org/plugins/w3-total-cache/).
