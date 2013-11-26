@@ -54,6 +54,8 @@ To include code blocks, I simply indent them with a tab or 4 spaces per-line.
 
 You can edit your markdown in any text editor such as [Sublime Text](http://www.sublimetext.com/), or something like [MarkdownPad](http://markdownpad.com/), which gives you a live preview. I store the post drafts in Skydrive so that they're accessible anywhere. I can edit them on any computer, or my tablet with [Write RT](http://apps.microsoft.com/windows/app/writert/efc7bfe6-668e-4c4d-a42b-fc8f5ef7205d).
 
+Note: To import my content from WordPress, [I created a rudimentary Node.js import tool](https://github.com/ytechie/wordpress-to-markdown).
+
 ###Static Generation
 
 ![Jekyll Homepage Screenshot](jekyll-homepage-screenshot.png)
@@ -73,7 +75,11 @@ Ultimately, we end up with a completely static website that contains a semantic 
 
 I love Windows Azure for hosting. The fact that you pay only for what you use, a little or a lot, combined with power and simplicity make it an easy choice. Even though I work for Microsoft, this blog is my own, and I DO pay for it out of my own pocket.
 
-I'm hosting my blog engine and the content in Azure, and I have [Azure Web Sites](http://www.windowsazure.com/en-us/services/web-sites/) configured to watch my repository, and [automatically deploy when changes are made](http://www.ewal.net/2013/10/10/deploying-docpad-sites-to-azure/). The swap is completely seamless, with zero downtime between versions. Azure actually uses Node.js to run DocPad, generate the site, and then host it. After that, Azure simply serves out the static files, which IIS is extremely efficient at.
+I'm hosting my blog engine and the content in Azure, and I have [Azure Web Sites](http://www.windowsazure.com/en-us/services/web-sites/) configured to watch my repository, and [automatically deploy when changes are made](http://www.ewal.net/2013/10/10/deploying-docpad-sites-to-azure/). The swap is completely seamless, with zero downtime between versions.
+
+![Azure Deployment Screenshot](azure-deployment.png)
+
+Azure actually uses Node.js to run DocPad, generate the site, and then host it. After that, Azure simply serves out the static files, which IIS is extremely efficient at.
 
 Here is my Azure usage **in production**. It could actually be used within the *free* tier of Azure (I may actually try that now).
 
