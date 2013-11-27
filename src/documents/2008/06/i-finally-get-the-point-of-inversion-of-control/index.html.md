@@ -2,7 +2,7 @@
 layout: post
 title: I finally get the point of inversion of control
 date: 2008-06-06
-tags: ["software-development", "testing]
+tags: ["software-development", "testing"]
 ---
 
 I think I'm finally starting to understand the [Inversion of Control](http://en.wikipedia.org/wiki/Inversion_of_Control) principle (aka Dependency Injection). I had a hard time understanding most examples out there, because they appeared to be solving problems that didn't even seem like real problems to me. For years I've been writing classes, testing them, and hooking them together. In many cases, I was already practicing inversion of control. The benefit I wasn't seeing was the fact that you can separate the modules in your code and the connections between them.
