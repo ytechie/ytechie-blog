@@ -2,7 +2,7 @@
 layout: post
 title: Who is YOUR customer? It may not be who you think
 date: 2008-05-29
-tags: ["software development"]
+tags: ["software-development"]
 ---
 
 No matter what your position is, one of the most important responsibilities is to know who your customer is, because they're the one that you need to make happy. If you think it's the where the money comes from, you're probably wrong.

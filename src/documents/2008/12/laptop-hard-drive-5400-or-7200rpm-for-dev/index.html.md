@@ -10,6 +10,7 @@ My laptop came factory equipped with a 250GB 5400RPM hard drive. Overall, the pe
 ![Hard Drive](image.png) 
 
 **Old drive:** [Seagate Momentus 5400.4](http://www.newegg.com/Product/Product.aspx?Item=N82E16822148310) - 250GB 5400RPM 8MB Cache SATA
+
 **New Drive:** [Hitachi Travelstar 7K320](http://www.newegg.com/Product/Product.aspx?Item=N82E16822145228) - 320GB 7200RPM 16MB Cache SATA
 
 Before I upgraded to the bigger, faster drive, I took a few quick benchmarks. It booted in 57 seconds from pressing power to being able to type my password. I was able to build SharpDevelop in 29 seconds, and my XP performance rating was 5.6.
@@ -23,7 +24,14 @@ Unfortunately, I was fairly disappointed. I was expecting a reasonable boost in 
 ![Vista Performance Index](image1.png) 
 
 Stat summary (obviously unscientific):
- <table cellspacing="0" cellpadding="2" width="355" border="0"> <tbody> <tr> <td valign="top" width="164"></td> <td valign="top" width="88">**5400RPM**</td> <td valign="top" width="101">**7200RPM**</td></tr> <tr> <td valign="top" width="163">**SharpDevelop Build**</td> <td valign="top" width="88">29 seconds</td> <td valign="top" width="101">30 seconds</td></tr> <tr> <td valign="top" width="162">**Cold boot**</td> <td valign="top" width="88">57 seconds</td> <td valign="top" width="101">74 seconds</td></tr> <tr> <td valign="top" width="162">**Experience Index**</td> <td valign="top" width="88">5.6</td> <td valign="top" width="101">5.7</td></tr></tbody></table> 
+<table>
+<tbody>
+<tr><td></td><td>**5400RPM**</td><td>**7200RPM**</td></tr>
+<tr><td>**SharpDevelop Build**</td><td>29 seconds</td><td>30 seconds</td></tr>
+<tr><td>**Cold boot**</td><td>57 seconds</td><td>74 seconds</td></tr>
+<tr><td>**Experience Index**</td><td>5.6</td><td>5.7</td></tr>
+</tbody>
+</table> 
 
 **Conclusion**
 

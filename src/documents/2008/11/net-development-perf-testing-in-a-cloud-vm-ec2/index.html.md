@@ -13,7 +13,9 @@ I decided to do some simple, informal performance testing. To do **development**
 
 I downloaded the source code for [SharpDevelop](http://www.icsharpcode.net/OpenSource/SD/), since I knew it would be a fairly large, yet automated build process. The only thing I needed to install was .NET 3.5 SP1\. As a baseline, I ran the build on my personal laptop, with these specs: 2.0GHz Core 2 Duo, 3GB RAM, 250GB 5400RPM hard drive. To test the performance of the build, I ran it once, ran a "clean" operation, then ran the build a second time, timing it only on the second run.
 
-*   My laptop:&nbsp; 1 minute, 37 seconds*   EC2 Small Instance: 2 minutes*   EC2 Medium Instance: 41 seconds 
+* My laptop: 1 minute, 37 seconds
+* EC2 Small Instance: 2 minutes
+* EC2 Medium Instance: 41 seconds 
 
 As you can see, the EC2 "medium" instance, was over twice as fast as my local machine.
 
@@ -21,11 +23,22 @@ To continue my testing, I installed Visual Studio 2008 Professional, ReSharper, 
 
 EC2 has many advantages over running [VMware](http://www.vmware.com) or [Virtual PC](http://en.wikipedia.org/wiki/Microsoft_Virtual_PC) on your own computer:
 
-*   Can take snapshots of drives*   Doesn't use resources from your computer*   CPU can be upgraded/downgraded as needed*   Theoretically ultra-stable host*   Very fast Internet connection (I downloaded 800mb in less than 30s!)*   Theoretically updated virtual hardware as time goes on*   Potentially faster (especially if you use a laptop) 
+* Can take snapshots of drives
+* Doesn't use resources from your computer
+* CPU can be upgraded/downgraded as needed
+* Theoretically ultra-stable host
+* Very fast Internet connection (I downloaded 800mb in less than 30s!)
+* Theoretically updated virtual hardware as time goes on
+* Potentially faster (especially if you use a laptop) 
 
 However, there are a few obvious disadvantages:
 
-*   Pay-per-hour can get expensive if you use it full-time*   Can't drag and drop in and out of the VM like desktop virtualization can*   Need to remote connect using something like remote desktop so graphics performance isn't the best*   Only available when you have access to the Internet*   Not necessarily great multi-monitor support*   Virtual machines take a while to start and snapshot 
+* Pay-per-hour can get expensive if you use it full-time
+* Can't drag and drop in and out of the VM like desktop virtualization can
+* Need to remote connect using something like remote desktop so graphics performance isn't the best
+* Only available when you have access to the Internet
+* Not necessarily great multi-monitor support
+* Virtual machines take a while to start and snapshot 
 
 **Pricing**
 

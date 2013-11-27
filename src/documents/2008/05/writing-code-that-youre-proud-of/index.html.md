@@ -2,12 +2,14 @@
 layout: post
 title: Writing code that you're proud of
 date: 2008-05-16
-tags: ["software development"]
+tags: ["software-development"]
 ---
 
 Almost every time that someone shows me a snippet of their code, I hear a comment like this:
 
-*   &quot;This isn't finished, I have a lot of cleanup to do&quot;*   &quot;I wrote this code a long time ago, it's not very good&quot;*   &quot;Ignore all these bugs, I haven't had time to fix them yet&quot;  
+*   "This isn't finished, I have a lot of cleanup to do"
+*   "I wrote this code a long time ago, it's not very good"
+*   "Ignore all these bugs, I haven't had time to fix them yet"
 
 We've all done it. It's very rare that I hear a developer that is truly proud of their code.
 
@@ -15,11 +17,16 @@ We've all done it. It's very rare that I hear a developer that is truly proud of
 
 So why aren't you proud of your code? Part of the reason is that we often combine planning with writing code. I know that purists don't like that, but the reality is that there are so many details in software that _perfect_ planning is impossible.
 
-The other reason is that we get our code working, and keep telling ourselves that we'll go back and clean it up later. Then you tell yourself &quot;why fix it if it isn't broken?&quot; You move on to the next task, and the cycle continues.
+The other reason is that we get our code working, and keep telling ourselves that we'll go back and clean it up later. Then you tell yourself "why fix it if it isn't broken?" You move on to the next task, and the cycle continues.
 
 Common things that are overlooked:
 
-*   Proper exception handling and failure modes*   Properly disposing of unmanaged resources (IDisposable)*   Inefficient coding style*   Missing documentation*   Well thought out architecture*   Comprehensive unit tests & code coverage
+*   Proper exception handling and failure modes
+*   Properly disposing of unmanaged resources (IDisposable)
+*   Inefficient coding style
+*   Missing documentation
+*   Well thought out architecture
+*   Comprehensive unit tests & code coverage
 *   Following established coding standards
 *   Simplifying to minimize LoC to maintain  
 

@@ -5,12 +5,26 @@ date: 2008-05-19
 tags: ["sql"]
 ---
 
-I have a few tables that contain a column called &quot;Order&quot;, which is used to sort by when retrieving the data. The purpose is to keep the data in a certain order when displayed to the end user.
-  <table style="width: 261px; border-collapse: collapse" cellspacing="0" cellpadding="0" width="261" border="2"><tbody>     <tr style="height: 15pt" height="20">       <td style="width: 167pt; height: 15pt" width="216" height="20">Black Linen</td>        <td style="width: 29pt" width="41">NULL</td>     </tr>      <tr style="height: 15pt" height="20">       <td style="height: 15pt" width="216" height="20">Navy Blue Linen</td>        <td width="41">NULL</td>     </tr>      <tr style="height: 15pt" height="20">       <td style="height: 15pt" width="216" height="20">Dark Green Linen</td>        <td width="41">NULL</td>     </tr>      <tr style="height: 15pt" height="20">       <td style="height: 15pt" width="216" height="20">Burgundy Linen</td>        <td width="41">NULL</td>     </tr>      <tr style="height: 15pt" height="20">       <td style="height: 15pt" width="216" height="20">Ivory Vellum</td>        <td width="41">NULL</td>     </tr>      <tr style="height: 15pt" height="20">       <td style="height: 15pt" width="216" height="20">Grey Felt</td>        <td width="41">NULL</td>     </tr>      <tr style="height: 15pt" height="20">       <td style="height: 15pt" width="216" height="20">Natural Linen</td>        <td width="41">NULL</td>     </tr>      <tr style="height: 15pt" height="20">       <td style="height: 15pt" width="216" height="20">White Coated Two Sides</td>        <td align="right" width="41">1</td>     </tr>      <tr style="height: 15pt" height="20">       <td style="height: 15pt" width="216" height="20">White Cast Coated One Side</td>        <td align="right" width="41">2</td>     </tr>      <tr style="height: 15pt" height="20">       <td style="height: 15pt" width="216" height="20">White SemiGloss Coated One Side</td>        <td align="right" width="41">3</td>     </tr>      <tr style="height: 15pt" height="20">       <td style="height: 15pt" width="216" height="20">White Smooth</td>        <td align="right" width="41">4</td>     </tr>      <tr style="height: 15pt" height="20">       <td style="height: 15pt" width="216" height="20">White Linen</td>        <td align="right" width="41">5</td>     </tr>   </tbody></table>  
+I have a few tables that contain a column called "Order", which is used to sort by when retrieving the data. The purpose is to keep the data in a certain order when displayed to the end user.
+<table><tbody>
+<tr><td>Black Linen</td><td>NULL</td></tr>
+<tr><td>Navy Blue Linen</td><td>NULL</td></tr>
+<tr><td>Dark Green Linen</td><td>NULL</td></tr>
+<tr><td>Burgundy Linen</td><td>NULL</td></tr>
+<tr><td>Ivory Vellum</td><td>NULL</td></tr>
+<tr><td>Grey Felt</td><td>NULL</td></tr>
+<tr><td>Natural Linen</td><td>NULL</td></tr>
+<tr><td>White Coated Two Sides</td><td>1</td></tr>
+<tr><td>White Cast Coated One Side</td><td>2</td></tr>
+<tr><td>White SemiGloss Coated One Side</td><td>3</td></tr>
+<tr><td>White Smooth</td><td>4</td></tr>
+<tr><td>White Linen</td><td>5</td></tr>
+</tbody></table>  
 
-The problem is that SQL Server puts null values above non-null values when doing an &quot;order by&quot;. To reverse this behavior, this was the most elegant and efficient solution that I found:
-  <pre class="sql" name="code">Select FooValue
-From foos
-Order by (Case When [Order] Is Null Then 1 Else 0 End), [Order]</pre>
+The problem is that SQL Server puts null values above non-null values when doing an "order by". To reverse this behavior, this was the most elegant and efficient solution that I found:
+
+	Select FooValue
+	From foos
+	Order by (Case When [Order] Is Null Then 1 Else 0 End), [Order]
 
 I found information about the [original problem here](http://cfsilence.com/blog/client/index.cfm/2006/2/21/TSQL-Dealing-with-Null-Values-in-an-Order-By-Clause), and the solution was from [Tim](http://www.zeroesque.com/) in the comments. Thanks!

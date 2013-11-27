@@ -2,7 +2,6 @@
 layout: post
 title: Using an army and luck to reach critical mass
 date: 2008-06-24
-tags: ["ecommerce","software"]
 ---
 
 This post is going to explain the importance of your product reaching critical mass. When I say "product", I mean an actual product you're selling, or simply a website or blog. When I'm talking about critical mass, I'm describing the point at which your product becomes viral, sometimes known as the [network effect](http://en.wikipedia.org/wiki/Network_effect). This should be a lesson to anyone thinking of creating their own product or service.

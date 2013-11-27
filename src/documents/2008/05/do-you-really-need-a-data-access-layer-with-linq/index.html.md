@@ -2,7 +2,7 @@
 layout: post
 title: Do you really need a data access layer with LINQ?
 date: 2008-05-07
-tags: ["c#","unit testing"]
+tags: ["c#","testing"]
 ---
 
 Lately I've been giving a lot of thought to using [LINQ](http://msdn.microsoft.com/en-us/netframework/aa904594.aspx) to access my database instead of using NHibernate. I've been a little confused as to how LINQ would work in a data access layer, but I'm starting to think it makes sense as a **replacement** to the data access layer.
@@ -31,4 +31,6 @@ Sure, our UI will contain what are basically database queries. The fact is that 
 
 Obviously there are a lot of places where this is a bad idea. I'm certainly not condoning a complete lack of a data access layer for every application. I'm applying the 80/20 rule. Places it might not make sense, or where it's gray:
 
-*   <div align="left">A logic class that needs to make frequent, repeated database calls.</div>*   <div align="left">An application that requires a certain level of testability.</div>*   <div align="left">An application that contains some extremely common queries that may or may not be trivial.</div>
+*   A logic class that needs to make frequent, repeated database calls.
+*   An application that requires a certain level of testability.
+*   An application that contains some extremely common queries that may or may not be trivial.

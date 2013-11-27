@@ -2,7 +2,7 @@
 layout: post
 title: Improve your software by creating an API
 date: 2008-06-04
-tags: ["productivity"]
+tags: ["software-development"]
 ---
 
 I'm going to talk about the benefits of having an [API](http://en.wikipedia.org/wiki/API) for your product, and why you should consider building one for your next project.
@@ -11,14 +11,13 @@ I used to work for company that developed manufacturing software. Now I'm on the
 
 So what is the single best thing you can do to help people like me out?
 
-**<u>Have an API for your software!</u>**
+**Have an API for your software!**
 
-![Doorway](doorway.jpg)
- **<u></u>**  
+![Doorway](doorway.jpg)  
 
 If your software has an API that lets us read and write the valuable data in your system, it's going to save us a lot of time. If we have to start modifying data in your database, we have to worry about tables changing. Worse yet, you might be using a type of database that we're not familiar with. That's only going to make us less likely to upgrade.
 
-The great part is that this makes your software easy to sell. If someone asks for a feature that you don't have, you can tell them that your great API supports it, and their IT team could easily build that custom functionality. Better yet, they may contract you to build it for them. You can avoid saying &quot;no&quot;, which can sometimes be the kiss of death for a potential sale.
+The great part is that this makes your software easy to sell. If someone asks for a feature that you don't have, you can tell them that your great API supports it, and their IT team could easily build that custom functionality. Better yet, they may contract you to build it for them. You can avoid saying "no", which can sometimes be the kiss of death for a potential sale.
 
 What else can you do to have a _great_ API?
 

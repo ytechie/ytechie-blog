@@ -2,12 +2,13 @@
 layout: post
 title: Stored procedure reporting & scalability
 date: 2008-05-27
-tags: ["software development","sql"]
+tags: ["software-development","sql"]
 ---
 
 Today's post is a case study of sorts, about my former employer, who had an interesting architecture. It's roots were VB6 and SQL server (version 6 I believe). They decided to put as much logic in their stored procedures as possible. The arguments being:
 
-*   Easy to update (fix, improve) on-the-fly.*   Hard to work with data (multiple tables, arrays, etc) in VB6 and ASP, at least compared to .NET.  
+*   Easy to update (fix, improve) on-the-fly.
+*   Hard to work with data (multiple tables, arrays, etc) in VB6 and ASP, at least compared to .NET.  
 
 Given the circumstances, I don't think that I would go back and change history if given the chance.
 

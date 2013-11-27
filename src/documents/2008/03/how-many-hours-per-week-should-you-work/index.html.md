@@ -2,7 +2,7 @@
 layout: post
 title: How many hours per week should you work?
 date: 2008-03-30
-tags: ["productivity","software development"]
+tags: ["productivity"]
 ---
 
 I'm sure most of you have worked at a service job at one point in your life. That includes restaurants such as McDonald's or Burger King. I'm sure you knew _exactly_ how many hours you were expected to work. A schedule was made, and you knew your scheduled hours each day.
@@ -21,11 +21,13 @@ If you work for a software company, you'll probably have a boss that can gauge y
 
 But what if you don't work at a software company? Or more specifically, your boss has no idea how good of a job you're actually doing? Your boss is going to start looking for a metric to put a number on your performance.
 
-*   Lines of code? Yuck! Everyone should know by now this is a horrible metric, and probably opposite of reality.*   Least number of bugs entered? This doesn't make sense, this will end up being proportional to the amount of actual productivity.*   Number of hours worked? 
+*   Lines of code? Yuck! Everyone should know by now this is a horrible metric, and probably opposite of reality.
+*   Least number of bugs entered? This doesn't make sense, this will end up being proportional to the amount of actual productivity.
+*   Number of hours worked? 
 
-Do you think the last one could really happen? Well it did to me. Someone in the company ran a report, and a red flag was raised because I didn't work the arbitrary number of hours that was secretly expected of me. I averaged 41.6 hours, but was expected to work 43\. The average expected workweek for an industrialized nation, is 32-40 hours. When France standardized on the 35 hour work week, **[studies showed that their productivity stayed the same](http://itotd.com/articles/351/work-week-and-vacation-variances/)** I've read countless articles saying that employees that worked more, usually got less done. I was putting in overtime! However, after all my hard work, my world came crashing down. For the first time in my professional life, I was viewed as a dispassionate, lazy employee.
+Do you think the last one could really happen? Well it did to me. Someone in the company ran a report, and a red flag was raised because I didn't work the arbitrary number of hours that was secretly expected of me. I averaged 41.6 hours in the office, but was expected to work 43. The average expected workweek for an industrialized nation, is 32-40 hours. When France standardized on the 35 hour work week, **[studies showed that their productivity stayed the same](http://itotd.com/articles/351/work-week-and-vacation-variances/)** I've read countless articles saying that employees that worked more, usually got less done. I was putting in overtime! However, after all my hard work, my world came crashing down. For the first time in my professional life, I was viewed as a dispassionate, lazy employee.
 
-The solution my boss came up with? Put in more time. I was outraged. I had prided myself on my time management skills, and now I was being insulted?
+The solution my boss came up with? Put in more time. I had prided myself on my time management skills, and this was the result?
 
 It turns out I was being compared to employees that had completely different jobs than me. Of course I look bad. Joe the janitor works 60 hours per week! He's much more valuable! That fact that I managed to build a complete e-commerce site in 4 months no longer means anything. He even explained that they didn't know how else to gauge performance.
 

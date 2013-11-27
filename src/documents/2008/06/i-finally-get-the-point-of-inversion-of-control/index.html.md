@@ -2,7 +2,7 @@
 layout: post
 title: I finally get the point of inversion of control
 date: 2008-06-06
-tags: ["productivity","software development"]
+tags: ["software-development", "testing]
 ---
 
 I think I'm finally starting to understand the [Inversion of Control](http://en.wikipedia.org/wiki/Inversion_of_Control) principle (aka Dependency Injection). I had a hard time understanding most examples out there, because they appeared to be solving problems that didn't even seem like real problems to me. For years I've been writing classes, testing them, and hooking them together. In many cases, I was already practicing inversion of control. The benefit I wasn't seeing was the fact that you can separate the modules in your code and the connections between them.
@@ -13,7 +13,7 @@ When you really commit yourself to breaking the problem down into manageable pie
 
 So what is a dependency injection framework? It's the glue that holds your pieces together. Without it, your classes would probably be dictating the classes that it depends on. With dependency injection, the application configuration tells the class what modules to use. **A dependency injection framework separates the linking from the pieces**.
 
-![ioc diagrams](ioc-diagrams.gif)&#160; 
+![ioc diagrams](ioc-diagrams.gif)
 
 In the diagram on the left, it's a typical tightly coupled design. Every class is hooked up directly to another class. This doesn't mean that each class isn't testable, but it's a very rigid design (which isn't necessarily avoidable). In general, the easiest unit testing was in the classes on the edges, since they have a usable surface area.
 

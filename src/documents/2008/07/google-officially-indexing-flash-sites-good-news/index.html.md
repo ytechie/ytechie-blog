@@ -10,7 +10,8 @@ According to the official Google blog, they're now [officially indexing flash co
 ![image](image.png) 
 
 One of the big arguments against heavily using flash on your site was that it certainly wouldn't help you in Google. Now, many will see that argument as being gone. We can now look forward to more annoying flash content, and _maybe_ even some flash that is used correctly.
-  > With great power comes great responsibility
+
+> With great power comes great responsibility
 > 
 > -Stan Lee  
 

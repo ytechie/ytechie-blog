@@ -2,16 +2,17 @@
 layout: post
 title: When should you use database constraints?
 date: 2008-05-13
-tags: ["productivity","sql"]
+tags: ["sql"]
 ---
 
 A discussion came up at work recently about the extent of constraint usage in your databases. There were basically 2 camps:
 
-1.  Constrain everything humanly possible. If it's an integer that wouldn't normally be negative, add a &quot;>= 0&quot; constraint.2.  Constrain primarily where it's necessary to maintain referential integrity.  
+1.  Constrain everything humanly possible. If it's an integer that wouldn't normally be negative, add a ">= 0" constraint.
+2.  Constrain primarily where it's necessary to maintain referential integrity.  
 
 Consider the following diagram. It's a map of the flow of data from your user, which eventually makes its way into the database.
 
-![Validation Layers](validation-layers.gif)&#160; 
+![Validation Layers](validation-layers.gif)
 
 Since we're getting input from a user, and they're the one that can fix invalid data, we validate data at the top layer. There's usually no getting around this. In fact, for the best user experience on the web, you're going to perform some JavaScript validation. Then you'll probably validate it again on the server, in case they have JavaScript disabled.
 

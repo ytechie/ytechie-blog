@@ -2,12 +2,12 @@
 layout: post
 title: Design your classes for their consumer
 date: 2008-08-11
-tags: ["productivity","software development","unit testing"]
+tags: ["productivity","software-development","testing"]
 ---
 
 I'm going to describe a methodology that will help you save time by writing better classes, and will help simplify your life by allowing you to solve problems with a top-down approach.
 
-Developers such as myself often have a tendency to just focus on the class we're currently working on. Of course I believe [this is a good thing](http://www.ytechie.com/2008/07/programming-for-someone-with-blinders.html), because we all know [the importance of focus](http://www.ytechie.com/2008/05/focus-is-the-key-to-success.html). However, you should never forget the reason you're actually writing that class. It is because **other code will be consuming it**.
+Developers such as myself often have a tendency to just focus on the class we're currently working on. Of course I believe [this is a good thing](http://www.ytechie.com/2008/07/programming-for-someone-with-blinders.html), because we all know [the importance of focus](http://www.ytechie.com/2008/05/focus-is-the-key-to-success/). However, you should never forget the reason you're actually writing that class. It is because **other code will be consuming it**.
 
 ![Consumer-Approach](consumer-approach-thumb.gif)
 
@@ -19,9 +19,9 @@ Sometimes we can even take code usability to an extreme. For example, [Fluent in
 
 I've come up with a simple example to help illustrate. Suppose I need to process a list of x,y coordinates. Here are a couple of potential signatures:
 
-*   ProcessData(double[] xData, double[] yData);
-*   ProcessData(PointF[] points);
-*   ProcessData(IDictionary<double, double> points); 
+* ProcessData(double[] xData, double[] yData);
+* ProcessData(PointF[] points);
+* ProcessData(IDictionary<double, double> points); 
 
 For now, just ignore the performance implications ([they're going to be linear in this case](http://en.wikipedia.org/wiki/Big_O_notation#Orders_of_common_functions), or close to it anyway). To choose the correct signature, we need to know who the caller is.
 

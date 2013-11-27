@@ -2,14 +2,24 @@
 layout: post
 title: Don't play the "What If" game
 date: 2008-05-14
-tags: ["productivity","software development"]
+tags: ["productivity","software-development"]
 ---
 
-One of the biggest traps I've seen developers fall into is what I like to call the &quot;What If&quot; game:
+One of the biggest traps I've seen developers fall into is what I like to call the "What If" game:
 
-*   &quot;Make your ID columns integers&quot;, &quot;But **what if** we want them to contain a letter eventually?*   &quot;Let's cook these 10 steaks&quot;, &quot;But **what if **100 people show up?&quot;*   &quot;Let's go to the park&quot;, &quot;**What if** we get sick?&quot;  
+"Make your ID columns integers"
 
-The &quot;what if&quot; game consists of over thinking your plan. Planning in general is obviously essential. However, I've seen an alarming rate of crippling fear. Fear to write any code because it will never possibly handle all possible scenarios. It ends up being a self fulfilling prophecy of failure.
+"But **what if** we want them to contain a letter eventually?
+
+"Let's cook these 10 steaks"
+
+"But **what if** 100 people show up?"
+
+"Let's go to the park"
+
+"**What if** we get sick?"  
+
+The "what if" game consists of over thinking your plan. Planning in general is obviously essential. However, I've seen an alarming rate of crippling fear. Fear to write any code because it will never possibly handle all possible scenarios. It ends up being a self fulfilling prophecy of failure.
 
 Sometimes the side effect isn't just a fear to write code. It often leads to code that is generic beyond usefulness. For example, a database with all columns being VARCHAR(MAX).
 

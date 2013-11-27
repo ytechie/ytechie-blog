@@ -2,7 +2,7 @@
 layout: post
 title: Important questions for your prospective employer
 date: 2008-09-16
-tags: ["software development"]
+tags: ["software-development"]
 ---
 
 You're in an interview, getting asked dozens of questions. At the end of the interview, the interviewer asks if you have any questions about the company. Heck yeah! This is your time to learn about the company. Getting hired is a commitment from you AND the company.

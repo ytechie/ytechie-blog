@@ -25,8 +25,8 @@ Notice how easy it is to see that I changed a single letter (it's obviously easi
 
 There are other good reasons to use a third party compare tool (which vary by tool obviously):
 
-*   Easily compare entire file structures (folder diff)
-*   Inline editing
-*   Easy to use outside of Visual Studio - often with an explorer context menu 
+* Easily compare entire file structures (folder diff)
+* Inline editing
+* Easy to use outside of Visual Studio - often with an explorer context menu 
 
 I recommend giving a few of the compare tools a try and see which works best for you. I don't really see any risk in using a third party compare tool, but there are certainly a lot of advantages that you may not even know you're missing right now. I suggest also taking a look at [WinMerge](http://winmerge.org/) in addition to [KDiff3](http://kdiff3.sourceforge.net/), since it seems to be fairly popular and feature-rich as well.

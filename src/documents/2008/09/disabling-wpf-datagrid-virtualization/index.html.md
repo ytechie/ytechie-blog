@@ -8,7 +8,8 @@ tags: ["wpf"]
 Recently, Microsoft [released a DataGrid](http://www.codeplex.com/wpf/Release/ProjectReleases.aspx?ReleaseId=14963) for WPF (Windows Presentation Foundation). I've been getting my feet wet in WPF, because I think it's the long term direction that Microsoft is pushing UI design into.
 
 The DataGrid they released is only a CTP, not an official release. However, I needed something that worked now, not later for the utility I'm writing. I created a list of data, and bound it to the grid, only to watch my bound ComboBoxes lose their mind as I scrolled up and down. After ripping out my hair, I found a simple solution (for the DataGrid issue, not the lost hair). I added this attribute to my DataGrid declaration:
-<pre class="xml" name="code">VirtualizingStackPanel.VirtualizationMode="Standard"</pre>
+
+	VirtualizingStackPanel.VirtualizationMode="Standard"
 
 By default, the DataGrid is configured to virtualize it's contained controls. That means that as you scroll, the rendered [controls are reused, and avoids constantly generating containers](http://blogs.msdn.com/vinsibal/archive/2008/05/14/recycling-that-item-container.aspx).
 

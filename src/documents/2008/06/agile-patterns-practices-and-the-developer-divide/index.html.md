@@ -2,10 +2,10 @@
 layout: post
 title: Agile patterns & practices and the developer divide
 date: 2008-06-20
-tags: ["productivity","software development"]
+tags: ["software-development"]
 ---
 
-In what little free time I have, I've been slowly working my way through the book &quot;[Agile Principles, Patterns, and Practices in C#](http://www.amazon.com/dp/product/0131857258/?tag=ytechie-20&linkCode=asn&amp;creativeASIN=0131857258)&quot; by Robert C. Martin. This is a GREAT book, and a real eye opener.
+In what little free time I have, I've been slowly working my way through the book "[Agile Principles, Patterns, and Practices in C#](http://www.amazon.com/dp/product/0131857258/?tag=ytechie-20&linkCode=asn&amp;creativeASIN=0131857258)" by Robert C. Martin. This is a GREAT book, and a real eye opener.
 
 ![image](image2.png) 
 
@@ -17,7 +17,15 @@ The book even offers information about studies that have shown a correlation bet
 
 The book covers these areas:
 
-*   Agile principles, and the fourteen practices of Extreme Programming*   Spiking, splitting, velocity, and planning iterations and releases*   Test-driven development, test-first design, and acceptance testing*   Refactoring with unit testing*   Pair programming*   Agile design and design smells*   The five types of UML diagrams and how to use them effectively*   Object-oriented package design and design patterns*   How to put all of it together for a real-world project  
+*   Agile principles, and the fourteen practices of Extreme Programming
+*   Spiking, splitting, velocity, and planning iterations and releases
+*   Test-driven development, test-first design, and acceptance testing
+*   Refactoring with unit testing
+*   Pair programming
+*   Agile design and design smells
+*   The five types of UML diagrams and how to use them effectively
+*   Object-oriented package design and design patterns
+*   How to put all of it together for a real-world project  
 
 If you **haven't read this book, I highly recommend it**. I think just about everyone could get something out of it. Even if you're not practicing or learning agile, the techniques themselves are still valuable.
 

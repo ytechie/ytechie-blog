@@ -2,7 +2,6 @@
 layout: post
 title: Free Software! - Visual Studio 2008, Windows 2008 Enterprise and Windows Vista Ultimate
 date: 2008-05-20
-tags: ["software"]
 ---
 
 I have some free software that I'd like to give away! Here is your chance to win one of the following:
@@ -16,7 +15,9 @@ These copies are fully functional, unused full versions. Microsoft asks that you
 
 There is no purchase necessary to enter. There are 3 ways to enter:
 
-*   <div align="left">Add this site ([http://www.ytechie.com](http://www.ytechie.com)) to your blogroll.</div>*   <div align="left">Subscribe to the [RSS Feed](http://feeds.feedburner.com/ytechie).</div>*   <div align="left">Post a comment to this post</div>  
+*   Add this site ([http://www.ytechie.com](http://www.ytechie.com)) to your blogroll.
+*   Subscribe to the [RSS Feed](http://feeds.feedburner.com/ytechie).
+*   Post a comment to this post
 
 If you add this site to your blogroll, or subscribe, make sure you post a comment or send me an email so I can enter you.
 

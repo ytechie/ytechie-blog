@@ -2,7 +2,7 @@
 layout: post
 title: What a developer needs from their manager
 date: 2008-06-10
-tags: ["productivity","software development"]
+tags: ["productivity","software-development"]
 ---
 
 I've a read a lot of articles talking about [what it takes to be a good development manager](http://www.aaronlerch.com/blog/2008/04/20/from-developer-to-technical-manager/). There are also articles about [what makes a good developer](http://www.ytechie.com/2008/04/why-im-a-better-software-developer-than-you.html). I thought it would be a good idea to describe what a developer needs from their manager.
@@ -31,7 +31,7 @@ I've a read a lot of articles talking about [what it takes to be a good developm
 
 **Tell me what is expected of me** - I need to know exactly what is expected of me, and I need to know how you'll determine if I'm completing what is expected. I also need to know how you're going to gauge my performance. When it's time for my review, there should be no surprises.
 
-If you're interested in more information on this topic, I highly recommend you read &quot;[First, Break all the Rules - What the world's greatest managers do differently](http://www.amazon.com/First-Break-All-Rules-Differently/dp/0684852861/ytechie-20)&quot;. It's not specific to development managers, but it certainly applies. In that book, they empirically determined the factors that are the most important traits that promote success and happiness:
+If you're interested in more information on this topic, I highly recommend you read "[First, Break all the Rules - What the world's greatest managers do differently](http://www.amazon.com/First-Break-All-Rules-Differently/dp/0684852861/ytechie-20)". It's not specific to development managers, but it certainly applies. In that book, they empirically determined the factors that are the most important traits that promote success and happiness:
 
 [![image](image.png)](http://www.amazon.com/First-Break-All-Rules-Differently/dp/0684852861/ytechie-20) 
 

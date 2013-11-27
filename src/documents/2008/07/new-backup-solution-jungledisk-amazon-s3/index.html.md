@@ -16,13 +16,13 @@ Features I was looking for:
 *   Well performing
 *   Easy  
 
-**Price**
+### Price
 
 To automate my backups, I'm using a product called [JungleDisk](http://www.jungledisk.com/). You can purchase it for $20, and you get free upgrades for life. I love products that have free upgrades for life, since I don't have to worry about _when_ buy it. They also allow you to use it on unlimited computers, which I definitely need.
 
 JungleDisk by default talks directly with S3, so they don't need to run any servers. You're counting 100% on the reliable storage provided by S3.
 
-**Organization**
+### Organization
 
 Amazon stores your files in &quot;buckets&quot;, which you can think of as a single level folder/directory structure. JungleDisk can easily connect to multiple buckets at the same time. You configure each bucket independently. JungleDisk can automatically detect all of your buckets, and you can easily create new ones.
 
@@ -38,17 +38,17 @@ Each bucket also lets you choose what to back up. Of course there are extensive 
 
 You can even set up how your local folders get mapped to the remote folders. This lets you do multiple folders in one bucket. On my laptop, I have a couple of folders that get backed up to a single bucket, but are organized into different folders so that I could easily restore them independently.
 
-![image](image4.png)&#160; 
+![image](image4.png) 
 
-**Scheduling**
+### Scheduling
 
 Setting up a schedule is very easy. For example, on my laptop, I have it set to synchronize my files every hour. It uses the timestamp's of the files to determine if there are any new, changed, or deleted files. Since I'm not sharing this particular bucket between machines, it can _instantly_ determine if anything needs backed up.
 
 ![image](image5.png) 
 
-&#160;![image](image6.png) 
+![image](image6.png) 
 
-**Security**
+### Security
 
 JungleDisk has all the security options you would expect. You can communicate with Amazon over port 80 unencrypted, or use SSL. I actually turn off the SSL option, because I use the JungleDisk encryption. I don't see a reason to do double encryption.
 
@@ -58,13 +58,13 @@ When you create the bucket, you can specify a custom key that encrypts your data
 
 ![image](image8.png) 
 
-**Performance**
+### Performance
 
 Since Amazon is providing the storage, they're able to scale indefinitely. You can be confident that they can handle whatever you throw at them. They had no problem letting me upload at over 56,000 kbits/sec from my dedicated host. I backed up 4 gigs in about 10 minutes.
 
 ![Fast Upload](fast-upload.png) 
 
-**Other Features**
+### Other Features
 
 *   **Bandwidth limiting** - If you don't want to use up all of your upstream or downstream bandwidth, you can limit it, and even schedule when it's limited. This could be useful for limiting the connection during the day. However, I much prefer a QoS solution since it will maximize the amount of bandwidth I can use.
 *   **Previous versions** - There are extensive options for storing previous versions of changed or deleted files. This option is very impressive, and great for documents.

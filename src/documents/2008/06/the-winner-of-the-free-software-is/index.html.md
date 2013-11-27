@@ -2,7 +2,6 @@
 layout: post
 title: The winner of the free software is....
 date: 2008-06-01
-tags: ["software"]
 ---
 
 The entries for the free software contest were a bit disappointing. Only 14 entries. I guess you all have MSDN accounts!
@@ -15,6 +14,6 @@ Choosing the second winner was a little harder. I had to come up with a way to g
 
 So the winner with second choice for the software is....
 
-Entry #5, which is &quot;**Federiko**&quot;.
+Entry #5, which is "**Federiko**.
 
 Congratulations to both of you!

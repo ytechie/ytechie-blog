@@ -17,8 +17,9 @@ The problem lies in the fact that ASP.NET is trying to be extremely efficient st
 
 If you want to tell ASP.NET that you want it to track user sessions, you can do one of 2 things:
 
-1.  Store something in the session. If you store something in the users session, ASP.NET will be forced to associate that data with your current visit. Example code:      <pre class="c#" name="code">Session[&quot;foo&quot;] = &quot;bar&quot;;</pre>
+1.  Store something in the session. If you store something in the users session, ASP.NET will be forced to associate that data with your current visit. Example code: `Session["foo"] = "bar";`
 2.  Simply by handling the _Session_Start_ event in your _Global.asax_. The presence of this method will tell ASP.NET to track sessions, even if there is no data in the session.
-        <pre class="c#" name="code">public void Session_Start(object sender, EventArgs e)
-{
-}</pre>
+
+	public void Session_Start(object sender, EventArgs e)
+	{
+	}

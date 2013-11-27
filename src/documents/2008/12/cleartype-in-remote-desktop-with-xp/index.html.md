@@ -17,10 +17,10 @@ I had always noticed the remote desktop would not give me ClearType. However, I 
 
 Unfortunately, these options have no effect when using XP. If you want ClearType over RDP with XP SP3 (sorry, only SP3+), add the following registry key:
 
- <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:fb4c1216-6343-4bb0-a4ea-b87b0ee5266b" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c">Windows Registry Editor Version 5.00
+	Windows Registry Editor Version 5.00
 
-[HKEY_LOCAL_MACHINESYSTEMCurrentControlSetControlTerminal ServerWinStations]
-"AllowFontAntiAlias"=dword:00000001</pre></div>
+	[HKEY_LOCAL_MACHINESYSTEMCurrentControlSetControlTerminal ServerWinStations]
+	"AllowFontAntiAlias"=dword:00000001
 
 After you add that registry key, simply reboot the server (XP), and reconnect. From what I can tell, the client options no longer matter. Even if I uncheck the "Font Smoothing" option, it still uses ClearType. It's not a big deal, but I thought it was worth mentioning.
 
