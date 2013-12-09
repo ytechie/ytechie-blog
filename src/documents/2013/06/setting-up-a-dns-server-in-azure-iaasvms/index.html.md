@@ -23,7 +23,7 @@ Compare this to a "Deallocated" VM:
 
 ![image](image2.png)
 
-When you run "ipconfig /all", you'll notice that the DHCP lease for my machine lasts until 2149\. (139 years from now I'll add a post explaining how to work around this ![Smile](wlEmoticon-smile.png))
+When you run "ipconfig /all", you'll notice that the DHCP lease for my machine lasts until 2149. 139 years from now I'll add a post explaining how to work around this. :-)
 
 ![image](image_thumb.png)
 

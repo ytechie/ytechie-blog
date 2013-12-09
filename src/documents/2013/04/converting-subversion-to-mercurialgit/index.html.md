@@ -34,8 +34,8 @@ _If you have separate repositories in Subversion, you can skip this step._
 
 Create a "filemap", which is just a text file with the name of your choosing that will look like this:
 
-	include &quot;Utilities/ProjRefToDll&quot;
-	rename &quot;Utilities/ProjRefToDll&quot; .
+	include "Utilities/ProjRefToDll"
+	rename "Utilities/ProjRefToDll" .
 
 The first line is telling the converter to _only_ include the path specified. The second line is telling the converter to move the project to be in the root (note the period) of the new repository. If we leave this out, we'll only have the project we're looking for, but our source code will be nested under folders from our old structure.
 

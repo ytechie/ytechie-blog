@@ -5,55 +5,9 @@ date: 2013-03-14
 ---
 
 I recently had an opportunity to sell my original i7 920 PC, and build a 3rd generation Ivy Bridge.  My goal was to minimize power usage so that I could run it as a 24/7 media server, and maximize its encoding horsepower. After hooking this build up to a Kill-A-Watt, it measured at just over 30 watts at idle, and less than 100 watts maxed out.
-<table border="1" cellspacing="0">
-<tbody>
-<tr>
-<td>Component</td>
-<td>Price</td>
-<td>Name</td>
-</tr>
-<tr>
-<td>PSU</td>
-<td>$89.99</td>
-<td>SeaSonic M12II 620 Bronze 620W ATX12V V2.3 / EPS 12V V2.91 SLI Ready 80 PLUS BRONZE Certified Modular Active PFC Power Supply</td>
-</tr>
-<tr>
-<td>Motherboard</td>
-<td>$104.99</td>
-<td>ASRock Z77 Extreme4 LGA 1155 Intel Z77 HDMI SATA 6Gb/s USB 3.0 ATX Intel Motherboard</td>
-</tr>
-<tr>
-<td>CPU Fan</td>
-<td>$49.99</td>
-<td>ZALMAN CNPS9500A-LED 92mm 2 Ball CPU Cooler</td>
-</tr>
-<tr>
-<td>Memory (32GB)</td>
-<td>$109.98</td>
-<td>G.SKILL Ares Series 16GB (2 x 8GB) 240-Pin DDR3 SDRAM DDR3 1866 (PC3 14900) Desktop Memory Model F3-1866C10D-16GAB</td>
-</tr>
-<tr>
-<td>Intel 3.5Ghz i7 Ivy Bridge</td>
-<td>$299.99</td>
-<td>Intel Core i7-3770K Ivy Bridge 3.5GHz (3.9GHz Turbo) LGA 1155 77W Quad-Core Desktop Processor Intel HD Graphics 4000 BX80637I73770K</td>
-</tr>
-<tr>
-<td>Antec 300 Case</td>
-<td>$44.99</td>
-<td>Antec Three Hundred Black Steel ATX Mid Tower Computer Case</td>
-</tr>
-<tr>
-<td>128GB SSD HD</td>
-<td>$102.44</td>
-<td>Crucial 128 GB m4 2.5-Inch Solid State Drive SATA 6Gb/s CT128M4SSD2</td>
-</tr>
-<tr>
-<td>LG Blu-ray Drive</td>
-<td>$94.99</td>
-<td>LG BH14NS40 14X SATA Blu-ray BDXL Internal Rewriter with Software - Retail Box</td>
-</tr>
-</tbody>
-</table>
+
+![Component List](components.gif)
+
 ###Total Price: $897.36 + shipping
 
 ###Processor: Intel Core i7-3770K 3.5GHz
