@@ -5,7 +5,7 @@ date: 2008-06-13
 tags: ["c#","testing"]
 ---
 
-As requested, here is a real world example of how I used [dependency injection](http://www.ytechie.com/2008/06/i-finally-get-the-point-of-inversion-of-control.html) to simplify a project, increase modularity, and subsequently increase testability.
+As requested, here is a real world example of how I used [dependency injection](http://www.ytechie.com/2008/06/i-finally-get-the-point-of-inversion-of-control/) to simplify a project, increase modularity, and subsequently increase testability.
 
 Here's the project. I have a successful website called [SimpleTracking.com](http://www.SimpleTracking.com) which allows you to [track packages](http://www.SimpleTracking.com) using a simple, common user interface. It also allows you to track pages using RSS.
 

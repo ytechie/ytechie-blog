@@ -9,7 +9,7 @@ Well I did it. I actually really liked using [Blogger](http://www.blogger.com), 
 
 ![WordPress Logo](image.png)
 
-First off, I wanted to be able to have a little more control over some SEO aspects of my blog, such as using a robots.txt. The [all in one SEO pack](http://wp.uberdose.com/2007/03/24/all-in-one-seo-pack/) Wordpress plug-in seems to handle many of my requirements. Unlike Blogger, a lot of the non-content pages won't get indexed now (a good thing). See "[Avoiding duplicate content with your site](http://www.ytechie.com/2008/04/avoiding-duplicate-content-with-your-site-or-blog.html)" for more information.
+First off, I wanted to be able to have a little more control over some SEO aspects of my blog, such as using a robots.txt. The [all in one SEO pack](http://wp.uberdose.com/2007/03/24/all-in-one-seo-pack/) Wordpress plug-in seems to handle many of my requirements. Unlike Blogger, a lot of the non-content pages won't get indexed now (a good thing). See "[Avoiding duplicate content with your site](http://www.ytechie.com/2008/04/avoiding-duplicate-content-with-your-site-or-blog/)" for more information.
 
 I also wanted to use the Apache [mod_rewrite](http://httpd.apache.org/docs/1.3/mod/mod_rewrite.html) functionality, which is really an amazing tool. For example, I'm doing 301 redirects on all of the old Blogger archive pages, to the equivalent Wordpress archive URL's.
 <pre class="c-sharp">RewriteRule ^([d]{4})_([d]{2})_[d]{2}_archive.html$ /$1/$2 [R=301,L]</pre>

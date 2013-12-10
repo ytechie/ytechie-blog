@@ -14,12 +14,13 @@ I admit it, I loved running [Ubuntu Server](http://www.ubuntu.com/products/whati
 There were just a couple of recurring issues that made me uneasy. The console screen would randomly display network adapter issues, and sometimes I would lose the network connection until I would restart the networking script.
 
 The other issue is that my software RAID 1 array would randomly disappear on reboot. I would have to run this command to fix it:
-<pre class="csharpcode">sudo mdadm --create --verbose /dev/md0 --level=1 --raid-devices=2 --assume-clean /dev/sd[ab]
-</pre>
 
-The last major issue I had was with the VMware Server installation. Out of the gate, the installation was 10 times more difficult. It wasn't a click->next-&gt;next-&gt;next install. Once I got it installed, the VMware server console wouldn't connect.
+	sudo mdadm --create --verbose /dev/md0 --level=1 --raid-devices=2 --assume-clean /dev/sd[ab]
 
- ![Windows Server 2008](windows-server-2008.png) 
+
+The last major issue I had was with the VMware Server installation. Out of the gate, the installation was 10 times more difficult. It wasn't a click->next->next->next install. Once I got it installed, the VMware server console wouldn't connect.
+
+![Windows Server 2008](windows-server-2008.png) 
 
 Since Windows Server 2008 has been released, I've heard nothing but amazing things. This is the best operating system to come out of Microsoft for a long time. For about the past month, I've been trying it out on my laptop. It's basically Vista x64 SP1 without all of the crap. Microsoft really messed up Vista, but somehow they managed to fix it in their server product.
 
@@ -35,7 +36,4 @@ A common question I'm asked, is if I had any problems finding drivers. Every dri
 
 I still love Linux, but right now I'm more productive with Windows Server 2008 x64.
 
-<span style="font-size:100%;">[
-](http://www.ytechie.com/2008/04/re-switching-from-linux-to-windows-2008.html)</span>
-
-<span style="font-size:100%;">[Update Apr. 18, 2008: I posted a follow-up to this post here](http://www.ytechie.com/2008/04/re-switching-from-linux-to-windows-2008.html)</span>
+[Update Apr. 18, 2008: I posted a follow-up to this post here](http://www.ytechie.com/2008/04/re-switching-from-linux-to-windows-2008/)

@@ -13,7 +13,7 @@ In our current iteration of improving our software development strategy, ASP.NET
 
 In traditional ASP.NET WebForms, the luxury of pretending to behave like a Windows Form comes at a price. The ViewState is a reliable way of storing all of the state information for the form. Unfortunately, due to the limitations of the web, this data needs to be a giant string inside of a hidden form field. This ends up adding a substantial number of bytes to the page, making it slower and requiring extra bandwidth. Of course the ViewState is controllable, much like the dinosaurs in Jurassic Park.
 
-Not only is the ViewState gone, but &quot;mystery&quot; generated HTML is also gone. You have strict control over the HTML. This gives you great power, but with great power comes great responsibility. Use it wisely, and you will have elegant XHTML output with no surprises. You need to really know your HTML, which in today's web world is a prerequisite anyway.
+Not only is the ViewState gone, but "mystery" generated HTML is also gone. You have strict control over the HTML. This gives you great power, but with great power comes great responsibility. Use it wisely, and you will have elegant XHTML output with no surprises. You need to really know your HTML, which in today's web world is a prerequisite anyway.
 
 ### PRO - Faster server-side
 
@@ -35,7 +35,7 @@ If you decide to convert your site to MVC, you may also run into issues trying t
 
 ### CON - Not best for SEO out of the box
 
-I've mentioned some of the [SEO issues](http://www.ytechie.com/2008/10/aspnet-mvc-what-about-seo.html) before, and all but the trailing slash issue have a reasonable workaround. The routing engine likes to allow multiple addresses to render the same page, instead of enforcing a single address for each page. Luckily, [as Scott Hanselman mentions](http://www.hanselman.com/blog/ASPNETMVCAndTheNewIIS7RewriteModule.aspx), you can use a URL rewrite engine to bend it to your will. I highly recommend spending some time writing intelligent rules that perform the necessary 301 redirects, because you don't want to take chances with SEO (Search Engine Optimization).
+I've mentioned some of the [SEO issues](http://www.ytechie.com/2008/10/aspnet-mvc-what-about-seo/) before, and all but the trailing slash issue have a reasonable workaround. The routing engine likes to allow multiple addresses to render the same page, instead of enforcing a single address for each page. Luckily, [as Scott Hanselman mentions](http://www.hanselman.com/blog/ASPNETMVCAndTheNewIIS7RewriteModule.aspx), you can use a URL rewrite engine to bend it to your will. I highly recommend spending some time writing intelligent rules that perform the necessary 301 redirects, because you don't want to take chances with SEO (Search Engine Optimization).
 
 ### CON - Challenges if you're not running IIS7
 
@@ -47,4 +47,4 @@ It's clear that the last couple of versions of IIS have been major improvements 
 
 ### Summary
 
-If I needed to build a new site from scratch, and was able to use IIS7, it would be extremely likely that I would choose ASP.NET MVC. It's a joy to work with (possibly because it's &quot;new&quot;), and just makes sense. If I needed to work with an existing site, I would certainly have to consider the pro's and con's I mentioned above. ASP.NET MVC gives us an amazing new tool in our huge Microsoft toolbox.
+If I needed to build a new site from scratch, and was able to use IIS7, it would be extremely likely that I would choose ASP.NET MVC. It's a joy to work with (possibly because it's "new"), and just makes sense. If I needed to work with an existing site, I would certainly have to consider the pro's and con's I mentioned above. ASP.NET MVC gives us an amazing new tool in our huge Microsoft toolbox.

@@ -47,7 +47,7 @@ Most keyloggers do allow you to encrypt the recorded information so that your pa
 
 ###Automate code backups
 
-There are a number of automated backup tools that will run scheduled backups of your local files. Personally, I like offsite backups for smaller files because they're portable. I use a product called [JungleDisk, which I've mentioned before](http://www.ytechie.com/2008/07/new-backup-solution-jungledisk-amazon-s3.html). I have it set up to backup my code every 15 minutes. It minimizes my potential loss of work to 15 minutes at most.
+There are a number of automated backup tools that will run scheduled backups of your local files. Personally, I like offsite backups for smaller files because they're portable. I use a product called [JungleDisk, which I've mentioned before](http://www.ytechie.com/2008/07/new-backup-solution-jungledisk-amazon-s3/). I have it set up to backup my code every 15 minutes. It minimizes my potential loss of work to 15 minutes at most.
 
 ![JungleDisk Backup Selection](image3.png) 
 

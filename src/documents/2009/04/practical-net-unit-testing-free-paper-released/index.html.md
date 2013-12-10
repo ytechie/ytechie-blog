@@ -13,8 +13,8 @@ I've been working on a unit testing paper that sums up my experience in unit tes
 
 There are some really great books out there about unit testing, but I think some of them are trying too hard to be long enough to be considered a "book". I set out to create a document that fills the gap between the various snippets of information from blog posts, and the comprehensive books on the subject. If you're interested in something a bit more in-depth, here are some great books on the subject:
 
-* [The Art of Unit Testing by Roy Osherove](http://www.amazon.com/gp/product/1933988274?ie=UTF8&tag=ytechie-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=1933988274)
-* [xUnit Test Patterns by Gerard Meszaros](http://www.amazon.com/gp/product/0131495054?ie=UTF8&amp;tag=ytechie-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=0131495054)  
+* [The Art of Unit Testing by Roy Osherove](http://www.amazon.com/gp/product/1933988274?ie=UTF8&tag=ytechie-20&linkCode=xm2&camp=1789&creativeASIN=1933988274)
+* [xUnit Test Patterns by Gerard Meszaros](http://www.amazon.com/gp/product/0131495054?ie=UTF8&amp;tag=ytechie-20&linkCode=xm2&camp=1789&creativeASIN=0131495054)  
 
 The paper currently consists of 5 main sections:
 
@@ -49,4 +49,4 @@ Here is a more complete snapshot of the current outline:
 
 So what are you waiting for? [Go check it out online instantly](http://www.scribd.com/doc/14713003/Practical-NET-Unit-Testing), you can even [download it as a PDF](http://downloads.ytechie.com/Practical_.NET_Unit_Testing.pdf) if you like. Is anything missing? Is anything just plain wrong? I'd love to hear your feedback.
 
-Remember, if you want to hear more about unit testing, [I'll be speaking in Northeast Wisconsin Saturday, May 9th](http://www.ytechie.com/2009/04/speaking-at-day-of-net-at-fox-valley-tech.html).
+Remember, if you want to hear more about unit testing, [I'll be speaking in Northeast Wisconsin Saturday, May 9th](http://www.ytechie.com/2009/04/speaking-at-day-of-net-at-fox-valley-tech/).

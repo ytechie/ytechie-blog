@@ -5,7 +5,7 @@ date: 2008-09-10
 tags: ["software-development"]
 ---
 
-I recently posted about a problem I had with the [Microsoft CTP DataGrid I was using](http://www.ytechie.com/2008/09/disabling-wpf-datagrid-virtualization.html). I quickly got a response from Odi from Xceed, [asking why I wasn't using theirs](http://www.ytechie.com/2008/09/disabling-wpf-datagrid-virtualization.html#comment-661). Good question, and deserves it's own blog post.
+I recently posted about a problem I had with the [Microsoft CTP DataGrid I was using](http://www.ytechie.com/2008/09/disabling-wpf-datagrid-virtualization/). I quickly got a response from Odi from Xceed, [asking why I wasn't using theirs](http://www.ytechie.com/2008/09/disabling-wpf-datagrid-virtualization/). Good question, and deserves it's own blog post.
 
 [![xceed DataGrid](image.png)](http://xceed.com/Grid_WPF_Intro.html) 
 
@@ -28,7 +28,7 @@ Is this a rule, or a good practice to follow? Depends what you need. I use third
 * RhinoMocks
 * Spring.NET  
 
-If you're curious what criteria I use when looking for a third party control, be sure to check out my post about [10 things to look for when evaluating third party controls](http://www.ytechie.com/2008/04/10-things-to-look-for-when-searching-for-net-controls.html).
+If you're curious what criteria I use when looking for a third party control, be sure to check out my post about [10 things to look for when evaluating third party controls](http://www.ytechie.com/2008/04/10-things-to-look-for-when-searching-for-net-controls/).
 
 In general, I think [Joel has a good guideline](http://www.joelonsoftware.com/articles/fog0000000007.html):
 

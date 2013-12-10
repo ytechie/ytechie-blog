@@ -5,7 +5,7 @@ date: 2009-09-30
 tags: ["c#","entity framwork","LINQ","sql"]
 ---
 
-In my last post describing the [differences between LINQ to objects and LINQ to SQL](http://www.ytechie.com/2009/09/understanding-linq-and-linq-to-sql-and-ef.html), I mentioned how LINQ to SQL and Entity Framework "interpret" your LINQ code, and create the corresponding SQL. Forgetting this fact is extremely dangerous, because LINQ to SQL and other object relational mappers are extremely leaky abstractions. LINQ is obviously a wonderful technology, but this post will be talking about some potential pitfalls you may run into.
+In my last post describing the [differences between LINQ to objects and LINQ to SQL](http://www.ytechie.com/2009/09/understanding-linq-and-linq-to-sql-and-ef/), I mentioned how LINQ to SQL and Entity Framework "interpret" your LINQ code, and create the corresponding SQL. Forgetting this fact is extremely dangerous, because LINQ to SQL and other object relational mappers are extremely leaky abstractions. LINQ is obviously a wonderful technology, but this post will be talking about some potential pitfalls you may run into.
 
 ###SQL Query Complexity Disproportional to LINQ Complexity
 

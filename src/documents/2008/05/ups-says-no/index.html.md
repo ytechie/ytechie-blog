@@ -4,7 +4,7 @@ title: UPS Says "No"
 date: 2008-05-13
 ---
 
-For [some time](http://www.ytechie.com/2008/04/simpletrackingcom-ups-update.html), I've been trying to get UPS to allow us to use their API. Here is their latest response:
+For [some time](http://www.ytechie.com/2008/04/simpletrackingcom-ups-update/), I've been trying to get UPS to allow us to use their API. Here is their latest response:
 
 > Thank you for your interest in the UPS Ready Program.     
 > UPS has reviewed your application and has made a decision not to authorize you at this time. We consider business models, value to customers and UPS, size and age of company, ability to develop and support application(s) within given Program parameters, as well as the full completion of the Application form. Our UPS Ready program supports hundreds of solution providers worldwide, and uses strict screening criteria for protection of UPS's intellectual property, customer information, and representation of UPS trademarks and services.

@@ -11,7 +11,7 @@ If you haven't heard, Amazon's EC2 service provides cloud-hosted virtual machine
 
 I decided to do some simple, informal performance testing. To do **development** performance testing, I like to run a build process and time it, since compiling is typically the bottleneck on a development machine (other than the IDE and the developer).
 
-I downloaded the source code for [SharpDevelop](http://www.icsharpcode.net/OpenSource/SD/), since I knew it would be a fairly large, yet automated build process. The only thing I needed to install was .NET 3.5 SP1\. As a baseline, I ran the build on my personal laptop, with these specs: 2.0GHz Core 2 Duo, 3GB RAM, 250GB 5400RPM hard drive. To test the performance of the build, I ran it once, ran a "clean" operation, then ran the build a second time, timing it only on the second run.
+I downloaded the source code for [SharpDevelop](http://www.icsharpcode.net/OpenSource/SD/), since I knew it would be a fairly large, yet automated build process. The only thing I needed to install was .NET 3.5 SP1. As a baseline, I ran the build on my personal laptop, with these specs: 2.0GHz Core 2 Duo, 3GB RAM, 250GB 5400RPM hard drive. To test the performance of the build, I ran it once, ran a "clean" operation, then ran the build a second time, timing it only on the second run.
 
 * My laptop: 1 minute, 37 seconds
 * EC2 Small Instance: 2 minutes
@@ -48,4 +48,4 @@ As an example, if you run a medium instance machine for 8 hours/day, 20 business
 
 **Conclusion**
 
-Having virtual, dedicated computers available on-demand for pennies per hour is very exciting. [This is half of the cloud computing equation](http://www.ytechie.com/2008/11/cloud-computing-and-azure-right-for-your-site.html), and I believe it's going to be an important _part_ of the future of the web.
+Having virtual, dedicated computers available on-demand for pennies per hour is very exciting. [This is half of the cloud computing equation](http://www.ytechie.com/2008/11/cloud-computing-and-azure-right-for-your-site/), and I believe it's going to be an important _part_ of the future of the web.

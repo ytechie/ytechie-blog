@@ -13,7 +13,7 @@ The first key point is to know what the heck LINQ is. LINQ itself is a number of
 
 First, we're going to talk about LINQ to objects, which I typically just refer to as LINQ (possibly making the matter more confusing). It has absolutely nothing to do with SQL Server, Oracle, or any other kind of relational database. I'm talking about LINQ to objects, because I think that understanding it and contrasting it with LINQ to SQL is critical to understanding both.
 
-For a moment, forget that LINQ exists. Let's say that you wanted to filter a list of names, to only get names that start with the letter "J". You could write the following "utility" function: (if you don't understand ["yield return", see this post on that topic](http://www.ytechie.com/2009/02/using-c-yield-for-readability-and-performance.html)).
+For a moment, forget that LINQ exists. Let's say that you wanted to filter a list of names, to only get names that start with the letter "J". You could write the following "utility" function: (if you don't understand ["yield return", see this post on that topic](http://www.ytechie.com/2009/02/using-c-yield-for-readability-and-performance/)).
 
 	public static IEnumerable<string> GetNamesStartingWithJ(IEnumerable<string> names)
 	{
@@ -92,5 +92,5 @@ Understanding the internal workings of these technologies will let us fully take
 
 Related Posts:
 
-* [Using Yield Return for readability and performance](http://www.ytechie.com/2009/02/using-c-yield-for-readability-and-performance.html)
-* [Using "var" to simplify code and avoid redundancy](http://www.ytechie.com/2008/06/using-var-to-simplify-code-and-avoid-redundancy.html)
+* [Using Yield Return for readability and performance](http://www.ytechie.com/2009/02/using-c-yield-for-readability-and-performance/)
+* [Using "var" to simplify code and avoid redundancy](http://www.ytechie.com/2008/06/using-var-to-simplify-code-and-avoid-redundancy/)

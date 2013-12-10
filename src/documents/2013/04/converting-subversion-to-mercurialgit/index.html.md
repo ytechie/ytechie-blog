@@ -4,7 +4,7 @@ title: Converting Subversion to Mercurial/Git
 date: 2013-04-07
 ---
 
-A few years ago, I set up a privately hosted Subversion repository to hold the source code for all of my various non-work related projects. These days, it is showing it's age, as the world and my professional life has moved on to [Distributed Source Control (DVCS)](http://www.ytechie.com/2009/11/introduction-to-distributed-source-control.html). I decided it was time to convert to something more modern, maintainable, and upgradable in the future.
+A few years ago, I set up a privately hosted Subversion repository to hold the source code for all of my various non-work related projects. These days, it is showing it's age, as the world and my professional life has moved on to [Distributed Source Control (DVCS)](http://www.ytechie.com/2009/11/introduction-to-distributed-source-control/). I decided it was time to convert to something more modern, maintainable, and upgradable in the future.
 
 In this post, I'll show you how I converted my repositories over to Mercurial to archive them in Kiln, complete with history. There are a number of ways to accomplish this goal, and I thought this method was fairly simple and straightforward.
 

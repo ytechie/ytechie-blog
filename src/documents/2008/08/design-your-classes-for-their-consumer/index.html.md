@@ -7,7 +7,7 @@ tags: ["productivity","software-development","testing"]
 
 I'm going to describe a methodology that will help you save time by writing better classes, and will help simplify your life by allowing you to solve problems with a top-down approach.
 
-Developers such as myself often have a tendency to just focus on the class we're currently working on. Of course I believe [this is a good thing](http://www.ytechie.com/2008/07/programming-for-someone-with-blinders.html), because we all know [the importance of focus](http://www.ytechie.com/2008/05/focus-is-the-key-to-success/). However, you should never forget the reason you're actually writing that class. It is because **other code will be consuming it**.
+Developers such as myself often have a tendency to just focus on the class we're currently working on. Of course I believe [this is a good thing](http://www.ytechie.com/2008/07/programming-for-someone-with-blinders/), because we all know [the importance of focus](http://www.ytechie.com/2008/05/focus-is-the-key-to-success/). However, you should never forget the reason you're actually writing that class. It is because **other code will be consuming it**.
 
 ![Consumer-Approach](consumer-approach-thumb.gif)
 
