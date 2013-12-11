@@ -41,34 +41,18 @@ In this version, we have changed the return type to IEnumerable<string>, and we'
 
 When you use the "yield return" keyphrase, .NET is wiring up a whole bunch of plumbing code for you, but for now you can pretend it's magic. When you start to loop in the calling code (not listed here), this function actually gets called over and over again, but each time it resumes execution where it left off.
 
-<table cellspacing="0" cellpadding="2" width="400" border="0"><tbody>
-    <tr>
-      <td>
-
 **Typical Implementation**
-
-      </td>
-
-      <td>**Yield Implementation**</td>
-    </tr>
-
-    <tr>
-      <td>
 
 1.  Caller calls function
 2.  Function executes and returns list
 3.  Caller uses list
-      </td>
 
-      <td>
+**Yield Implementation**
 
 1.  Caller calls function
 2.  Caller requests item
 3.  Next item returned
 4.  Goto step #2
-      </td>
-    </tr>
-  </tbody></table>
 
 Although the execution of the yield implementation is a little more complicated, what we end up with is an implementation that **"pulls"** items one at a time instead of having to build an entire list before returning to the client.
 
