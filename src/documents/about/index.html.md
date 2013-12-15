@@ -16,6 +16,14 @@ Here is me a few years later after buying my [Macintosh Plus](http://en.wikipedi
 
 The Mac Plus was a glorious machine with a 512×342 monochrome screen (for comparison, OSX icons are higher resolution), 1 MB of RAM, and used 800 KB floppy disks, and had no hard drive. Nonetheless, it was a powerful productivity machine. It could run games way ahead of its time, and it could even play video and sound.
 
+For bonus points, find the following in the photo:
+
+* PC World magazine
+* Romulan Warbird
+* Remote Control Car
+* Micro cassette tapes
+* Remote controlled car
+
 Professionally, I started working with ASP.NET while 1.0 was still in beta. Since then, I've written software at companies like [GE](http://www.ge.com/), [Skyline Technologies](http://www.skylinetechnologies.com/), [Orion Energy Systems](http://www.oesx.com/), and [Microsoft](http://www.microsoft.com/). My brain is written in C#, I speak Node.js, and I believe the universe runs on Windows Azure.
 
 I feel amazingly fortunate to be on the same team as many [amazingly smart developers](http://www.zdnet.com/microsoft-builds-a-deep-tech-team-to-attract-next-gen-developers-7000015270/) out there helping [people write amazing software](http://www.citeworld.com/development/22690/microsoft-developer-strategy-revamp).
