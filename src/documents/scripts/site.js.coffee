@@ -4,6 +4,7 @@ htmlEncode = (value) ->
 halfSize = (img) ->
 	el = $(img)
 	if el.height() == 0
+		console.log('image h/w not available yet, waiting to load')
 		setTimeout ->
 			halfSize(img)
 		, 500
