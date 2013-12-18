@@ -14,7 +14,7 @@ Here is me a few years later after buying my [Macintosh Plus](http://en.wikipedi
 
 ![Me With My Mac Plus](MeWithMacPlus.jpg)
 
-The Mac Plus was a glorious machine with a 512×342 monochrome screen (for comparison, OSX icons are higher resolution), 1 MB of RAM, and used 800 KB floppy disks, and had no hard drive. Nonetheless, it was a powerful productivity machine. It could run games way ahead of its time, and it could even play video and sound.
+The Mac Plus was a glorious machine with a 512×342 monochrome screen (for comparison, OSX icons are higher resolution), 1 MB of RAM, and used 800 KB floppy disks, and had no hard drive. Nonetheless, it was a powerful productivity machine. It could run games way ahead of its time, and it could even play video and sound. If you want to try running one, there is actually a [complete emulator that runs in JavaScript](http://jamesfriend.com.au/pce-js/).
 
 For bonus points, find the following in the photo:
 
