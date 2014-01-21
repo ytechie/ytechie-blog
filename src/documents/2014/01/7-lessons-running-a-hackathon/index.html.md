@@ -19,7 +19,11 @@ Now that some time has passed and the dust has settled, I can look back and see 
 
 ## 1. Meet 6 Weeks in Advance
 
-It's good to have your first meeting well in advance of the Hackathon if possible. This is when you need to start signing people up and getting commitments that they'll be there. This is also a good time to talk about the high level goals of the project. The goals and the participants will start to align early if well executed.
+It's good to have your first meeting well in advance of the Hackathon if possible. Each pre-meeting will add additional definition to the hackathon plan.
+
+This is the time when you need to start signing people up and getting commitments that they'll be there. This is also a good time to talk about the high level goals of the project. The goals and the participants will start to align early if well executed.
+
+Ideally, you'll have a mix of devs, preferably with diverse backgrounds. Also keep in mind what subject matter experts will be most helpful for your requirements.
 
 ## 2. Meet 4 Weeks in Advance
 
@@ -33,6 +37,8 @@ I've seen this problem solved with virtualized development environments. You cre
 
 The best solution I have found is to set up the solution ahead of time, referencing all of the required dependencies. If the solution needs the Windows 8 SDK, include an empty Windows 8 project. If it needs Azure components, create a cloud service. In your pre-hackathon meeting, make sure that everyone knows **they should have the solution building before showing up for the event**. By setting the expectation to be ready ahead of time, we can avoid the time consuming process of downloads and installs.
 
+Setting up the solution ahead of time also has the added benefit of avoiding the merge conflicts that are more likely at the beginning of a project.
+
 ## 4. Meet 1 Week in Advance
 
 A week before the hackathon, this is your last chance to tie up any loose ends. This is also a good time to talk about prerequisites, so that everyone can get their development machines properly setup.
@@ -45,12 +51,12 @@ People need to eat. Provide lots of options, and make sure that food is timely a
 
 The rule in my house is that if a device doesn't move, it must have an Ethernet cable run to it. Wi-Fi is only for devices that move frequently such as phones, tablets, etc. When it comes to video calling, sharing files, and Internet access, there is simply no substitute for a hard-wired connection. Have plenty of switches and cables available so that everyone gets a port.
 
-You should also have extra monitors, USB hubs, mice, keyboards, and lots of various cables on hand. You want to make working as frictionless as possible.
+You should also have extra monitors, USB hubs, mice, keyboards, and lots of various cables on hand. Have plenty of whiteboards with working markers, and a projector that anyone can hook up to. You want to make working and sharing as frictionless as possible.
 
 ## 7. Have Someone Present that is Accountable
 
 People who attend hackathons show up ready to work. If they didn't want to be there, they would probably have stayed home. That being said, there should be a designated person whose primary goal is for the overall project to be successful.
 
-There will also be lots of decisions that need to be made, and not a lot of time to make them. Discussions should occur, but oftentimes any call is better than wasting time. Having someone that can provide answers and keep things moving is critical.
+There will also be lots of decisions that need to be made, and not a lot of time to make them. Discussions should occur, but often times making a bad call is worth it to keep things moving. Having someone that can provide answers is critical.
 
 **Have fun!**
