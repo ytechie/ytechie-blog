@@ -42,6 +42,7 @@ When you look at the design of software that has been around for a decade or mor
 * the best way to store data. It simply demonstrates one possible solution.
 * The best way to process data. It simply demonstrates one possible solution.
 * embedded. This framework is a level above the embedded device ecosystem, but can use data generated or collected by devices.
+* competing with partners already in this space. This is designed to help accelerate partner application development, and gives them opportunities to add their business value.
 
 ## Going Forward
 
