@@ -5,7 +5,7 @@ date: 2014-03-04
 tags: ["hackfest","manufacturing"]
 ---
 
-In a hackfest this past weekend, I integrated Windows Azure Active Directory (WAAD) into the [manufacturing project](http://www.ytechie.com/) I'm working on. This is meant as a gentle introduction and is not a comprehensive guide to adding authentication to your application. The application consists of a Windows 8 Store application and a WebAPI backend that interfaces with the rest of the backend systems.
+In a hackfest this past weekend, I integrated Windows Azure Active Directory (WAAD) into the [manufacturing project](http://www.ytechie.com/2014/02/introducing-the-modern-manufacturing-framework/) I'm working on. This is meant as a gentle introduction and is not a comprehensive guide to adding authentication to your application. The application consists of a Windows 8 Store application and a WebAPI backend that interfaces with the rest of the backend systems.
 
 In the early days of .NET, we had to create our own database of users and manage all aspects of getting them logged in. .NET 2.0 introduced ASP.NET membership, which let us offload most of the work. Now, we offload all of the work to WAAD.
 
