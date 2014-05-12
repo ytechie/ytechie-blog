@@ -18,7 +18,7 @@ Just like my [//Build 2014 Ultimate Recap - with Links!](http://www.ytechie.com/
 * Cross-datacenter virtual network connectivity
 * IP reservation of VIPs. Reserve a public IP address and assign them to cloud services as needed (think Elastic IPs but better).
 * Instance-level IPs. Assign a public IP address to any VM without having to go through the cloud-service endpoint.
-* Azure [RemoteApp](http://www.zdnet.com/azure-remoteapp-beta-preview-cloud-hosted-desktop-apps-for-multiple-platforms-7000029322/)
+* Azure [RemoteApp](http://azure.microsoft.com/en-us/services/RemoteApp/)
 * Public preview of API management (recall that Microsoft purchased [Apiphany](http://apiphany.com/)).
 * Public preview of [Redis cache](http://redis.io/)
 * Shared caching service will be retired in September (there are newer, more robust options).
