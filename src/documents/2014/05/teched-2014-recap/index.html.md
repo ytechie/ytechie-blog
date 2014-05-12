@@ -28,3 +28,6 @@ Just like my [//Build 2014 Ultimate Recap - with Links!](http://www.ytechie.com/
 * Larger VM's for virtual machines. A8 machines give you 8 cores, 56GB of RAM, and A9 give you 16 cores and 112GB of RAM. These also provide an [Infiniband](http://en.wikipedia.org/wiki/Infiniband) network.
 * [Azure import/export](http://azure.microsoft.com/en-us/pricing/details/storage-import-export/)
 * [Azure Cache Service](http://azure.microsoft.com/en-us/services/cache/)
+
+### Visual Studio
+* Visual Studio [tooling support for Cordova (aka PhoneGap)](http://msopentech.com/blog/2014/05/12/apache-cordova-integrated-visual-studio/). Build cross-platform HTML/JavaScript applications.
