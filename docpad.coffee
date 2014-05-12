@@ -13,7 +13,7 @@ docpadConfig = {
 			url: "http://www.ytechie.com"
 
 			# The default title of our website
-			title: "YTECHIE.com"
+			title: "Jason Young"
 
 			# The website author's name
 			author: "Jason Young"
