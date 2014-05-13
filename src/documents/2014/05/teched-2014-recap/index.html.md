@@ -30,4 +30,9 @@ Just like my [//Build 2014 Ultimate Recap - with Links!](http://www.ytechie.com/
 * [Azure Cache Service](http://azure.microsoft.com/en-us/services/cache/)
 
 ### Visual Studio
+* [ASP.NET vNext](http://www.hanselman.com/blog/IntroducingASPNETVNext.aspx)
+	* Cloud and server optimized
+	* No-compile developer experience
+	* Side-by-side runtime and application
+	* The runtime is NuGet-able
 * Visual Studio [tooling support for Cordova (aka PhoneGap)](http://msopentech.com/blog/2014/05/12/apache-cordova-integrated-visual-studio/). Build cross-platform HTML/JavaScript applications.
