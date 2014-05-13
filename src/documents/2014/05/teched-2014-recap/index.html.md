@@ -39,4 +39,5 @@ Just like my [//Build 2014 Ultimate Recap - with Links!](http://www.ytechie.com/
 	* No-compile developer experience
 	* Side-by-side runtime and application
 	* The runtime is NuGet-able
+	* The source is on [Github](https://github.com/aspnet)
 * Visual Studio [tooling support for Cordova (aka PhoneGap)](http://msopentech.com/blog/2014/05/12/apache-cordova-integrated-visual-studio/). Build cross-platform HTML/JavaScript applications.
