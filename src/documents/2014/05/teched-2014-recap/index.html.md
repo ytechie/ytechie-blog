@@ -20,9 +20,13 @@ Just like my [//Build 2014 Ultimate Recap - with Links!](http://www.ytechie.com/
 * Instance-level IPs. Assign a public IP address to any VM without having to go through the cloud-service endpoint.
 * Azure [RemoteApp](http://azure.microsoft.com/en-us/services/RemoteApp/)
 * Public preview of API management (recall that Microsoft purchased [Apiphany](http://apiphany.com/)).
+	* Analytics
+	* Throttling
 * Public preview of [Redis cache](http://redis.io/)
 * Shared caching service will be retired in September (there are newer, more robust options).
 * Public preview of BizTalk Hybrid Connections. Communicate to TCP or HTTP resources from Azure Web Sites.
+* Capture images with OS and data drives attached. Works on running or stopped virtual machines.
+* Store support for EA (enterprise agreement) customers.
 
 ### Services that are now GA (general availability)
 * Larger VM's for virtual machines. A8 machines give you 8 cores, 56GB of RAM, and A9 give you 16 cores and 112GB of RAM. These also provide an [Infiniband](http://en.wikipedia.org/wiki/Infiniband) network.
