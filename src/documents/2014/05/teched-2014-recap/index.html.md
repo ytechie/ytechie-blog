@@ -7,8 +7,6 @@ tags: [azure]
 
 Just like my [//Build 2014 Ultimate Recap - with Links!](http://www.ytechie.com/2014/04/build-2014-ultimate-recap-with-links/), I'll be doing the same for [TechEd](http://northamerica.msteched.com/). I'll keep updating this content with new announcements until the end of TechEd. Keep in mind that my outline is developer focused, so I won't go as deep on the IT Pro topics.
 
-*Much more information coming soon*
-
 ### New Services
 * Windows 7 and Windows 8.1 virtual machines now available for MSDN subscribers in the gallery.
 * Public preview of Azure Files. This allows you to use a storage account as an SMB share (standard Windows file share).
@@ -25,8 +23,9 @@ Just like my [//Build 2014 Ultimate Recap - with Links!](http://www.ytechie.com/
 * Public preview of [Redis cache](http://redis.io/)
 * Shared caching service will be retired in September (there are newer, more robust options).
 * Public preview of BizTalk Hybrid Connections. Communicate to TCP or HTTP resources from Azure Web Sites.
-* Capture images with OS and data drives attached. Works on running or stopped virtual machines.
+* [Capture images with OS and data drives attached](http://weblogs.asp.net/scottgu/archive/2014/05/12/azure-vm-security-extensions-expressroute-ga-reserved-ips-internal-load-balancing-multi-site-to-site-vpns-storage-import-export-ga-new-smb-file-service-api-management-hybrid-connection-service-redis-cache-remote-apps-and-more.aspx). Works on running or stopped virtual machines.
 * Store support for EA (enterprise agreement) customers.
+* Windows 8 Store Update
 
 ### Services that are now GA (general availability)
 * Larger VM's for virtual machines. A8 machines give you 8 cores, 56GB of RAM, and A9 give you 16 cores and 112GB of RAM. These also provide an [Infiniband](http://en.wikipedia.org/wiki/Infiniband) network.
@@ -34,6 +33,7 @@ Just like my [//Build 2014 Ultimate Recap - with Links!](http://www.ytechie.com/
 * [Azure Cache Service](http://azure.microsoft.com/en-us/services/cache/)
 
 ### Visual Studio
+* Visual Studio 2013 Update 2 RTM
 * [ASP.NET vNext](http://www.hanselman.com/blog/IntroducingASPNETVNext.aspx)
 	* Cloud and server optimized
 	* No-compile developer experience
