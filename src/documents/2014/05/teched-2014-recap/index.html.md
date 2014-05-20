@@ -26,7 +26,7 @@ Just like my [//Build 2014 Ultimate Recap - with Links!](http://www.ytechie.com/
 * Shared caching service will be retired in September. Customers should use the managed cache option or Redis.
 * Public preview of [BizTalk Hybrid Connections](http://blogs.msdn.com/b/biztalk_server_team_blog/archive/2014/05/13/hybrid-connections-preview.aspx). Communicate to TCP or HTTP resources from Azure Web Sites.
 * [Capture images with OS and data drives attached](http://weblogs.asp.net/scottgu/archive/2014/05/12/azure-vm-security-extensions-expressroute-ga-reserved-ips-internal-load-balancing-multi-site-to-site-vpns-storage-import-export-ga-new-smb-file-service-api-management-hybrid-connection-service-redis-cache-remote-apps-and-more.aspx). Works on running or stopped virtual machines.
-* Store support for EA (enterprise agreement) customers.
+* [Store support for EA (enterprise agreement) customers](http://azure.microsoft.com/en-us/updates/azure-store-direct-ea-customers-channel-partners/).
 * [Windows 8 Store Update](http://winsupersite.com/windows-8/windows-store-app-gets-major-update)
 
 ### Services that are now GA (general availability)
