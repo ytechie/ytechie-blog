@@ -2,7 +2,7 @@
 layout: post
 title: What is the Internet of Things?
 date: 2014-06-18
-tags: [Manufacturing,IoT]
+tags: [manufacturing,iot]
 ---
 IoT.
 
