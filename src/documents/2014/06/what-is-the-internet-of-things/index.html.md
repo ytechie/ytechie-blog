@@ -74,6 +74,8 @@ The only way we'll get over the current hump is to start seeing a clear pattern 
 
 This is only the beginning.
 
+**[Brent Stineman, a colleague and friend, has a follow-up/response that you should check out here](http://brentdacodemonkey.wordpress.com/2014/06/19/attempting-to-define-iot/)**
+
 ### Relevant Links I find Interesting
 
 * [Ingesting data at scale with Azure](http://channel9.msdn.com/Events/Build/2014/3-635)
