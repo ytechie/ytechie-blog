@@ -11,6 +11,7 @@ cacheable: false
     <div class="post-content">
         <%- @fixLinks(@content, @url) %>
     </div>
+    See a mistake? <a href="https://github.com/ytechie/ytechie-docpad/edit/master/src/documents<%= @url %>index.html.md">Edit this post!</a>
     <% if @tags?: %>
     <div class="post-tags">
         Posted In: <%- ("<a href='#{@getTagUrl(tag)}'>#{tag}</a>" for tag in @tags).join(', ') %>
