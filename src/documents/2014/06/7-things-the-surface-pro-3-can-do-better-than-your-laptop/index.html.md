@@ -2,7 +2,6 @@
 layout: post
 title: 7 Things the Surface Pro 3 Can Do Better than Your Laptop
 date: 2014-06-24
-tags: []
 ---
 
 I've been using a Surface Pro 3 for a few days now (borrowing it from my wife until I get my own). I wanted to show some of the scenarios that the kickstand, the pen, and the form factor provide. I do work at Microsoft, but I'm free to use any type of device I wish, and I don't work for the Surface team.
