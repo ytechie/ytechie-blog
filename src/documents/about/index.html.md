@@ -4,7 +4,7 @@ menu: About
 menuOrder: 2
 ---
 
-I'm Jason Young, husband, father, software engineer, and non-stop technical evangelist.
+I'm Jason Young, husband, father, passionate engineer, architect, and [Time Person of the Year in 2006](http://en.wikipedia.org/wiki/You_(Time_Person_of_the_Year)).
 
 Here is where it all started. A [TRS-80 Color Computer](http://en.wikipedia.org/wiki/TRS-80_Color_Computer) from Radio Shack. My parents couldn't afford the floppy drive, so we used [cassette tape storage](http://en.wikipedia.org/wiki/Commodore_Datasette).
 
