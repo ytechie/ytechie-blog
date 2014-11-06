@@ -8,7 +8,7 @@ Recently, Microsoft announced they're increasing OneDrive from 1 Terabyte, to un
 
 The killer feature for OneDrive is that the files you store in it *don't have to actually take up any space on your hard drive*. After a file sits unused for some time, it can switch to an online-only mode. It will still appear to be on your computer, but it takes up zero space. For example, my OneDrive folder has 100+ GB on it, but on my laptop, it only takes up 307 MB on disk. When I try to open a file that's not actually on this computer, it will automatically pull the file down and make it available offline. It's all transparent to the user. This is a big improvement over the [selective sync option in Dropbox](https://www.dropbox.com/help/175).
 
-![Virtual Drive Space Screenshot](virtual-drive-space-screenshot@2x.png)
+![Virtual Drive Space Screenshot](virtual-drive-space-screenshot.png)
 
 Now for the bad news. On my desktop, I have a 9 TB storage array, and a 512 GB SSD. My photo collection has ballooned in size, and is now well over 200 GB. If I were to simply copy these files into my OneDrive, I would both fill up my SSD, and the files would ultimately end up online-only. I want to have quick (read: local) access to all these files.
 
@@ -20,11 +20,11 @@ Then, a breakthrough. I learned that OneDrive supports WebDAV. WebDAV is a proto
 
 First, you'll need a special ID, called a `cid` to make this work. It's easy to get, just go to [OneDrive.com](http://onedrive.com), and click *Files*. In the URL, grab the `cid` value after the equals sign.
 
-![CID](cid@2x.png)
+![CID](cid.png)
 
 Next, open an explorer window, navigate to your computer ("This PC"), and click "map network drive" in the ribbon.
 
-![Map Network Drive](map-network-drive@2x.png)
+![Map Network Drive](map-network-drive.png)
 
 The drive you're mapping is **https://d.docs.live.net/YOUR_CID/**, be sure to enter your CID in that URL.
 
