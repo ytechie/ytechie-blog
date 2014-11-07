@@ -42,7 +42,7 @@ Now that we have a drive that takes up no space on our computer, but allows us t
 
 For my photos folder, I run the following command line script:
 
-	Robocopy e:\photography "z:\backup\photography" /mir /fft /xj /R:0
+	Robocopy e:\photography "z:\backup\photography" /m /e /purge
 
 ![Command Line](command-line-screenshot.png)
 
@@ -50,10 +50,9 @@ Here is an explanation of the parameters I'm using:
 
 * **e:\photography** - The *source* of the files I would like to backup.
 * **z:\backup\photography** - The *destination* of the backup in OneDrive.
-* **/mir** - Mirror all of the changes from the source in the destination. This will delete files that have been removed in the source. You may choose to skip this so that accidental deletes won't propagate.
-* **/fft** - This uses a time comparison method that can vary by a few seconds. I found this works better since the times in the source and destination won't be exact.
-* **/xj** - Excludes junction points, which are normally included by default. This may not be necessary.
-* **/R:0** - Don't retry if there is an issue. We'll just try again in our next backup.
+* **/m** - Only copy files that have been modified. The archive bit on the file will indicate this, and will be reset.
+* **/e** - Include subfolders.
+* **/purge** - Delete files that have been removed in the source. You may choose to skip this so that accidental deletes won't propagate.
 
 ## Performance
 
@@ -66,3 +65,7 @@ Performance of copying the files is alright. I've let it run overnight and it co
 Everyone repeat after me. **OneDrive is NOT a backup solution**. That being said, it can be part of a balanced backup diet.
 
 You should always have an additional off-site backup, more are better. I rotate external drives for this purpose.
+
+### Update 2014-11-07
+
+I found out WebDAV is messing up the destination timestamps, which makes the subsequent backups overwrite files that haven't changed. I've updated the robocopy paramters to use the archive bit on the files. Keep in mind that the archive bit doesn't work if you have multiple backup processes using it. 
