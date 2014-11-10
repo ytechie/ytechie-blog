@@ -42,7 +42,7 @@ Now that we have a drive that takes up no space on our computer, but allows us t
 
 For my photos folder, I run the following command line script:
 
-	Robocopy e:\photography "z:\backup\photography" /m /e /purge
+	Robocopy e:\photography "z:\backup\photography" /m /e /purge /mt
 
 ![Command Line](command-line-screenshot.png)
 
@@ -53,6 +53,7 @@ Here is an explanation of the parameters I'm using:
 * **/m** - Only copy files that have been modified. The archive bit on the file will indicate this, and will be reset.
 * **/e** - Include subfolders.
 * **/purge** - Delete files that have been removed in the source. You may choose to skip this so that accidental deletes won't propagate.
+* **/mt** - Use multiple threads. This speeds up the upload by a large factor.
 
 ## Performance
 
@@ -68,4 +69,8 @@ You should always have an additional off-site backup, more are better. I rotate 
 
 ### Update 2014-11-07
 
-I found out WebDAV is messing up the destination timestamps, which makes the subsequent backups overwrite files that haven't changed. I've updated the robocopy paramters to use the archive bit on the files. Keep in mind that the archive bit doesn't work if you have multiple backup processes using it. 
+I found out WebDAV is messing up the destination timestamps, which makes the subsequent backups overwrite files that haven't changed. I've updated the robocopy paramters to use the archive bit on the files. Keep in mind that the archive bit doesn't work if you have multiple backup processes using it.
+
+### Update 2004-11-09
+
+Added the `/mt` flag, which speeds this up 5x-10x. 
