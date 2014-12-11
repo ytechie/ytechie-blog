@@ -53,5 +53,11 @@ Hackfests work amazingly well for a number of reasons:
 
 The best part is that this doesn't have to be an isolated event. Run a hackfest, see if it works, and then try to replicate the success. The more regular you make your hackfests, the easier they become. The overhead of planning meals, hardware, and instructions become minimal.
 
+###Don't Stop Now!
+
+If you run a successful hackfest, don't stop there! Schedule the next one. Keep the rhythm of innovation going. The amount of overhead at each one will decrease, and the value will increase.
+
+Don't forget to share the results with everyone up your org chart. Showing that this is a powerful tool will give you buy-in for the next hackfests.
+
 ###Related
 [7 Lessons from Running a Hackathon](http://www.ytechie.com/2014/01/7-lessons-running-a-hackathon/)
