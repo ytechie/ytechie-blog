@@ -61,3 +61,6 @@ Don't forget to share the results with everyone up your org chart. Showing that 
 
 ###Related
 [7 Lessons from Running a Hackathon](http://www.ytechie.com/2014/01/7-lessons-running-a-hackathon/)
+
+###Credits
+[Summer of Tech 2013 Hackfest Image](http://www.flickr.com/photos/4nitsirk/9631734969/) is Creative Commons
