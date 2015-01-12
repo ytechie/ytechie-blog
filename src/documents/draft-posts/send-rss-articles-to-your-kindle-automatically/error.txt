@@ -1,0 +1,40 @@
+[12/16/2014 16:19:45 > b22128: SYS INFO] Status changed to Initializing
+[12/16/2014 16:20:00 > b22128: SYS INFO] Run script 'run.cmd' with script host - 'WindowsScriptHost'
+[12/16/2014 16:20:00 > b22128: SYS INFO] Status changed to Running
+[12/16/2014 16:20:00 > b22128: INFO] 
+[12/16/2014 16:20:00 > b22128: INFO] C:\DWASFiles\Sites\#1kindlerss\Temp\jobs\triggered\kindlerss\o434ofrh.5lu>node kindle 
+[12/16/2014 16:20:02 > b22128: INFO] Loading configuration...
+[12/16/2014 16:20:02 > b22128: INFO] Config Loaded: 
+[12/16/2014 16:20:02 > b22128: INFO] { kindleEmail: 'ytechie@kindle.com',
+[12/16/2014 16:20:02 > b22128: INFO]   DocDbHostName: 'https://kindle-rss.documents.azure.com:443/',
+[12/16/2014 16:20:02 > b22128: INFO]   DocDbMasterKey: 'GedS596REpcvjQMNKNPfTY8REkh2eo0ppx4a7/8juPjILdZqCVbR8tHTr01PSG+DQQTyBnJFOGMdqbIQk2uxkg==',
+[12/16/2014 16:20:02 > b22128: INFO]   SendGridApiUser: 'KindleSender',
+[12/16/2014 16:20:02 > b22128: INFO]   SendGridApiKey: 'xGFDTNasdfaspp5du',
+[12/16/2014 16:20:02 > b22128: INFO]   SendGridFromEmail: 'azure_2cd3cc2923498b5a2c67b4ea39c2569f@azure.com',
+[12/16/2014 16:20:02 > b22128: INFO]   SimulateEmailSend: false,
+[12/16/2014 16:20:02 > b22128: INFO]   Feeds: 
+[12/16/2014 16:20:02 > b22128: INFO]    [ 'http://weblogs.asp.net/scottgu/rss?containerid=13',
+[12/16/2014 16:20:02 > b22128: INFO]      'http://feeds.hanselman.com/ScottHanselman',
+[12/16/2014 16:20:02 > b22128: INFO]      'http://feeds.feedburner.com/codinghorror',
+[12/16/2014 16:20:02 > b22128: INFO]      'http://www.joelonsoftware.com/rss.xml',
+[12/16/2014 16:20:02 > b22128: INFO]      'http://azure.microsoft.com/blog/feed/',
+[12/16/2014 16:20:02 > b22128: INFO]      'http://blogs.msdn.com/b/clemensv/rss.aspx' ] }
+[12/16/2014 16:20:02 > b22128: INFO] Loading DocDB database...
+[12/16/2014 16:20:03 > b22128: INFO] PanDoc is already installed
+[12/16/2014 16:20:03 > b22128: INFO] Processing 6 feeds...
+[12/16/2014 16:20:03 > b22128: INFO] Done processing http://feeds.feedburner.com/codinghorror
+[12/16/2014 16:20:03 > b22128: INFO] Done processing http://azure.microsoft.com/blog/feed/
+[12/16/2014 16:20:03 > b22128: INFO] Done processing http://feeds.hanselman.com/ScottHanselman
+[12/16/2014 16:20:04 > b22128: INFO] Done processing http://blogs.msdn.com/b/clemensv/rss.aspx
+[12/16/2014 16:20:04 > b22128: INFO] Done processing http://www.joelonsoftware.com/rss.xml
+[12/16/2014 16:20:04 > b22128: INFO] Done processing http://weblogs.asp.net/scottgu/rss?containerid=13
+[12/16/2014 16:20:04 > b22128: INFO] Converting doc using Pandoc\pandoc.exe -o "C:\DWASFiles\Sites\#1kindlerss\Temp\180421926.docx" "C:\DWASFiles\Sites\#1kindlerss\Temp\180421926.html"
+[12/16/2014 16:20:04 > b22128: INFO] Converted
+[12/16/2014 16:20:04 > b22128: INFO] Emailing Azure Backup – Announcing Support for Windows Client Operating System
+[12/16/2014 16:20:04 > b22128: ERR ] 
+[12/16/2014 16:20:04 > b22128: ERR ] stream.js:94
+[12/16/2014 16:20:04 > b22128: ERR ]       throw er; // Unhandled stream error in pipe.
+[12/16/2014 16:20:04 > b22128: ERR ]             ^
+[12/16/2014 16:20:04 > b22128: ERR ] Error: ENOENT, open 'C:\DWASFiles\Sites\#1kindlerss\Temp\180421926.docx'
+[12/16/2014 16:20:04 > b22128: SYS INFO] Status changed to Failed
+[12/16/2014 16:20:04 > b22128: SYS ERR ] Job failed due to exit code 8
