@@ -1,8 +1,7 @@
 ---
 layout: post
-title: IoT in Manufacturing - My Thoughts
-date: 2015
-draft: true
+title: IoT Data in Manufacturing - My Thoughts
+date: 2015-01-13
 ---
 
 I've been spending a lot of time recently thinking and literally dreaming about IoT (Internet of Things) applications. I wanted to share some of my current thinking on where we're at, what is happening, and what things might look like in the future.
@@ -15,7 +14,7 @@ Within a manufacturing plant today, we can categorize the software into 3 high-l
 * [MES: Manufacturing Execution System](http://en.wikipedia.org/wiki/Manufacturing_execution_system)
 * [SCADA: Supervisory Control & Data Acquisition](http://en.wikipedia.org/wiki/SCADA)
 
-These systems are all extremely complex, and I'll never fully understand them. I'm more concerned with the raw plant sensor data, how it flows, and how we turn that into meaningful information.
+These systems are all extremely complex, and I'll never fully understand them. I'm primarily concerned the MES/SCADA portion dealing with the raw plant sensor data, how it flows, and how we turn that into meaningful information.
 
 Optical sensors, pressure sensors, temperature sensors, and any other sensor you can imagine probably already exists and is in use within Manufacturing today. Manufacturing generates far more data than any other vertical. I suspect manufacturing has been one of the key drivers behind the dropping prices of sensors over the past few decades.
 
@@ -51,6 +50,10 @@ Does this sound familiar? This is how employees are traditionally organized with
 
 Organizations are starting to evolve into a more networked design, and so will *devices*. Devices will have a roughly hierarchical organization, but will realize advantages to direct communications. Features like high availability can exist at lower levels.
 
+In other words, we'll have redundancy, inter-device communication, but we'll also have a logical model that defines how the system operates. As a simple example, imagine if we had 3 temperature sensors measuring the same thing. Now imagine one of the sensors fails, or starts to report irregular values. Using a logical model that overlays the physical model allows us to define operation separating the concerns of the low-level details.
+
+![Virtual Sensor](virtual-sensor.png)
+
 Now, we want to get data from any point in the hierarchy to where it is needed. A machine operator needs to know what is happening in the machine in real-time. The supervisor needs to know how multiple lines are operating in real-time. The plant manager needs to know how the overall plant is running, again, in real-time. We'll also need to store historical data, operational reporting data, and so on.
 
 ### Further Reading
@@ -58,3 +61,5 @@ Now, we want to get data from any point in the hierarchy to where it is needed. 
 * [Top 10 Benefits of IoT in Manufacturing](file:///C:/Users/Jason/Downloads/Create_the_Internet_of_Your_Things_Top_10_Benefits_manufacturing%20(1).pdf)
 * [Reference Architecture Framework for Discrete Manufacturing](http://www.microsoft.com/enterprise/industry/manufacturing-and-resources/discrete-manufacturing/reference-architecture/default.aspx#fbid=kwzcHNa8OHZ)
 * [Building Smarter Manufacturing With The Internet of Things](http://www.cisco.com/web/solutions/trends/iot/iot_in_manufacturing_january.pdf)
+
+Also check out my [manufacturing projects on GitHub](https://github.com/search?q=user%3Aytechie+manufacturing.).
