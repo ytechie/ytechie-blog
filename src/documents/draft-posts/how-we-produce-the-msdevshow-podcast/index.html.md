@@ -11,15 +11,19 @@ A lot of podcasts have just... ended. It seems to happen somewhere between episo
 
 Today, I'm sharing our entire process.
 
+Many podcasts won't talk about this. I'm not sure if it's too much inside baseball, or if they think they are trade secrets. Well, I'm all about sharing.
+
 From a high-level, we find guests, prepare, record, edit, and publish.
 
 ### Guests
 
-Guests are a big part of our show. We've always wanted to have interesting guests. We occasionally have some names you've heard of, but we also love to have guests that haven't been on a podcast before. I believe that everyone has a story, an we want to hear it.
+Guests are a big part of our show. We've always wanted to have interesting guests. We occasionally have some names you've heard of, but we also love to have guests that haven't been on a podcast before.
+
+>I believe that everyone has a story, an we want to hear it.
 
 Since guests have to take time out of their important schedule for us, our goal is to make it as easy as possible, with a minimal time commitment. Once a guest accepts and we work out a time slot, we have a template invite we send them. Templates are absolutely key to our communications, and allow us to be clear and concise. As we improve our process, we evolve our templates.
 
-*** EMAIL TEMPLATE SCREENSHOT ***
+![Email Template Example](email-template.png)
 
 Around 24 hours before the episode is scheduled to record, we send another email template that contains a rough idea of the questions Carl and I want to ask, and everything the guest needs to know to get set up. More on that later.
 
@@ -27,9 +31,11 @@ Around 24 hours before the episode is scheduled to record, we send another email
 
 OneNote is what powers the MS Dev Show. All of our processes, templates, and episode details are in a OneNote notebook that Carl and I share.
 
-*** ONE NOTE EPISODE SECTIONS SCREENSHOT ***
+![OneNote Screenshot](onenote.gif)
 
 As Carl and I come across stories we think would be worth discussing, we put links into a OneNote page for the associated episode.
+
+We also use OneNote while we're recording, back to that in just a bit.
 
 ### Hardware
 
@@ -49,9 +55,21 @@ Using an insert cable, we route the mic sound through the [Behringer MDX1600](ht
 
 ### Recording
 
+Around 24 hours before we record, we send the guest an email reminder with additional details.
+
+![Pre-Show Email](pre-show-email.gif)
+
 We use Skype to talk to our guests. Carl and I both use Callburner to record all sides of the conversation. Since we both have complete copies of the call, we can be fairly confident that even if we have a technical failure, we'll still be able to fall back to a second copy.
 
+![Callburner](callburner.png)
+
+Way always record our tracks in raw WAV format:
+
+![Callburner Settings](callburner-settings.png)
+
 Additionally, we ask our guests to record their own microphone input. We include [simple instructions](http://msdevshow.com/guest/) to make it as painless as possible. When everything goes according to plan, we have a **separate** track for every person on the call. One track for me, one track for Carl, and one track for the guest.
+
+As we go through the episode, we use OneNote as a guide. We use it to make sure we don't forget any big, important questions, and we use it to mark off questions that were already asked. Since OneNote updates on both sides in near real-time, it allows us to run the show as we go, without stopping or IM'ing.
 
 ### Editing
 
@@ -61,15 +79,25 @@ First, I use [Audacity](http://audacity.sourceforge.net/) to trim the tracks. Au
 
 Next, is noise reduction. This is an area that can eat up a lot of time if you let it. In the early episodes, I did minimal manual edits. As I started to desire higher quality, I found myself spending more and more time on editing. We're not talking about major edits, it was more about removing breaths, clicks, etc. I was getting desperate to cut this down. I was willing to try anything. I even tried Adobe Audition, but it is obvious that it wasn't really designed to edit a podcast. Don't get me wrong, it's fully capable, it's just not optimized for a podcast workflow.
 
-Then, a miracle. I found a website called [Auphonic](https://auphonic.com/). It's unbelievable at processing audio. It has amazing noise reduction, which is key for guests since they don't have gates. It also intelligently focuses on the track of the person that is speaking, and attenuates the other voices. This is amazingly effective. Other than our gate, this is the only audio processing we do. This software is good enough that you could skip the compressor/gate/limiter completely. It works fine if you have 1 track, but even better if you have separate tracks for each speaker.
+Then, a miracle. I found a website called [Auphonic](https://auphonic.com/). It's unbelievable at processing audio. It has amazing noise reduction, which is key for guests since they don't have gates. It also intelligently focuses on the track of the person that is speaking, and attenuates the other voices. This is amazingly effective. Other than our gate, this is the only audio processing we do. This software is good enough that you could skip the compressor/gate/limiter completely. It works fine if you have 1 track, but even better if you have separate tracks for each speaker. All of the settings we use for the show have been saved as a preset, so it takes less than 60 seconds to submit a processing job.
 
-After Auphonic works its magic, I bring it back into Audacity. Then, I use a feature called **truncate silence**. This is one of our best kept secrets. It takes out pauses in the audio that are longer than a certain duration, and shortens them up. The end result is that even if someone takes a moment to answer a question, it will sound like they answered without pausing. In a typical hour long episode, this takes out around **4 full minutes**.
+![Auphonic Output](auphonic-output.gif)
 
-After that, I add the intro, outro, etc. This is standard stuff and is an exercise left to the reader.
+After Auphonic works its magic, I bring it back into Audacity. Then, I use a feature called **truncate silence** (under the "Effect" Menu). This is one of our best kept secrets. It takes out pauses in the audio that are longer than a certain duration, and shortens them up. The end result is that even if someone takes a moment to answer a question, it will sound like they answered without pausing. In a typical hour long episode, this takes out around **4 full minutes**.
+
+![Truncate Silence Menu Item](truncate-silence-menu-option.png)
+
+#### Adding the Intro/Outro
+
+I record the intro text directly into audacity. "Welcome to the MS Dev Show, episode number....". I place this track below the intro music track. Then, I use the "Auto Duck" option under the "Effect" menu. This automatically turns down the volume while I'm talking. If I had a long pause in the intro voice, the theme music would actully come back up and fill it in. Lastly, I use the Envelope Tool to make the intro sound fade in. I started doing this since the riff at the start of the intro can be a bit glaring.
+
+![Ducking the Audio](theme-and-intro-text.png)
+
+The outro is pre-recorded for convenience, and I just put it at the end.
 
 ### Publishing
 
-The easiest way to publish your podcast is to use [Libsyn](https://www.libsyn.com/). It's fairly inexpensive, and you pay monthly for new episodes. The great part is that you don't pay for old episodes. They handle everything for you from hosting the files to providing the streams that you can submit to aggregators like iTunes and Stitcher. 
+The easiest way to publish your podcast is to use [Libsyn](https://www.libsyn.com/). It's fairly inexpensive, and you pay monthly for new episodes. The great part is that you don't pay for old episodes. They handle everything for you from hosting the files to providing the streams that you can submit to aggregators like iTunes and Stitcher. Make sure you check on those services to ensure the stream is set up the way you want.
 
 ### Credits
 
