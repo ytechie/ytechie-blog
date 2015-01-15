@@ -101,7 +101,7 @@ The outro is pre-recorded for convenience, and I just put it at the end.
 
 The easiest way to publish your podcast is to use [Libsyn](https://www.libsyn.com/). It's fairly inexpensive, and you pay monthly for new episodes. The great part is that you don't pay for old episodes. They handle everything for you from hosting the files to providing the streams that you can submit to aggregators like iTunes and Stitcher. Make sure you check on those services to ensure the stream is set up the way you want.
 
-Carl handles the shownotes, and these are created by exporting them from OneNote to a Word document, and then using [PanDoc](http://johnmacfarlane.net/pandoc/) to convert to markdown to publish to our website.
+Carl handles the shownotes, and these are created by exporting them from OneNote to an mht document, and then using [PanDoc](http://johnmacfarlane.net/pandoc/) to convert to markdown to publish to our website.
 
 Our website is completely open source. You can see [all of the code in GitHub](https://github.com/ytechie/msdevshow). You can even fork the site, create your own, or issue pull requests. The website itself is hosted in Azure, and automatically redeploys when we check in a change to GitHub.
 
