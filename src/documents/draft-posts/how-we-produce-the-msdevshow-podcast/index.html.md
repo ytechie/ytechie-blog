@@ -43,7 +43,9 @@ You might think this is the most important part, and you'd be partially right. F
 
 ![Heil PR-40](heil-pr-40.jpg)
 
-Lesson time. The Heil is a dynamic ***microphone**. Some people use condenser mics, but condenser mics do a horrible job cutting out background sound. Dynamic mics do a good job of only picking up the sound right in front of them. This is key for Carl and I since we're recording from our home offices and have kids and pets.
+Lesson time. The Heil is a *dynamic* microphone. Some people use *condenser* mics, but condenser mics do a horrible job cutting out background sound. Dynamic mics do a good job of only picking up the sound right in front of them. This is key for Carl and I since we're recording from our home offices and have kids and pets.
+
+If you want to hear the difference between a USB headset, and the mics Carl and I use, [check out this track that I recorded](https://soundcloud.com/ytechie/headset-vs-heil-pr40-sound-check) shortly after getting the Heil.
 
 Our mics are connected to the [Alesis IO2 Express](http://www.amazon.com/gp/product/B003HR30FU/?tag=ytechie-20). This is what converts the signal from our mics to USB to connect to our computers.
 
@@ -98,6 +100,14 @@ The outro is pre-recorded for convenience, and I just put it at the end.
 ### Publishing
 
 The easiest way to publish your podcast is to use [Libsyn](https://www.libsyn.com/). It's fairly inexpensive, and you pay monthly for new episodes. The great part is that you don't pay for old episodes. They handle everything for you from hosting the files to providing the streams that you can submit to aggregators like iTunes and Stitcher. Make sure you check on those services to ensure the stream is set up the way you want.
+
+Carl handles the shownotes, and these are created by exporting them from OneNote to a Word document, and then using [PanDoc](http://johnmacfarlane.net/pandoc/) to convert to markdown to publish to our website.
+
+Our website is completely open source. You can see [all of the code in GitHub](https://github.com/ytechie/msdevshow). You can even fork the site, create your own, or issue pull requests. The website itself is hosted in Azure, and automatically redeploys when we check in a change to GitHub.
+
+Feel free to watch the [commit log](https://github.com/ytechie/msdevshow/commits/master). You might even get a sneak peek at an episode before it's published!
+
+![GitHub Changelog](github-log.gif)
 
 ### Credits
 
