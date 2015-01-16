@@ -45,7 +45,9 @@ You might think this is the most important part, and you'd be partially right. F
 
 Lesson time. The Heil is a *dynamic* microphone. Some people use *condenser* mics, but condenser mics do a horrible job cutting out background sound. Dynamic mics do a good job of only picking up the sound right in front of them. This is key for Carl and I since we're recording from our home offices and have kids and pets.
 
-If you want to hear the difference between a USB headset, and the mics Carl and I use, [check out this track that I recorded](https://soundcloud.com/ytechie/headset-vs-heil-pr40-sound-check) shortly after getting the Heil.
+If you want to hear the difference between a USB headset, and the mics Carl and I use, [check out this track that I recorded](https://soundcloud.com/ytechie/headset-vs-heil-pr40-sound-check) shortly after getting the Heil:
+
+<iframe width="100%" height="100" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/146244818&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;visual=false"></iframe>
 
 Our mics are connected to the [Alesis IO2 Express](http://www.amazon.com/gp/product/B003HR30FU/?tag=ytechie-20). This is what converts the signal from our mics to USB to connect to our computers.
 
