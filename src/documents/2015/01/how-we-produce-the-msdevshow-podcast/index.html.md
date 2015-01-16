@@ -1,8 +1,7 @@
 ---
 layout: post
 title: How We Produce the MS Dev Show Podcast
-date: 2015-01-08
-draft: true
+date: 2015-01-16
 ---
 
 We've gotten a lot of questions about how we get great sound on the [MS Dev Show](http://msdevshow.com). From the start, Carl and I knew that great sound wouldn't make us successful, but bad sound could definitely hurt us.
