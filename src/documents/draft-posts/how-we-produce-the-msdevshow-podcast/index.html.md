@@ -61,7 +61,11 @@ Around 24 hours before we record, we send the guest an email reminder with addit
 
 ![Pre-Show Email](pre-show-email.gif)
 
-We use Skype to talk to our guests. Carl and I both use Callburner to record all sides of the conversation. Since we both have complete copies of the call, we can be fairly confident that even if we have a technical failure, we'll still be able to fall back to a second copy.
+We use Skype to talk to our guests. One lesson learned with Skype is that it auto adjusts your microphone volume by default. It has a tendency to boost the  gain if you don't talk for a while. When you start talking again, it blows out the audio, and sounds terrible. I manually adjust this setting by speaking at a normal level, allow it to auto-adjust, and then uncheck the box.
+
+![Skype Auto-Adjust Mic](skype-auto-adjust.gif)
+
+Carl and I both use Callburner to record all sides of the conversation. Since we both have complete copies of the call, we can be fairly confident that even if we have a technical failure, we'll still be able to fall back to a second copy.
 
 ![Callburner](callburner.png)
 
