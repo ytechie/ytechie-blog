@@ -39,7 +39,7 @@ We also use OneNote while we're recording, back to that in just a bit.
 
 ### Hardware
 
-You might think this is the most important part, and you'd be partially right. For our mics, we copied [TWiT](http://twit.tv/), and use the [Heil PR-40](http://www.amazon.com/gp/product/B00PQYBRNY?tag=ytechie-20). At ~$330, it's pricey related to other mics, but cheap compared to the computer you're plugging it into.
+You might think this is the most important part, and you'd be partially right. For our mics, we copied [TWiT](http://twit.tv/), and use the [Heil PR-40](http://www.amazon.com/gp/product/B00PQYBRNY?tag=ytechie-20). At ~$330, it's pricey relative to other mics, but cheap compared to the computer you're plugging it into.
 
 ![Heil PR-40](heil-pr-40.jpg)
 
@@ -53,7 +53,7 @@ Our mics are connected to the [Alesis IO2 Express](http://www.amazon.com/gp/prod
 
 ![Alesis](alesis-interface.jpg)
 
-Using an insert cable, we route the mic sound through the [Behringer MDX1600](http://www.amazon.com/gp/product/B0002E4ZJ6/?tag=ytechie-20) compressor/gate/limiter. This primary serves to "gate" our audio, or essentially turn it off when we're not speaking. This is our first line of defense against barking dogs, screaming kids, and loud keyboards. I now believe this equipment is optional thanks to improved software processing that I'll describe later.
+Using an [insert cable](http://www.amazon.com/gp/product/B000068O1O/?tag=ytechie-20), we route the mic sound through the [Behringer MDX1600](http://www.amazon.com/gp/product/B0002E4ZJ6/?tag=ytechie-20) compressor/gate/limiter. This primary serves to "gate" our audio, or essentially turn it off when we're not speaking. This is our first line of defense against barking dogs, screaming kids, and loud keyboards. I now believe this equipment is optional thanks to improved software processing that I'll describe later.
 
 ![Behringer Compressor/Gate/Limiter](behringer-gate.jpg)
 
@@ -71,7 +71,7 @@ Carl and I both use Callburner to record all sides of the conversation. Since we
 
 ![Callburner](callburner.png)
 
-Way always record our tracks in raw WAV format:
+We always record our tracks in raw WAV format:
 
 ![Callburner Settings](callburner-settings.png)
 
@@ -83,9 +83,9 @@ As we go through the episode, we use OneNote as a guide. We use it to make sure 
 
 Short version: trim, Auphonic processing, truncate silence, finishing touches.
 
-First, I use [Audacity](http://audacity.sourceforge.net/) to trim the tracks. Audacity is free software that works amazingly well. They always have some pre-show and post-show chat, so I cut them down to the meat, and make them all the same length.
+First, I use [Audacity](http://audacity.sourceforge.net/) to trim the tracks. Audacity is free software that works amazingly well. There is always some pre-show and post-show chat, so I cut them down to the meat, and make them all the same length.
 
-Next, is noise reduction. This is an area that can eat up a lot of time if you let it. In the early episodes, I did minimal manual edits. As I started to desire higher quality, I found myself spending more and more time on editing. We're not talking about major edits, it was more about removing breaths, clicks, etc. I was getting desperate to cut this down. I was willing to try anything. I even tried Adobe Audition, but it is obvious that it wasn't really designed to edit a podcast. Don't get me wrong, it's fully capable, it's just not optimized for a podcast workflow.
+Next is noise reduction. This is an area that can eat up a lot of time if you let it. In the early episodes, I did minimal manual edits. As I started to desire higher quality, I found myself spending more and more time on editing. We're not talking about major edits, it was more about removing breaths, clicks, etc. I was getting desperate to cut this down. I was willing to try anything. I even tried Adobe Audition, but it is obvious that it wasn't really designed to edit a podcast. Don't get me wrong, it's fully capable, it's just not optimized for a podcast workflow.
 
 Then, a miracle. I found a website called [Auphonic](https://auphonic.com/). It's unbelievable at processing audio. It has amazing noise reduction, which is key for guests since they don't have gates. It also intelligently focuses on the track of the person that is speaking, and attenuates the other voices. This is amazingly effective. Other than our gate, this is the only audio processing we do. This software is good enough that you could skip the compressor/gate/limiter completely. It works fine if you have 1 track, but even better if you have separate tracks for each speaker. All of the settings we use for the show have been saved as a preset, so it takes less than 60 seconds to submit a processing job.
 
@@ -105,7 +105,7 @@ The outro is pre-recorded for convenience, and I just put it at the end.
 
 ### Publishing
 
-The easiest way to publish your podcast is to use [Libsyn](https://www.libsyn.com/). It's fairly inexpensive, and you pay monthly for new episodes. The great part is that you don't pay for old episodes. They handle everything for you from hosting the files to providing the streams that you can submit to aggregators like iTunes and Stitcher. Make sure you check on those services to ensure the stream is set up the way you want.
+The easiest way to publish your podcast is to use [Libsyn](https://www.libsyn.com/). It's fairly inexpensive, and you pay monthly for new episodes. The great part is that you don't pay for old episodes. They handle everything for you from hosting the files to providing the feeds that you can submit to aggregators like iTunes and Stitcher. Make sure you check on those services to ensure the feed is set up the way you want.
 
 Carl handles the shownotes, and these are created by exporting them from OneNote to an mht document, and then using [PanDoc](http://johnmacfarlane.net/pandoc/) to convert to markdown to publish to our website.
 
