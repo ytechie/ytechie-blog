@@ -114,6 +114,13 @@ Feel free to watch the [commit log](https://github.com/ytechie/msdevshow/commits
 
 ![GitHub Changelog](github-log.gif)
 
+### Thanks!
+
+I made a quick video showing the editing process:
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/qTNWOCMOz7k" frameborder="0" allowfullscreen></iframe>
+
+
 ### Credits
 
 * [TWiT Podcasting Equipement](http://twit.tv/podcastequipment)
