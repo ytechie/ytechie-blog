@@ -18,7 +18,7 @@ From a high-level, we find guests, prepare, record, edit, and publish.
 
 Guests are a big part of our show. We've always wanted to have interesting guests. We occasionally have some names you've heard of, but we also love to have guests that haven't been on a podcast before.
 
->I believe that everyone has a story, an we want to hear it.
+>I believe that everyone has a story, and we want to hear it.
 
 Since guests have to take time out of their important schedule for us, our goal is to make it as easy as possible, with a minimal time commitment. Once a guest accepts and we work out a time slot, we have a template invite we send them. Templates are absolutely key to our communications, and allow us to be clear and concise. As we improve our process, we evolve our templates.
 
