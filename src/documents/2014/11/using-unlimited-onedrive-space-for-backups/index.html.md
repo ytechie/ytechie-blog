@@ -74,3 +74,7 @@ I found out WebDAV is messing up the destination timestamps, which makes the sub
 ### Update 2004-11-09
 
 Added the `/mt` flag, which speeds this up 5x-10x. 
+
+### Update 2015-02-10
+
+A friend suggested an alternative, which is to use [SyncBack Pro](http://www.2brightsparks.com/syncback/sbpro.html) since it now has native OneDrive integration. The only limitation is that it uses the API and has a 100MB file limit.
