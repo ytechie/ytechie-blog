@@ -6,6 +6,12 @@ For more information about [why I'm using DocPad as my blogging platform, read t
 
 ###Installation
 
+If you want to deploy to Azure to try it:
+
+<a href="https://azuredeploy.net/" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
+
+For a production installation, you'll want to customize the site:
+
 1. Download the source
 2. Run *npm install* in the folder
 3. Customize src\partials\me.html
