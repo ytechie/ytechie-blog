@@ -4,18 +4,14 @@ title: Ignite 2015 Mega Post
 date: 2015-05-04
 ---
 
-**This is currently a work in progress**. This message will be removed in the next few days.
-
-This outline contains all of the announcements from Ignite 2015 that I that were noteworthy. This post will be updated as I fill in the details and link to the appropriate announcements and videos.
-
 ### Windows
 
-* Windows Server 2016 Technical Preview 2
+* [Windows Server 2016 Technical Preview 2](http://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-technical-preview)
 * PowerBI is integrated with Cortana
 
 ### Azure
 
-* Azure Stack
+* [Azure Stack](http://www.microsoft.com/en-us/server-cloud/products/azure-in-your-datacenter/)
 	* Use ARM templates on-premises
 	* Storage support
 	* IaaS
@@ -37,14 +33,15 @@ This outline contains all of the announcements from Ignite 2015 that I that were
 	* Client-side encryption for Azure Storage Preview
 	* Xamarin storage client library
 	* New Storage Blob Type - [Append Blob](http://blogs.msdn.com/b/windowsazurestorage/archive/2015/04/13/introducing-azure-storage-append-blob.aspx)
+* [Azure DNS](http://azure.microsoft.com/en-us/documentation/services/dns/)
+* Public preview of Advanced Threat Analytics
 
 
 ### Misc
 
 * [Office 2016 Public Preview](http://blogs.office.com/2015/05/04/office-2016-public-preview-now-available/)
-* Public preview of Advanced Threat Analytics
-* Power BI mobile app for Windows 8 Desktop & Surface
-* Delve Dashboard
+* Power BI mobile app
+* [Delve Dashboard](http://www.pcworld.com/article/2917827/hey-workaholics-microsoft-delve-will-track-your-work-life-balance.html)
 	* Show email, meeting, Skype, Yammer analytics
 	* Work/life balance stats
 	* Work map
