@@ -48,3 +48,5 @@ date: 2015-05-04
 * Skype integration in Office
 * Office desktop collaboration
 * Sway will be coming to the education and business O365 plans
+	* iOS and Android by fall CY
+	* Mac by end of CY 2015
