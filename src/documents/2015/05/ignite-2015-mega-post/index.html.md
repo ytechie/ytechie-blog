@@ -52,3 +52,5 @@ date: 2015-05-04
 	* iOS and Android by fall CY
 	* Mac by end of CY 2015
 	* Coming soon to the cloud: Enterprise voice, audio conferencing, PSTN calling
+	* Broadcast to up to 10,000 viewers
+	* DVR functionality for conferences
