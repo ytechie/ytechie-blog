@@ -48,5 +48,7 @@ date: 2015-05-04
 * Skype integration in Office
 * Office desktop collaboration
 * Sway will be coming to the education and business O365 plans
+* [Skype for Business](http://channel9.msdn.com/Events/Ignite/2015/FND2201)
 	* iOS and Android by fall CY
 	* Mac by end of CY 2015
+	* Coming soon to the cloud: Enterprise voice, audio conferencing, PSTN calling
