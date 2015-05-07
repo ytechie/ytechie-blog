@@ -29,7 +29,7 @@ date: 2015-05-01
 
 * [Bridges](http://blogs.msdn.com/b/stevengu/archive/2015/04/30/building-bridges-that-empower-developers.aspx)
 	* [Use your Android Code on Windows](http://channel9.msdn.com/Events/Build/2015/2-702)
-	* [Use your iOS Code on Windows](http://channel9.msdn.com/Blogs/OneCode/How-to-Port-iOS-apps-to-Windows-Store-apps)
+	* [Use your iOS Code on Windows](http://channel9.msdn.com/Events/Build/2015/3-610)
 	* [Convert your classic Windows app to a UWP app](http://channel9.msdn.com/Events/Build/2015/2-692)
 		* Advantages of a UWP app like easy install, automatic updates.
 		* File & registry redirection
