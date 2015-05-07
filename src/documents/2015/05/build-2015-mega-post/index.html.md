@@ -51,7 +51,7 @@ date: 2015-05-01
 
 ### Azure
 
-* [.NET SDK 2.6](http://azure.microsoft.com/en-us/documentation/articles/azure-sdk-dotnet-release-notes-2_6/)
+* [.NET SDK 2.6](http://channel9.msdn.com/Events/Build/2015/2-685) ([Release Notes](http://azure.microsoft.com/en-us/documentation/articles/azure-sdk-dotnet-release-notes-2_6/))
 	* HDInsight improvements
 	* In-Role caching uses latest storage SDK
 	* App Service tools
@@ -70,12 +70,14 @@ date: 2015-05-01
 	* Stateful microservices
 * [SQL Database](http://channel9.msdn.com/Events/Build/2015/2-678)
 	* SQL DB Transparent data encryption public preview
-	* SQL DB Service Tier Advisor public preview - asses performance needs
+	* SQL DB Service Tier Advisor public preview - assess performance needs
 	* Elastic Data Pool
 	* Full-text Search
 * More than 500 new features in Azure in the past year
 * Over 50 trillion storage objects
 * [App Service Architecture](http://channel9.msdn.com/Events/Build/2015/2-628)
+* IaaS
+	* 3 Fault domains in an availability set
 
 ### Visual Studio
 
