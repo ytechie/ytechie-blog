@@ -16,13 +16,13 @@ date: 2015-05-01
 		* Interactive tiles are being worked on
 		* JSON format being worked on
 	* [Web of apps](http://channel9.msdn.com/Events/Build/2015/3-765)
-	* Subscription based IAPs are coming to the new dev center and win10 apps
 	* Carrier Billing across all Windows 10 devices
-	* One Dev Center
+	* [One Dev Center](http://channel9.msdn.com/Events/Build/2015/2-664)
 		* Single submission flow for your Universal Windows Apps, as well as legacy Windows 8.x and Windows Phone 7.x/8.x apps
 		* Single dashboard to analyze and manage app performance across all you apps
 		* Ability to distribute your apps to consumers who use Windows Store, as well as in a storefront specifically built for businesses and organizations, all via a single app submission
 		* Management of your ads-in-apps from within Dev Center
+		* Subscription based in-app purchases are coming
 	* [Universal App Samples on GitHub have been updated](https://github.com/Microsoft/Windows-universal-samples)
 	* [Initial Design Guidance](http://blogs.windows.com/bloggingwindows/2015/04/29/windows-10-design-getting-the-balance-right/)
 
