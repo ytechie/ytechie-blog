@@ -18,7 +18,7 @@ date: 2015-05-01
 	* [Web of apps](http://channel9.msdn.com/Events/Build/2015/3-765)
 	* Subscription based IAPs are coming to the new dev center and win10 apps
 	* Carrier Billing across all Windows 10 devices
-	* One Dev Center 
+	* One Dev Center
 		* Single submission flow for your Universal Windows Apps, as well as legacy Windows 8.x and Windows Phone 7.x/8.x apps
 		* Single dashboard to analyze and manage app performance across all you apps
 		* Ability to distribute your apps to consumers who use Windows Store, as well as in a storefront specifically built for businesses and organizations, all via a single app submission
@@ -43,12 +43,12 @@ date: 2015-05-01
 * [Windows 10 preview for IoT is available](http://channel9.msdn.com/Events/Build/2015/2-724)
 	* Works on Minnowboard Max or Raspberry Pi 2
 	* [Get started here](http://ms-iot.github.io/content/GetStarted.htm)
-* [Windows 10 "Arduino Certified" components](http://www.zdnet.com/article/windows-10-gets-arduino-certified-with-new-two-open-source-libraries/) 
+* [Windows 10 "Arduino Certified" components](http://www.zdnet.com/article/windows-10-gets-arduino-certified-with-new-two-open-source-libraries/)
 * [DirectX 12 Support](http://channel9.msdn.com/Events/Build/2015/3-673)
 * [Manifold.js](http://www.manifoldjs.com/)
 	* Create hosted apps on Android, iOS, and Windows
 	* Uses standard manifest
-	
+
 ### Azure
 
 * [.NET SDK 2.6](http://azure.microsoft.com/en-us/documentation/articles/azure-sdk-dotnet-release-notes-2_6/)
@@ -68,7 +68,7 @@ date: 2015-05-01
 	* Powers [how-old.net](http://how-old.net)
 * [Service Fabric](http://channel9.msdn.com/events/Build/2015/2-640)
 	* Stateful microservices
-* SQL Database
+* [SQL Database](http://channel9.msdn.com/Events/Build/2015/2-678)
 	* SQL DB Transparent data encryption public preview
 	* SQL DB Service Tier Advisor public preview - asses performance needs
 	* Elastic Data Pool
@@ -76,7 +76,7 @@ date: 2015-05-01
 * More than 500 new features in Azure in the past year
 * Over 50 trillion storage objects
 * [App Service Architecture](http://channel9.msdn.com/Events/Build/2015/2-628)
-	
+
 ### Visual Studio
 
 * [Visual Studio Code](http://channel9.msdn.com/Events/Build/2015/3-680)
@@ -100,7 +100,7 @@ date: 2015-05-01
 * .NET 4.6 RC for Windows
 * [Nano server](http://channel9.msdn.com/Events/Build/2015/2-755)
 	* Admin GUIs on servers are poison
-	* It's just a deployment option 
+	* It's just a deployment option
 	* Features are pulled in separately, not on disk
 	* Hyper-V, ASP.net, clustering support
 	* Configuration via core PowerShell and WMI
@@ -118,7 +118,3 @@ date: 2015-05-01
 	* An open source, extensible, platform-agnostic tool for remotely debugging and testing your JavaScript
 * Building a new Reactor space in San Francisco
 * Minecraft Modding in Visual Studio
-
-
-
-
