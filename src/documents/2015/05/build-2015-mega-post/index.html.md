@@ -78,6 +78,9 @@ date: 2015-05-01
 * [App Service Architecture](http://channel9.msdn.com/Events/Build/2015/2-628)
 * IaaS
 	* 3 Fault domains in an availability set
+* [Azure IoT Suite](http://channel9.msdn.com/Events/Build/2015/2-652)
+	* Device provisioning & management
+	* Telemetry
 
 ### Visual Studio
 
