@@ -1,12 +1,17 @@
 #!/bin/bash
 
 cd out
+
+echo 'Initializing repository...'
 git init
 
+echo 'Configuring environment...'
 git config user.name "Travis CI"
 git config user.email "jason@ytechie.com"
 
+echo 'Adding files to local repo...'
 git add .
+echo 'Comitting local files...'
 git commit -m "Deploy"
 
 # We redirect any output to
