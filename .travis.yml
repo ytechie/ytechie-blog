@@ -3,8 +3,7 @@ node_js:
   - 0.12
   
 before_script:
-  - npm uninstall docpad
-  - npm uninstall docpad -g
+  - npm cache clean
   - npm install -g docpad@6.78.3
 script: docpad generate --env static
 branches:
