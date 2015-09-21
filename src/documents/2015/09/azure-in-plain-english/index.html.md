@@ -20,10 +20,10 @@ The most interesting thing about this exercise is that Azure services are actual
 		<td>**Like AWS...**</td>
 	</tr>
 	
- <tr><td>Virtual Machines</td><td>Computers</td><td>Move existing apps to the cloud without changing them. You manage the entire computer.</td><td>EC2</td></tr>
+ <tr><td>Virtual Machines</td><td>Servers</td><td>Move existing apps to the cloud without changing them. You manage the entire computer.</td><td>EC2</td></tr>
  <tr><td>Cloud Services</td><td>Managed Virtual Machines</td><td>Run applications on virtual machines that you don't have to manage, but can partially manage.</td><td>&nbsp;</td></tr>
  <tr><td>Batch</td><td>Azure Distributed Processing</td><td>Work on a large chunk of data by divvying it up between a whole bunch of machines.</td><td>&nbsp;</td></tr>
- <tr><td>RemoteApp</td><td>Remote Desktop for Apps</td><td>Expose non-web apps to users. For example, run Excel on your iPad.</td><td>&nbsp;</td></tr>
+ <tr><td>RemoteApp</td><td>Remote Desktop for Apps</td><td>Expose non-web apps to users. For example, run Excel on your iPad.</td><td>AppStream</td></tr>
  <tr><td>Web Apps</td><td>Web Site Host</td><td>Run websites (.NET, Node.js, etc.)  without managing anything extra. Scale automatically and easily.</td><td>Elastic Beanstalk</td></tr>
  <tr><td>Mobile Apps</td><td>Mobile App Accelerator</td><td>Quickly get an app backend up and running.</td><td>&nbsp;</td></tr>
  <tr><td>Logic Apps</td><td>Visio for Doing Stuff</td><td>Chain steps together to get stuff done.</td><td>&nbsp;</td></tr>
@@ -66,10 +66,9 @@ The most interesting thing about this exercise is that Azure services are actual
  <tr><td>Azure Data Lake</td><td>Unstructured Report Database</td><td>Store all of your company's data in any format for reporting.</td><td>&nbsp;</td></tr>
  <tr><td>HDInsight</td><td>Hosted Hadoop</td><td>Do Hadoopy things with massive amounts of data.</td><td>&nbsp;</td></tr>
  <tr><td>Machine Learning</td><td>Skynet</td><td>Train AI to predict the future using existing data. Examples include credit card fraud detection and Netflix movie recommendations.</td><td>&nbsp;</td></tr>
- <tr><td>Stream Analytics</td><td>Real-time data analyzer</td><td>Look for patterns in data as it arrives.</td><td>&nbsp;</td></tr>
+ <tr><td>Stream Analytics</td><td>Real-time data query</td><td>Look for patterns in data as it arrives.</td><td>&nbsp;</td></tr>
  <tr><td>Data Factory</td><td>Azure ETL</td><td>Orchestrate extract, transform, and load data processes.</td><td>Data Pipeline</td></tr>
  <tr><td>Event Hubs</td><td>IoT Ingestor</td><td>Ingest data at ANY scale inexpensively.</td><td>&nbsp;</td></tr>
- <tr><td>Data Caching</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
  
  </table>
 
@@ -84,7 +83,7 @@ The most interesting thing about this exercise is that Azure services are actual
 	</tr> 
  
  <tr><td>Virtual Network</td><td>Private Network</td><td>Put machines on the same, private network so that they talk to each other directly and privately. Expose services to the internet as needed.</td><td>&nbsp;</td></tr>
- <tr><td>ExpressRoute</td><td>Fiber to Azure</td><td>Connect privately over an insanely fast pipe to an Azure datacenter. Make your local network part of your Azure network.</td><td>&nbsp;</td></tr>
+ <tr><td>ExpressRoute</td><td>Fiber to Azure</td><td>Connect privately over an insanely fast pipe to an Azure datacenter. Make your local network part of your Azure network.</td><td>Direct Connect</td></tr>
  <tr><td>Load Balancer</td><td>Load Balancer</td><td>Split load between multiple services, and handle failures.</td><td>&nbsp;</td></tr>
  <tr><td>Traffic Manager</td><td>Datacenter Load Balancer</td><td>Split load between multiple datacenters, and handle datacenter outages.</td><td>&nbsp;</td></tr>
  <tr><td>DNS</td><td>DNS Provider</td><td>Run a DNS server so that your domain names map to the correct IP addresses.</td><td>Route53</td></tr>
@@ -106,4 +105,18 @@ The most interesting thing about this exercise is that Azure services are actual
 	</tr> 
 
  <tr><td>Azure Resource Manager</td><td>Declarative Configuration</td><td>Define your entire Azure architecture as a repeatable JSON file and deploy all at once.</td><td>CloudFormation</td></tr>
+</table>
+
+## Developer
+
+<table>
+	<tr>
+		<td>**Azure Service**</td>
+		<td>**Could be Called**</td>
+		<td>**Use this to...**</td>
+		<td>**Like AWS...**</td>
+	</tr> 
+
+ <tr><td>Application Insights</td><td>App Analytics</td><td>View detailed information about how your apps (web, mobile, etc.) are used.</td><td>Mobile Analytics</td></tr>
+ <tr><td>Service Fabric</td><td>Cloud App Framework</td><td>Build a cloud optimized application that can scale and handle failures inexpensively.</td><td></td></tr>
 </table>
