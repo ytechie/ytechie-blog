@@ -2,7 +2,6 @@
 layout: post
 title: Speeding up data access by using Linq to SQL or EF
 date: 2009-10-26
-tags: ["c#","entity framwork","LINQ","sql"]
 ---
 
 Recall that LINQ based object relational mappers (ORM) use expression trees to effectively translate your C# (or other language) LINQ code into SQL. Many DBA's and developers that don't fully understand this technology are often quick to discredit it. I'm going to show how significant performance, simplicity, and clarity can be gained by using Linq to SQL.

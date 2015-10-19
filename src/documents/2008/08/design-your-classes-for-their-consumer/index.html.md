@@ -2,7 +2,6 @@
 layout: post
 title: Design your classes for their consumer
 date: 2008-08-11
-tags: ["productivity","software-development","testing"]
 ---
 
 I'm going to describe a methodology that will help you save time by writing better classes, and will help simplify your life by allowing you to solve problems with a top-down approach.

@@ -2,7 +2,6 @@
 layout: post
 title: Can LEAN be applied to software?
 date: 2008-04-17
-tags: ["productivity","software development"]
 ---
 
 The company I work for has recently started a major LEAN manufacturing initiative. When I first heard about it, I started having flashbacks to the [Six Sigma](http://en.wikipedia.org/wiki/Six_sigma) training in me [GE](http://www.ge.com/) days. While the concept of Six Sigma makes sense, the approach that GE took was completely useless.

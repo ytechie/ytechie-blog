@@ -2,7 +2,6 @@
 layout: post
 title: Object does not match target type in GridView
 date: 2008-05-16
-tags: ["asp.net"]
 ---
 
 I created a shopping cart for a website that can display multiple types of items that implement IShoppingCartItem. When the GridView would display items that were different type, I would get this exception:

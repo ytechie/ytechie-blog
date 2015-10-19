@@ -2,7 +2,6 @@
 layout: post
 title: Advantages of a 3rd party diff/compare tool
 date: 2008-12-26
-tags: ["productivity","software","software development"]
 ---
 
 I recently spent nearly an hour trying to figure out why all of my unit tests stopped working in a particular class. It turns out that I had accidentally deleted a single character in one of my strings, but the built in diff tool that comes with Team Foundation Server is very simplistic. Learn how and why you can replace your stock compare tool with something a little more powerful.

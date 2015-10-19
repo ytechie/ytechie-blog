@@ -2,7 +2,6 @@
 layout: post
 title: Introduction to Distributed Source Control
 date: 2009-11-06
-tags: ["software","software development"]
 ---
 
 Version control systems manage the changes of documents. In software development, their primary purpose is to store the source code for an application, as well as every revision created during its development.

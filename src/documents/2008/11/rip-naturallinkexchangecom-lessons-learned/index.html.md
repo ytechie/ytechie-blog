@@ -2,7 +2,6 @@
 layout: post
 title: RIP NaturalLinkExchange.com - Lessons Learned
 date: 2008-11-05
-tags: ["software development"]
 ---
 
 In the past, my colleagues and I have had "big ideas" that we tried to turn into reality. Unfortunately, we never found that one idea that took 5 minutes to create, and made millions overnight. I think that's everyone's goal, but is rarely reality.

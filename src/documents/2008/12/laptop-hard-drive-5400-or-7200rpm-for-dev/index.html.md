@@ -2,7 +2,6 @@
 layout: post
 title: Laptop Hard drive, 5400 or 7200RPM for dev?
 date: 2008-12-14
-tags: ["hardware"]
 ---
 
 My laptop came factory equipped with a 250GB 5400RPM hard drive. Overall, the performance has been pretty good. One of the only areas that has been less than spectacular was virtual machine performance. I placed an order for a 320GB 7200RPM laptop drive. Was it faster? Read on to find out!

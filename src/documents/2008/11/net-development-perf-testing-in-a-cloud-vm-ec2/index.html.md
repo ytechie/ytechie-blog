@@ -2,7 +2,6 @@
 layout: post
 title: .NET Development Perf Testing in a Cloud VM (EC2)
 date: 2008-11-18
-tags: ["productivity","software development","virtualization"]
 ---
 
 If you haven't heard, Amazon's EC2 service provides cloud-hosted virtual machines. Initially, they just supported Linux machine images, but recently have allowed Windows machine images. This means that you can create on-demand hosted virtual machines accessible from anywhere.

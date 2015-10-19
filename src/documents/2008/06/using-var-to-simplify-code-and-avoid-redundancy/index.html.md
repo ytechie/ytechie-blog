@@ -2,7 +2,6 @@
 layout: post
 title: Using "var" to simplify code and avoid redundancy
 date: 2008-06-25
-tags: ["c#"]
 ---
 
 You've probably already heard of the new &quot;var&quot; keyword that you can use to declare variables in your .NET code. I wanted to clear up some quick myths and give a quick overview of when it's most valuable.

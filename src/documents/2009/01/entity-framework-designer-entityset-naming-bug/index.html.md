@@ -2,7 +2,6 @@
 layout: post
 title: Entity framework designer "entityset" naming bug
 date: 2009-01-09
-tags: ["entity framwork"]
 ---
 
 I ran into a curious bug in the Visual Studio Entity Framework Designer (edmx editor). There is an inconsistency in how entity sets are named when importing in a database compared to when their created or edited in the designer.

@@ -2,7 +2,6 @@
 layout: post
 title: ASP.NET MVC, What about SEO?
 date: 2008-10-01
-tags: ["asp.net","mvc","seo"]
 ---
 
 I've started working the the latest preview of the ASP.NET MVC framework. I'm completely converting one of my sites, because learning by _doing _is typically the best way. Unfortunately, I've run into some alarming SEO (Search Engine Optimization) issues with this new paradigm (or more specifically, the Microsoft implementation).

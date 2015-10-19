@@ -2,7 +2,6 @@
 layout: post
 title: Tip for success – Track your accomplishments
 date: 2009-01-31
-tags: ["productivity"]
 ---
 
 When it's time for your yearly performance reviews, how do you convey all of the great ideas you've had, the money you've saved the company, and the customers you've delighted? My suggestion is to start keeping track of your accomplishments. I think this is especially important in the software business where you may be seen as the guy that sits around at a computer all day.

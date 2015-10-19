@@ -2,7 +2,6 @@
 layout: post
 title: Understanding LINQ and LINQ to SQL (and EF)
 date: 2009-09-17
-tags: [".net","c#","entity framwork","LINQ"]
 ---
 
 Back to basics for this post. Developers often throw around the word LINQ when talking about a number of different technologies. Now that I have been comfortably using a wide variety of LINQ technologies for a fair amount of time, I'm now able to convey some of the key differences that are critical to using LINQ technologies efficiently. I'm also using this as a foundation and reference for some exciting upcoming posts.

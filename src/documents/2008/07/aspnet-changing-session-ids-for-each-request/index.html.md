@@ -2,7 +2,6 @@
 layout: post
 title: ASP.NET Changing Session ID's for each request
 date: 2008-07-30
-tags: ["asp.net"]
 ---
 
 I ran into an issue where ASP.NET was changing the Session.SessionId for every request from the same user. A quick Google search revealed 2.3 million pages. I'll summarize one of the main reasons this can happen, and discuss 2 ways to fix it.

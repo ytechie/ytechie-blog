@@ -2,7 +2,6 @@
 layout: post
 title: Unit tests are for functionality, not code!
 date: 2008-06-12
-tags: ["testing"]
 ---
 
 [Shawn](http://blog.obishawn.com/) has an interesting post where he talks about [why 100% unit test coverage should be one of your goals](http://blog.obishawn.com/2008/06/why-you-should-have-100-code-test.html). I agree 100%. I'm not sure why anyone would say that you shouldn't be testing your properties. Don't you want to make sure they work?

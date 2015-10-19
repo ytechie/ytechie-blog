@@ -2,7 +2,6 @@
 layout: post
 title: Secure XAMPP by only allowing local access
 date: 2008-10-31
-tags: ["apache","wordpress"]
 ---
 
 This site and a couple others are served up on a dedicated server. To make it easy to set up Wordpress, I'm using XAMPP. In this post, I'll give a quick overview of XAMPP, and then also show you how to secure it so that administrative utilities are only available locally.

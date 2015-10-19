@@ -2,7 +2,6 @@
 layout: post
 title: Introducing the Modern Manufacturing Framework
 date: 2014-02-06
-tags: ["manufacturing"]
 ---
 
 Manufacturing is responsible for the clothes you wear, the products you use every day, and has assembled nearly every object in the room with you right now. Data, data, data - Manufacturing is responsible for generating Exabyte's of data that gets collected, stored, and analyzed every year. That's far more data than any other sector.

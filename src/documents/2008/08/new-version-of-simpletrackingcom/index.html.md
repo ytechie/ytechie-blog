@@ -2,7 +2,6 @@
 layout: post
 title: New Version of SimpleTracking.com
 date: 2008-08-27
-tags: ["simpletracking"]
 ---
 
 I recently released a new version of [SimpleTracking.com](http://www.simpletracking.com/). Here are the highlights:

@@ -2,7 +2,6 @@
 layout: post
 title: An intro to Search Engine Optimization (SEO)
 date: 2008-06-17
-tags: ["seo"]
 ---
 
 I'm going to assume that a fair number of my readers have a website, blog, or other web presence. Many of you have probably built a website or two. I'm going to give you some quick SEO tips that I have found to be most important.

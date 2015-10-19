@@ -2,7 +2,6 @@
 layout: post
 title: Uninitialized variables in Adobe Flex "for" loops
 date: 2008-03-31
-tags: ["flex"]
 ---
 
 	for(var j:int; j < editAreas.length; j++)

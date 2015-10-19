@@ -2,7 +2,6 @@
 layout: post
 title: Don't play the "What If" game
 date: 2008-05-14
-tags: ["productivity","software-development"]
 ---
 
 One of the biggest traps I've seen developers fall into is what I like to call the "What If" game:

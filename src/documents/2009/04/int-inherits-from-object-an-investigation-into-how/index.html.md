@@ -2,7 +2,6 @@
 layout: post
 title: int inherits from object? An investigation into how.
 date: 2009-04-17
-tags: [".net"]
 ---
 
 I've began working with a study group which was formed to study for the .NET Framework Application Development certification exam (70-536). I'm eager to get certified because I think it helps fill-in knowledge gaps that I may not have necessarily took the time to focus on normally. One of the first things that came up in our study group is the fact that **int**, which is an alias for **System.Int32**, derives from Sytem.ValueType, which, in turn, derives from **System.Object**. Let's take a close look at what that actually means, and how it's implemented.

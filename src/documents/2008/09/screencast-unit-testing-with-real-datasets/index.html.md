@@ -2,7 +2,6 @@
 layout: post
 title: Screencast - Unit testing with real DataSets
 date: 2008-09-22
-tags: ["unit-testing"]
 ---
 
 [As I've mentioned before](http://www.ytechie.com/2008/04/net-xml-dataset-generator-from-a-sql-query/), I [wrote a small utility](http://code.google.com/p/queryxmldataset/) for running a SQL query, and returning the results as an XML serilialized DataSet.

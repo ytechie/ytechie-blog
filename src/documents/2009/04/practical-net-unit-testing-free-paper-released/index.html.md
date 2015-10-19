@@ -2,7 +2,6 @@
 layout: post
 title: Practical .NET Unit Testing – Free paper released
 date: 2009-04-30
-tags: ["software development","unit testing"]
 ---
 
 I've been working on a unit testing paper that sums up my experience in unit testing, and discusses some of the core information that I feel is important about the subject. It's very much a work in progress, but I wanted to get it out sooner rather than later. I'll be continuously updating it as time goes on.

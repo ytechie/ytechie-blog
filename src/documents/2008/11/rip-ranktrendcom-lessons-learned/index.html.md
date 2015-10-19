@@ -2,7 +2,6 @@
 layout: post
 title: RIP RankTrend.com - Lessons Learned
 date: 2008-11-06
-tags: ["software development"]
 ---
 
 [In my last post](http://www.ytechie.com/2008/11/rip-naturallinkexchangecom-lessons-learned/), I started talking about two sites that I'm shutting down. Today I'm talking about the history RankTrend.com, and the lessons I learned.

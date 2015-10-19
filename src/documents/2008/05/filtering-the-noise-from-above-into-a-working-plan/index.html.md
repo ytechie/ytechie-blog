@@ -2,7 +2,6 @@
 layout: post
 title: Filtering the noise from above into a working plan
 date: 2008-05-06
-tags: ["productivity","software-development"]
 ---
 
 In this post I'll talk about a few ways that you can deal with the common influx of requests that come in for a software team.

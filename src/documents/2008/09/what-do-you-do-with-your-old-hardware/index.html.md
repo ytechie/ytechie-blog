@@ -2,7 +2,6 @@
 layout: post
 title: What do you do with your old hardware?
 date: 2008-09-12
-tags: ["hardware"]
 ---
 
 I've been on a mission to scale down all of the old tech hardware I have laying around in my house. Here is a partial list of what I had/have:

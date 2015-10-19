@@ -2,7 +2,6 @@
 layout: post
 title: Is Quality Important?
 date: 2009-02-10
-tags: ["software development"]
 ---
 
 [Joel Spolsky](http://www.joelonsoftware.com/) and [Jeff Atwood](http://www.codinghorror.com/blog/) [stirred up some debate](http://blog.objectmentor.com/articles/2009/01/31/quality-doesnt-matter-that-much-jeff-and-joel) when they said "_Quality just doesn't matter that much_". At first, I was a little outraged. My entire development process is built around quality. Without it, airplanes would fall from the sky and your car wouldn't start in the morning.

@@ -2,7 +2,6 @@
 layout: post
 title: Cloud Computing (and Azure) - Right for your site?
 date: 2008-11-11
-tags: ["cloud"]
 ---
 
 Everyone seems to be getting excited lately about the prospect of cloud computing. Just like many others, I get excited by the idea that I wouldn't have to worry about adding servers to scale up. Theoretically, a guy (or girl) could make the next YouTube, in his basement, for _free_. However, there is one huge advantage that most people ignore, and that's the fact that's also **perfect for a small scale website**.

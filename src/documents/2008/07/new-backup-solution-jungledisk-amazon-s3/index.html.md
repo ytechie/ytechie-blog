@@ -2,7 +2,6 @@
 layout: post
 title: New Backup Solution - JungleDisk + Amazon S3
 date: 2008-07-02
-tags: ["software"]
 ---
 
 I've settled on a new backup solution. I'm going to be using [Amazon's persistent storage solution called S3](http://www.amazon.com/gp/browse.html?node=16427261). Amazon provides a **virtually infinite, scalable storage** cloud that allows you to store files indefinitely. You pay a small fee to get the data there ($.10/gig), a fee to store the data ($.15/gig/month), and a fee to retrieve the data ($.17/gig).

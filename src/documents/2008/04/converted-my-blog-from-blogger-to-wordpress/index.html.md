@@ -2,7 +2,6 @@
 layout: post
 title: Converted my blog from Blogger to Wordpress
 date: 2008-04-26
-tags: ["blogging"]
 ---
 
 Well I did it. I actually really liked using [Blogger](http://www.blogger.com), and I had finally gotten my blog set up the way I liked. However, I just wanted a little more. I evaluated a couple of different solutions (including [Subtext](http://subtextproject.com/), which I use on my [personal blog](http://www.superjason.com)), and I decided to go with [WordPress](http://wordpress.org/) (the software, not the hosted service).

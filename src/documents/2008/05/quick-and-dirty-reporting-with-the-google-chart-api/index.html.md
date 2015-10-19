@@ -2,7 +2,6 @@
 layout: post
 title: Quick and dirty reporting with the Google Chart API
 date: 2008-05-05
-tags: ["asp.net","sql"]
 ---
 
 On a recent project, I need a quick and dirty report that would give a breakdown of statistics for orders that have been placed. I didn't need any fancy drill down, hover help, or transition effects. This sounds like a perfect use for the [Google Chart API](http://code.google.com/apis/chart/)! There is no limit on use. All you have to do is construct a URL containing your data, and that is the URL for an image containing your chart. Here is a sample of a chart that we're going to generate in this post:

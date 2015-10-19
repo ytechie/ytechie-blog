@@ -2,7 +2,6 @@
 layout: post
 title: ASP.NET LinkButton and SEO
 date: 2008-04-07
-tags: ["asp.net","seo"]
 ---
 
 A common question that comes up, is what do [LinkButton's](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.linkbutton.aspx) do for [SEO](http://en.wikipedia.org/wiki/Search_engine_optimization) (Search Engine Optimization)? Well, let's take a look what a LinkButton actually renders for HTML:

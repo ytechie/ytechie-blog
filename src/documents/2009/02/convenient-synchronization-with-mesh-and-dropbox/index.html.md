@@ -2,7 +2,6 @@
 layout: post
 title: Convenient Synchronization with Mesh and DropBox
 date: 2009-02-13
-tags: ["productivity","software"]
 ---
 
 A couple of weeks ago, I finally signed up for [DropBox](https://www.getdropbox.com/). If you're unfamiliar with the service, it's a file synchronization service. You install a client on multiple machines, and you get a special folder (aka a dropbox). When you make changes on any computer, it's synchronized with a central server, as well as the other clients.

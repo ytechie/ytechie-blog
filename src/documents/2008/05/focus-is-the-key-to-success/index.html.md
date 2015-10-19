@@ -2,7 +2,6 @@
 layout: post
 title: Focus is the key to success
 date: 2008-05-08
-tags: ["productivity"]
 ---
 
 I'm certainly not the first to say it, and I'm sure I won't be the last. The software/Internet world requires focus as much as any other industry, if not more.

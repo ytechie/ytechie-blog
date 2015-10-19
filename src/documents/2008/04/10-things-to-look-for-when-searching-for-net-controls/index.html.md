@@ -2,7 +2,6 @@
 layout: post
 title: 10 things to look for when searching for .NET controls
 date: 2008-04-10
-tags: ["asp.net","software-development"]
 ---
 
 One of the best ways to speed up the development of that project you're working on is to use third party libraries controls. In particular, .NET has had an absolutely amazing number of third party controls. Microsoft has made it amazingly simple to build re-usable code.

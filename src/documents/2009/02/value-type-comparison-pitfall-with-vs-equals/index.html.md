@@ -2,7 +2,6 @@
 layout: post
 title: Value type comparison pitfall with == vs Equals
 date: 2009-02-11
-tags: ["c#"]
 ---
 
 I recently ran into a situation that momentarily confused me, because it was non-intuitive to me at first. I'm working on a class that tracks changes made in UI controls in Silverlight, and I wrote code similar to the following:

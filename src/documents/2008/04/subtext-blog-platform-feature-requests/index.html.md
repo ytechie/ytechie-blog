@@ -2,7 +2,6 @@
 layout: post
 title: Subtext blog platform feature requests
 date: 2008-04-30
-tags: ["blogging"]
 ---
 
 For this blog, I'm currently using [WordPress](http://wordpress.org/). For my [personal blog](http://www.superjason.com), I chose to use [SubText](http://subtextproject.com/). SubText is an ASP.NET based installable blogging platform that was originally based on the [.Text](http://scottwater.com/blog/pages/dottext/) source code. I initially tried to stay with a .NET based solution, so that I would be able to fix it if something went wrong.

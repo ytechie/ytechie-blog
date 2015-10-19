@@ -2,7 +2,6 @@
 layout: post
 title: IIS 6 and Apache on the same server and port
 date: 2008-04-26
-tags: ["software"]
 ---
 
 This has [been written](http://www.prismix.com/blog/2006/06/running_apache_and_iis_6_toget.cfm) about before, but I just ran into it, and hopefully I can save someone a headache.

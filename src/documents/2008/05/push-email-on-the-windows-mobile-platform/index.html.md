@@ -2,7 +2,6 @@
 layout: post
 title: Push Email on the Windows Mobile Platform
 date: 2008-05-15
-tags: ["software"]
 ---
 
 A few months ago, I went ahead a bought an [HTC Touch](http://www.htctouch.com/) Smartphone. I initially wanted the Pocket PC platform, so that I could easily sync up with Outlook and have all of my contacts and appointments with me at all times. Synchronizing that information with a typical phone is very painful.

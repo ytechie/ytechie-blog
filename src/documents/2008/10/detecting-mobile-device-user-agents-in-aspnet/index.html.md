@@ -2,7 +2,6 @@
 layout: post
 title: Detecting mobile device user agents in ASP.NET
 date: 2008-10-14
-tags: ["asp.net"]
 ---
 
 If you're developing a mobile version of your website, usability should be one of your top priorities. Most sites will detect if you're using a mobile device, and automatically redirect you to the mobile version. I'm going to show you how to do this in ASP.NET.

@@ -2,7 +2,6 @@
 layout: post
 title: Using objects or repository interface in constructor
 date: 2008-07-08
-tags: ["c#","productivity"]
 ---
 
 I've been really trying to use the [Single Responsibility Pattern](http://www.ytechie.com/2008/06/agile-patterns-practices-and-the-developer-divide/) in all of the classes I design. Recently, I needed to create code to query a list of holidays from the database, and then create a method that allows you to get the number of holidays between two given dates.

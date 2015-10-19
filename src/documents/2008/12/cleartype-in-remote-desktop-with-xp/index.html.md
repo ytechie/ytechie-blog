@@ -2,7 +2,6 @@
 layout: post
 title: ClearType in Remote Desktop with XP
 date: 2008-12-23
-tags: ["productivity","software","software development"]
 ---
 
 A new feature in XP SP3 that should of particular interest to developers is ClearType over RDP (remote desktop protocol). If you occasionally use remote desktop to work from home, or work remotely to your development machine, please read on.

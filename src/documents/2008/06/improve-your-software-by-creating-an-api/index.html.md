@@ -2,7 +2,6 @@
 layout: post
 title: Improve your software by creating an API
 date: 2008-06-04
-tags: ["software-development"]
 ---
 
 I'm going to talk about the benefits of having an [API](http://en.wikipedia.org/wiki/API) for your product, and why you should consider building one for your next project.

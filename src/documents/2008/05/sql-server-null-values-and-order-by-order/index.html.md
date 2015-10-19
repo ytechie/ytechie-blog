@@ -2,7 +2,6 @@
 layout: post
 title: SQL Server NULL values and "Order By" order
 date: 2008-05-19
-tags: ["sql"]
 ---
 
 I have a few tables that contain a column called "Order", which is used to sort by when retrieving the data. The purpose is to keep the data in a certain order when displayed to the end user.

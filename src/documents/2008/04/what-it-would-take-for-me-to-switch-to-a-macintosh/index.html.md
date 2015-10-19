@@ -2,7 +2,6 @@
 layout: post
 title: What it would take for me to switch to a Macintosh
 date: 2008-04-16
-tags: ["software","virtualization"]
 ---
 
 Apple could come out with a killer technology that would increase their sales like nobody's business.

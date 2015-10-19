@@ -2,7 +2,6 @@
 layout: post
 title: Speaking at Day of .NET at Fox Valley Tech
 date: 2009-04-28
-tags: [".net","software development","unit testing"]
 ---
 
 If you're interested in hearing about writing practical unit tests in .NET, I'll be speaking at the [Fox Valley .NET user group](http://fvnug.org) ["Day of .NET" event](http://fvnug.org/dnn/DayOfNet/Schedule/tabid/62/Default.aspx) May 9th! Here is the synopsis for your reading pleasure:

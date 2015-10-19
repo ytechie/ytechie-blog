@@ -2,7 +2,6 @@
 layout: post
 title: A Dependency Injection example with Spring.NET
 date: 2008-06-13
-tags: ["c#","testing"]
 ---
 
 As requested, here is a real world example of how I used [dependency injection](http://www.ytechie.com/2008/06/i-finally-get-the-point-of-inversion-of-control/) to simplify a project, increase modularity, and subsequently increase testability.

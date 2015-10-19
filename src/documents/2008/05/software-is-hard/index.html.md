@@ -2,7 +2,6 @@
 layout: post
 title: Software is hard!
 date: 2008-05-23
-tags: ["software-development"]
 ---
 
 Not too long ago, I was telling my uncle about an e-commerce site that a coworker and I were able to develop in about 4 months. I was shocked at his next query:

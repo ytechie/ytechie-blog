@@ -2,7 +2,6 @@
 layout: post
 title: What a developer needs from their manager
 date: 2008-06-10
-tags: ["productivity","software-development"]
 ---
 
 I've a read a lot of articles talking about [what it takes to be a good development manager](http://www.aaronlerch.com/blog/2008/04/20/from-developer-to-technical-manager/). There are also articles about [what makes a good developer](http://www.ytechie.com/2008/04/why-im-a-better-software-developer-than-you/). I thought it would be a good idea to describe what a developer needs from their manager.

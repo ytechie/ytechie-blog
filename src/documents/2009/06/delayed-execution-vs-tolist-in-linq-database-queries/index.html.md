@@ -2,7 +2,6 @@
 layout: post
 title: Delayed execution vs ToList() in LINQ Database Queries
 date: 2009-06-23
-tags: [".net","entity framwork","LINQ"]
 ---
 
 LINQ to SQL and Entity framework allow us to build a query, which gets translated into an expression tree, and executed once the full query is built. The beauty is that we can build up a query using multiple expressions and Lambdas, without actually querying the data. Since these types of queries are delay loaded, why not avoid executing them until the last possible moment? Read on to see why this is usually a bad idea.

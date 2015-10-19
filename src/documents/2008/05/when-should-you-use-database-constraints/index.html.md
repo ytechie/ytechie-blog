@@ -2,7 +2,6 @@
 layout: post
 title: When should you use database constraints?
 date: 2008-05-13
-tags: ["sql"]
 ---
 
 A discussion came up at work recently about the extent of constraint usage in your databases. There were basically 2 camps:

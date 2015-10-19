@@ -2,7 +2,6 @@
 layout: post
 title: Serving your ASP.NET .aspx pages with .html
 date: 2008-04-24
-tags: ["asp.net"]
 ---
 
 Many SEO experts believe that Google prefers pages that end with the &quot;html&quot; extension. I'm guessing it has to do with the fact that static content is favored, because it is less commonly spammed. Even if Google doesn't actually look at the extension, you certainly won't be penalized for using the &quot;html&quot; extension.

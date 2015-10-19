@@ -2,7 +2,6 @@
 layout: post
 title: Locking sessions for multi-threaded access
 date: 2008-07-10
-tags: ["asp.net","c#"]
 ---
 
 I recently ran into a situation where I needed to upload some small files from a Flex client application to an ASP.NET web server. I decided to store the uploaded files in the users session while they were in the checkout process. Once the user confirms their order, the images are read from the session and stored to the database.

@@ -2,7 +2,6 @@
 layout: post
 title: I switched from Linux to Windows Server 2008
 date: 2008-04-15
-tags: ["software"]
 ---
 
 Wait, did I say that right? I thought it was supposed to be the other way around?

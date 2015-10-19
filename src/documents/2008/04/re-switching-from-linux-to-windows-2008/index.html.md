@@ -2,7 +2,6 @@
 layout: post
 title: RE: Switching from Linux to Windows 2008
 date: 2008-04-18
-tags: ["software"]
 ---
 
 I've gotten so much feedback from my post "[I switched from Linux to Windows Server 2008](http://www.ytechie.com/2008/04/i-switched-from-linux-to-windows-server-2008/)" that I think I need to clarify a few things. The responses have ranged from agreement to personal attacks. I'm impressed by the emotion of the people that really believe in their operating system. Personally, I've always tried to use each tool for different situations.

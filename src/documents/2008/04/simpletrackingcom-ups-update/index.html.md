@@ -2,7 +2,6 @@
 layout: post
 title: SimpleTracking.com UPS Update
 date: 2008-04-03
-tags: ["simpletracking"]
 ---
 
 As you know, [SimpleTracking.com](http://www.SimpleTracking.com) supports FedEx, DHL, and USPS. We've been trying to get back UPS support for well over a year.

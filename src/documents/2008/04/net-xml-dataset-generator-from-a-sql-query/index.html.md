@@ -2,7 +2,6 @@
 layout: post
 title: .NET XML DataSet Generator from a SQL Query
 date: 2008-04-27
-tags: ["unit testing"]
 ---
 
 [As promised](http://www.ytechie.com/2008/04/dataset-xml-serializer-utility-for-unit-testing/), I've now made the [.NET XML DataSet Generator](http://code.google.com/p/queryxmldataset/) available on Google Code.

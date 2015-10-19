@@ -2,7 +2,6 @@
 layout: post
 title: Disable auto id's when copying ASP.NET controls
 date: 2008-05-02
-tags: ["asp.net"]
 ---
 
 Don't you hate it when you copy an ASP.NET server control without an ID, only to have it add one when you paste it?

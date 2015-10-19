@@ -2,7 +2,6 @@
 layout: post
 title: Google officially indexing flash sites - good news?
 date: 2008-07-01
-tags: ["flex","seo"]
 ---
 
 According to the official Google blog, they're now [officially indexing flash content](http://googleblog.blogspot.com/2008/06/google-learns-to-crawl-flash.html). According to my SEO expert, they've been doing this for some time. However, I wonder if making this official is a good news.

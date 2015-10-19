@@ -2,7 +2,6 @@
 layout: post
 title: Ask me questions, I might just answer!
 date: 2008-04-14
-tags: ["blogging"]
 ---
 
 On the right side of my blog, you'll notice that I added a question button. If you have a question that is technology or software related, please ask! If your question is stupid, I admit, I will probably ignore it. However, if you have a good question, I'll try my best to answer it with its very own blog post.

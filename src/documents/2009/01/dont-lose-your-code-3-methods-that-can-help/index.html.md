@@ -2,7 +2,6 @@
 layout: post
 title: Don't lose your code - 3 methods that can help
 date: 2009-01-05
-tags: ["software development"]
 ---
 
 Inevitably, you'll lose power to your computer, have a hard drive crash, have lightening strike, accidentally delete code that hasn't been checked in, or encounter some other crazy scenario that I can't even imagine. What is your plan? Read on if you want some solutions that may just save your code.

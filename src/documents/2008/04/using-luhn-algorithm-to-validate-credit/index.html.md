@@ -2,7 +2,6 @@
 layout: post
 title: Using the Luhn algorithm to validate credit cards
 date: 2008-04-16
-tags: ["asp.net","ecommerce"]
 ---
 
 Today's post is inspired by [this blog post](http://www.diffio.com/post/Credit-card-validation---regular-expressions.aspx). The author posted a number of regular expressions for the different types of credit cards. I'm sure there are cases when they are useful, but there is typically a better way!

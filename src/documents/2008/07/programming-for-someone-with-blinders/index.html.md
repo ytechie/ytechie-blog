@@ -2,7 +2,6 @@
 layout: post
 title: Programming for someone with blinders
 date: 2008-07-22
-tags: ["productivity","software-development"]
 ---
 
 One of your goals as a developer should be to make your code as readable as possible, both for yourself, and for the other developers you work with.

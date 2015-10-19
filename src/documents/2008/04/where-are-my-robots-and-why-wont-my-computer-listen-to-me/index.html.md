@@ -2,7 +2,6 @@
 layout: post
 title: Where are my robots, and why won't my computer listen to me?
 date: 2008-04-04
-tags: ["software development"]
 ---
 
 My buddy Steve has a [great post on his blog](http://designed2print.wordpress.com/2008/04/04/technology-cant-keep-up-with-me/). He's asking why his computer isn't smarter. For example, changing a color in a few hundred graphics files.

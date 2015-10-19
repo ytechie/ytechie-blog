@@ -2,7 +2,6 @@
 layout: post
 title: Removing duplicate page addresses in MVC
 date: 2008-10-07
-tags: ["asp.net","mvc","seo"]
 ---
 
 As I mentioned before, there are a couple of SEO issues with MVC. I'll discuss two ways to get around the trailing slash issue. [Recall](http://www.ytechie.com/2008/10/aspnet-mvc-what-about-seo/) what the issue was. MVC will happily serve up your URL's both with and without a trailing slash:

@@ -2,7 +2,6 @@
 layout: post
 title: Why I'm a better software developer than you
 date: 2008-04-30
-tags: ["software development"]
 ---
 
 What makes one developer better than another? Shouldn't we all be performing at the same level? Of course not, we're not sewing buttons on an assembly line. We're using every bit of our intelligence to create something that we can only begin to understand.

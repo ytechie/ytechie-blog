@@ -2,7 +2,6 @@
 layout: post
 title: Disable constraints in "After Insert" trigger
 date: 2008-04-23
-tags: ["sql"]
 ---
 
 I have a table that stores extra information (Users) that gets associated with the &quot;aspnet_Membership&quot; table in my application. Since my table references the membership table, I have a foreign key for referential integrity.

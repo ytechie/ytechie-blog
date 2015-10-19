@@ -2,7 +2,6 @@
 layout: post
 title: DataSet XML serializer utility for unit testing
 date: 2008-04-11
-tags: ["unit testing"]
 ---
 
 Quite a while ago I wanted to do some unit testing with DataSet's and DataTable's as input. In code, there isn't really an _easy_ way to generate them, especially if you want them to be a realistic subset of the real data in your database.

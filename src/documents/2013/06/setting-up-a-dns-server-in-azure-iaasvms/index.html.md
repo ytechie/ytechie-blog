@@ -2,7 +2,6 @@
 layout: post
 title: Setting up a DNS Server in Azure IaaS/VMs
 date: 2013-06-23
-tags: ["Azure"]
 ---
 
 With the recent GA release and rapidly growing usage of virtual machines within Windows Azure, many are trying to set up an independent/non-VPN network. The great part of Azure virtual machines is that it can be as flexible as a set of PCs or VMs hosted within your own datacenter. Many of these scenarios require a more flexible local DNS server than what is provided by default in Azure. For example, programmatically building a dynamic cluster of VM's. In this post, I'll show you how to get up an running with a DNS server quickly and easily.

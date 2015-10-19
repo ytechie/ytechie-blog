@@ -2,7 +2,6 @@
 layout: post
 title: DotNetKicks Blogger integration that actually works!
 date: 2008-04-09
-tags: ["blogging"]
 ---
 
 I found a couple of posts describing how to embed the DotNetKicks &quot;kick it&quot; button into your blogger template:

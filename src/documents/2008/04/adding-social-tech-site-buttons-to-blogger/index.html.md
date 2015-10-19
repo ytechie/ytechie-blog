@@ -2,7 +2,6 @@
 layout: post
 title: Adding social tech site buttons to Blogger
 date: 2008-04-24
-tags: ["blogging"]
 ---
 
 [ObiShawn](http://www.obishawn.com) asked me how I added the buttons at the end of each post for the social tech sites. You can look at the end of this post to see what I mean.

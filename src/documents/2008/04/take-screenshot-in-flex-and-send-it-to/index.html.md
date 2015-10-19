@@ -2,7 +2,6 @@
 layout: post
 title: Take a screenshot in Flex and send it to ASP.NET
 date: 2008-04-22
-tags: ["actionscript","asp.net","flex"]
 ---
 
 In Adobe Flex 3, you can get a bitmap image of any control by using this code (you'll need to import &quot;mx.graphics.ImageSnapshot&quot;):

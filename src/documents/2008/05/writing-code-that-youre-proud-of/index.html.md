@@ -2,7 +2,6 @@
 layout: post
 title: Writing code that you're proud of
 date: 2008-05-16
-tags: ["software-development"]
 ---
 
 Almost every time that someone shows me a snippet of their code, I hear a comment like this:

@@ -2,7 +2,6 @@
 layout: post
 title: Maintaining Consistent Line Lengths
 date: 2009-04-06
-tags: ["productivity","software development"]
 ---
 
 Today's tip comes from the "Anally Retentive" department. In the [.NET CLR team likes to keep their lines of code under 110 characters long](http://blogs.msdn.com/shawnfa/archive/2006/07/07/659281.aspx). I'm assuming that they're trying to maintain consistency and readability. I often try to maintain an imaginary line length limit, but I doubt I'm very consistent.

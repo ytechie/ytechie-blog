@@ -2,7 +2,6 @@
 layout: post
 title: Vista x64 Frequent Stuttering – Dell M6400
 date: 2009-01-29
-tags: ["hardware"]
 ---
 
 I recently got a new laptop at work (the details of which I'm saving for another day). It's a Dell Precision M6400. With a fresh install of Vista Enterprise x64, the whole machine would stutter/pause/stall every few seconds. It wasn't just the mouse, it was the display, the sound, everything. It was unbearably annoying, and I eventually fixed it.

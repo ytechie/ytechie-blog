@@ -2,7 +2,6 @@
 layout: post
 title: Agile patterns & practices and the developer divide
 date: 2008-06-20
-tags: ["software-development"]
 ---
 
 In what little free time I have, I've been slowly working my way through the book "[Agile Principles, Patterns, and Practices in C#](http://www.amazon.com/dp/product/0131857258/?tag=ytechie-20&linkCode=asn&creativeASIN=0131857258)" by Robert C. Martin. This is a GREAT book, and a real eye opener.

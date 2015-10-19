@@ -2,7 +2,6 @@
 layout: post
 title: What every manager needs to ask and know
 date: 2008-07-03
-tags: ["productivity"]
 ---
 
 I've read books about what makes employees happy. If you manage people, I recommend reading the book [First, Break all the rules - What the world's greatest managers do differently](http://www.amazon.com/exec/obidos/ASIN/0684852861/ytechie-20). In that book, they surveyed tends of thousands of the best managers and employees. In their extensive research, they were able to come up with the 12 most important factors that make employees happy, increase productivity, and decrease turn-over.

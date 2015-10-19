@@ -2,7 +2,6 @@
 layout: post
 title: Managing the number of output assemblies
 date: 2008-06-02
-tags: ["software-development"]
 ---
 
 A while back I had a discussion with a coworker about whether to have a few number of DLL's (.NET assemblies), or a lot, each with just a little bit of functionality. He ended up with some assemblies that had as few as one class.

@@ -2,7 +2,6 @@
 layout: post
 title: Using iStockPhoto to make your website awesome
 date: 2008-04-23
-tags: ["asp.net","ecommerce"]
 ---
 
 The look of a website is key in determining the emotion that your visitors will feel when they look at it. For example, it's been proven that photos of people on your website will increase customer confidence, and lead to a higher sales conversion rate.

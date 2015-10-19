@@ -2,7 +2,6 @@
 layout: post
 title: Common Pitfalls when working with DateTime’s
 date: 2009-06-02
-tags: [".net","software development"]
 ---
 
 In .NET, the [DateTime](http://msdn.microsoft.com/en-us/library/system.datetime.aspx) structure provides us wonderful functionality, but this seemingly simple structure can cause a lot of headaches if you don't fully understand how to use it properly.

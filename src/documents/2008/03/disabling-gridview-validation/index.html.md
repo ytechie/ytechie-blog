@@ -2,7 +2,6 @@
 layout: post
 title: Disabling GridView Validation
 date: 2008-03-28
-tags: ["asp.net","c#"]
 ---
 
 If you want to put a gridview on a form with validators, you'll run into validation issues very quickly. The LinkButton controls cause the page validation. Immediately I looked for a "ValidationGroup" property on the GridView, but unfortunately, none exists.

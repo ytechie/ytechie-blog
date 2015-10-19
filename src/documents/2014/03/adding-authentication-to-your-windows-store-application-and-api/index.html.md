@@ -2,7 +2,6 @@
 layout: post
 title: Adding Authentication to your Windows Store Application & API
 date: 2014-03-04
-tags: ["hackfest","manufacturing"]
 ---
 
 In a hackfest this past weekend, I integrated Windows Azure Active Directory (WAAD) into the [manufacturing project](http://www.ytechie.com/2014/02/introducing-the-modern-manufacturing-framework/) I'm working on. This is meant as a gentle introduction and is not a comprehensive guide to adding authentication to your application. The application consists of a Windows 8 Store application and a WebAPI backend that interfaces with the rest of the backend systems.

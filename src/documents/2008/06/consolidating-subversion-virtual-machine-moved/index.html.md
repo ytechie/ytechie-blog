@@ -2,7 +2,6 @@
 layout: post
 title: Consolidating - Subversion virtual machine moved
 date: 2008-06-26
-tags: ["software-development"]
 ---
 
 [As I mentioned before](http://www.ytechie.com/2008/05/focus-is-the-key-to-success/), I'm trying to consolidate the number of websites that I have to maintain. My young-technologies.com domain was badly out of date, and didn't really have any useful information. I decided to redirect all of it's pages to this site.

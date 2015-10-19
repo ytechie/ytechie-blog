@@ -2,7 +2,6 @@
 layout: post
 title: LINQ, I'm not ready for you just yet
 date: 2008-04-28
-tags: ["c#","sql"]
 ---
 
 Today I was between features on the current project I'm working on, so I had some free time start researching some technologies I've been meaning to learn and start using. The topics at the top of my learning list are [LINQ](http://msdn2.microsoft.com/en-us/netframework/aa904594.aspx) and [MVC](http://weblogs.asp.net/scottgu/archive/2007/10/14/asp-net-mvc-framework.aspx). I gave LINQ a few months to mature, so I figured it was a good time to investigate.

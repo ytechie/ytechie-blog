@@ -2,7 +2,6 @@
 layout: post
 title: How to get the best customer service for free
 date: 2008-07-24
-tags: ["productivity","software development"]
 ---
 
 Today's tip is a hack for getting awesome tech support from a company for a product that you may or may not have purchased. It may not be polite, but it may be a method of last resort.

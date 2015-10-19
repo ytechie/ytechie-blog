@@ -2,7 +2,6 @@
 layout: post
 title: Code Snippets in Windows Live Writer
 date: 2008-05-21
-tags: ["blogging"]
 ---
 
 I was asked how I insert code snippets with Windows Live Writer. I actually did it the hard way. I wrote a Windows Live Writer plug-in, and then I found out someone had already [done the same thing](http://www.codeplex.com/wlwSyntaxHighlighter).

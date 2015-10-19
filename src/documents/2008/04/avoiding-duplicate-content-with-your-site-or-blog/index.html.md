@@ -2,7 +2,6 @@
 layout: post
 title: Avoiding duplicate content with your site or blog
 date: 2008-04-18
-tags: ["blogger","seo"]
 ---
 
 One of the most important rules in SEO (Search engine optimization) is avoiding duplicate content. Google has some [information on their page](http://www.google.com/support/webmasters/bin/answer.py?answer=66359) about how they handle duplicate content. Unfortunately, the Googlebot is rarely smart enough to know which content is original. Google wants to avoid users that copy and/or republish someone else's work simply to get content for their site.

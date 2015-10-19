@@ -2,7 +2,6 @@
 layout: post
 title: ASP.NET MVC Pro's and Con's
 date: 2008-10-20
-tags: ["asp.net","mvc"]
 ---
 
 In our current iteration of improving our software development strategy, ASP.NET WebForms simply doesn't fit in with the new demands of being unit testable and flexible. It comes as no surprise that ASP.NET MVC has been getting all the headlines lately. Like many others, I've gotten the itch to try it out. In this post I'll talk about what I believe are the main pro's and con's of the new style for building web applications.

@@ -2,7 +2,6 @@
 layout: post
 title: Intel Core 2 Quad Price Cuts
 date: 2008-04-22
-tags: ["hardware","virtualization"]
 ---
 
 Two days ago Intel dropped the price on the Q6700 (2.66Ghz) processor in **half**. Newegg currently [has this processor for $299](http://www.newegg.com/Product/Product.aspx?Item=N82E16819115027), and you get Unreal Tournament 3 for free.

@@ -2,7 +2,6 @@
 layout: post
 title: Unit Testing a LINQ to SQL or EF Query
 date: 2009-04-09
-tags: ["LINQ","unit testing"]
 ---
 
 I was writing a slightly non-trivial method to query a database to find a record matching a certain time range. It quickly became clear that it would be nice to write some automated unit tests against it. Integration tests would be less than ideal because of the execution time and complexity. I ended up with a way to test the code without jumping through too many hoops.

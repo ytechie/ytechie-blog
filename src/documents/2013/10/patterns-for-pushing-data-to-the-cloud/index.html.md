@@ -2,7 +2,6 @@
 layout: post
 title: Patterns for Pushing Data to the Cloud
 date: 2013-10-31
-tags: ["cloud","manufacturing"]
 ---
 
 Let's explore and evaluate some mechanistic patterns for pushing data to the Cloud. Cloud providers such as Azure provide scalable storage solutions for storing massive amounts of structured and unstructured data. Successful companies are centralizing their data for enterprise-wide processing and analysis. One common application scenario is the manufacturing industry. They're using this data to benchmark performance, and even predict when equipment will fail. Technologies such as Hadoop are gaining popularity as companies are seeing the value in data aggregation and analysis.

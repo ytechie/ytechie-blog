@@ -2,7 +2,6 @@
 layout: post
 title: Ode to the iPhone & iPod Touch
 date: 2009-03-26
-tags: ["hardware","iPhone"]
 ---
 
 I know I'm nearly two years late to the game, but I finally went out an purchased an iPod Touch, and I have a feeling an iPhone will be mine in the near future. I've been blown away by how far ahead of it's time this thing is. More importantly, it amazing how much of an application ecosystem has developed in such a short time.

@@ -2,7 +2,6 @@
 layout: post
 title: Response.Redirect and Output Caching Trouble
 date: 2008-10-13
-tags: ["asp.net"]
 ---
 
 I ran into an interesting issue with output caching. If you have a page that uses output caching and that page **conditionally** sends a redirect response, you need to be careful.

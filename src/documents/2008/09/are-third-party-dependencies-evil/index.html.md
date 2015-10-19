@@ -2,7 +2,6 @@
 layout: post
 title: Are third party dependencies evil?
 date: 2008-09-10
-tags: ["software-development"]
 ---
 
 I recently posted about a problem I had with the [Microsoft CTP DataGrid I was using](http://www.ytechie.com/2008/09/disabling-wpf-datagrid-virtualization/). I quickly got a response from Odi from Xceed, [asking why I wasn't using theirs](http://www.ytechie.com/2008/09/disabling-wpf-datagrid-virtualization/). Good question, and deserves it's own blog post.

@@ -2,7 +2,6 @@
 layout: post
 title: Deadlines are bad, goals are good
 date: 2008-04-08
-tags: ["software development"]
 ---
 
 Deadlines are a fact of life. If someone throws a football at your face, you have a certain amount of time to block it before the ball smashes into your face. Does software planning work the same way? That depends on the type of software you're writing.

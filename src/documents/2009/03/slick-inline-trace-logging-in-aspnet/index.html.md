@@ -2,7 +2,6 @@
 layout: post
 title: Slick inline trace logging in ASP.NET
 date: 2009-03-03
-tags: ["asp.net"]
 ---
 
 I'm going to show you a slick way to configure [log4net](http://logging.apache.org/log4net/index.html) to your trace log, and then make it extremely simple to view the trace log for a page **while** viewing that page. Ultimately, we'll end up with something that looks like this:

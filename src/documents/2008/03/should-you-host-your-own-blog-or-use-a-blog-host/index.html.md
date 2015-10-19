@@ -2,7 +2,6 @@
 layout: post
 title: Should you host your own blog, or use a blog host?
 date: 2008-03-29
-tags: ["blogging"]
 ---
 
 Every great developer feels the urge to write a blog at one point or another in their life. Personal blogs let you share photos with family members, and easily announce what is going on in your life. Technical blogs serve many purposes:

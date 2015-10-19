@@ -2,7 +2,6 @@
 layout: post
 title: Creating user friendly strings for enum values
 date: 2008-05-01
-tags: ["c#"]
 ---
 In this post, I'll show you how to create a custom attribute for enum values to assign extra information to an enum. In this case, we'll be associating a user friendly display name.
 

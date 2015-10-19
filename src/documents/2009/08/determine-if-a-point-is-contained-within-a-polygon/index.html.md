@@ -2,7 +2,6 @@
 layout: post
 title: Determine if a point is contained within a polygon
 date: 2009-08-18
-tags: ["c#"]
 ---
 
 One of my recent projects had a requirement to take a list of points and a list of polygons (of any order), and determine which points were in which polygons. I find this problem interesting, because the solution is not apparent, but it is easy to implement.

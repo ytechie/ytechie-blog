@@ -2,7 +2,6 @@
 layout: post
 title: Azure – Performance, IoC, and Instances
 date: 2009-02-19
-tags: ["software"]
 ---
 
 Ever since the [Google App Engine](http://code.google.com/appengine/) was released, I've been fascinated with cloud computing frameworks. The vision is to have a website that can scale from nothing to infinity, without having to worry about servers, viruses, uptime, etc. I've finally gotten a chance to play around with Azure, and I must say that I'm in love with the concept, but disappointed by the current reality.

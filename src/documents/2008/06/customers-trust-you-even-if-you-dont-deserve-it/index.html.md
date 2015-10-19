@@ -2,7 +2,6 @@
 layout: post
 title: Customers trust you, even if you don't deserve it
 date: 2008-06-05
-tags: ["software","usability"]
 ---
 
 [Jeff Atwood over at Coding Horror](http://www.codinghorror.com/blog/) had an [interesting post](http://www.codinghorror.com/blog/archives/001128.html) about sites that ask for your email password to lookup contacts in their system. He suggests that they stop doing that immediately, and long-term, find a more secure solution.

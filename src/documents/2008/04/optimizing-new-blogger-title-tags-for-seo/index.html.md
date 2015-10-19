@@ -2,7 +2,6 @@
 layout: post
 title: Optimizing new Blogger title tags for SEO
 date: 2008-04-21
-tags: ["blogger","seo"]
 ---
 
 By default, the title tags that Blogger uses are less than ideal. Search engines put a lot of value on your title tags, so it's worth taking some time to make sure that they're set up correctly.

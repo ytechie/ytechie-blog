@@ -2,7 +2,6 @@
 layout: post
 title: Call, email, or face to face? Which is better?
 date: 2008-04-03
-tags: ["software development"]
 ---
 
 I've always been a huge fan of email for most business related communication. It's fast, and asynchronous, meaning I can work on something else while I wait for an answer. I don't have to wait on hold, and I don't have to knock other people out of the zone. For the most part, I only use email.

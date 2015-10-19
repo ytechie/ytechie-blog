@@ -2,7 +2,6 @@
 layout: post
 title: How many hours per week should you work?
 date: 2008-03-30
-tags: ["productivity"]
 ---
 
 I'm sure most of you have worked at a service job at one point in your life. That includes restaurants such as McDonald's or Burger King. I'm sure you knew _exactly_ how many hours you were expected to work. A schedule was made, and you knew your scheduled hours each day.

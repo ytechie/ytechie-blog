@@ -2,7 +2,6 @@
 layout: post
 title: LEAN software vs planning everything with a spec
 date: 2008-04-22
-tags: ["productivity","software development"]
 ---
 
 Every since reading [Joel's](http://www.joelonsoftware.com/) article "[Painless functional specifications - Part 1: Why Bother](http://joelonsoftware.com/articles/fog0000000036.html)?", I've be a big fan of writing functional specs. I've done it for a few projects, and I've encouraged others to do the same. The biggest reason is to solve problems ahead of time, instead of waiting last minute.

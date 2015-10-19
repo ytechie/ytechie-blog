@@ -2,7 +2,6 @@
 layout: post
 title: Stored procedure reporting & scalability
 date: 2008-05-27
-tags: ["software-development","sql"]
 ---
 
 Today's post is a case study of sorts, about my former employer, who had an interesting architecture. It's roots were VB6 and SQL server (version 6 I believe). They decided to put as much logic in their stored procedures as possible. The arguments being:

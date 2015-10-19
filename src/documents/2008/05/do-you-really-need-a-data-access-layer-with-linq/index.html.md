@@ -2,7 +2,6 @@
 layout: post
 title: Do you really need a data access layer with LINQ?
 date: 2008-05-07
-tags: ["c#","testing"]
 ---
 
 Lately I've been giving a lot of thought to using [LINQ](http://msdn.microsoft.com/en-us/netframework/aa904594.aspx) to access my database instead of using NHibernate. I've been a little confused as to how LINQ would work in a data access layer, but I'm starting to think it makes sense as a **replacement** to the data access layer.

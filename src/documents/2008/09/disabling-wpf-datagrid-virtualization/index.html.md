@@ -2,7 +2,6 @@
 layout: post
 title: Disabling WPF DataGrid Virtualization
 date: 2008-09-03
-tags: ["wpf"]
 ---
 
 Recently, Microsoft [released a DataGrid](http://www.codeplex.com/wpf/Release/ProjectReleases.aspx?ReleaseId=14963) for WPF (Windows Presentation Foundation). I've been getting my feet wet in WPF, because I think it's the long term direction that Microsoft is pushing UI design into.
