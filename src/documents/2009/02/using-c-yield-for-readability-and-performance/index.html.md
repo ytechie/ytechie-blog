@@ -2,7 +2,6 @@
 layout: post
 title: Using C# Yield for Readability and Performance
 date: 2009-02-03
-tags: ["c#"]
 ---
 
 I must have read about "yield" a dozen times. Only recently have I began to understand what it does, and the real power that comes along with it. I'm going to show you some examples of where it can make your code more readable, and potentially more efficient.
