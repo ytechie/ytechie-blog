@@ -4,8 +4,6 @@ title: Azure in Plain English
 date: 2015-09-20
 ---
 
-**I'm currently working on this post. It will change over the next few days**.
-
 Recently I saw a great page called [Amazon Web Services in Plain English](https://www.expeditedssl.com/aws-in-plain-english). I searched for the Azure equivalent, and as it turns out, one doesn't exist! Time to set that straight.
 
 The most interesting thing about this exercise is that Azure services are actually named fairly well. For each of the official names, it was extremely difficult to come up with a better name.
