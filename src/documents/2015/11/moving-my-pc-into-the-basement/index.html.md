@@ -6,7 +6,7 @@ date: 2015-11-05
 
 Most computers generate a lot of noise and heat. A few months ago, coincidentially the middle of summer, I realized I could move my PC into the basement and solve both of these problems.
 
-Here is a photo of my tower in my desk:
+Here is a photo of my tower in my desk - pardon the dust:
 
 ![PC In Desk](pc-in-desk@2x.jpg)
 
