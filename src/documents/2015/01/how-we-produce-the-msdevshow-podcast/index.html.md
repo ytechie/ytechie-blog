@@ -4,6 +4,8 @@ title: How We Produce the MS Dev Show Podcast
 date: 2015-01-16
 ---
 
+**Update 2016-01-04: I have some [hardware updates in a newer post](http://www.ytechie.com/2016/01/msdevshow-hardware-update/)**
+
 We've gotten a lot of questions about how we get great sound on the [MS Dev Show](http://msdevshow.com). From the start, Carl and I knew that great sound wouldn't make us successful, but bad sound could definitely hurt us.
 
 A lot of podcasts have just... ended. It seems to happen somewhere between episode 20 and 100. I knew how important it was to make the podcast take the absolute minimum time commitment.
