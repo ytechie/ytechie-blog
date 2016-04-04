@@ -22,7 +22,10 @@ date: 2016-04-04
     * [Modern Desktop App Installer allows double-click install of Appx](https://channel9.msdn.com/Events/Build/2016/B809)
 * [Edge extension support](https://developer.microsoft.com/en-us/microsoft-edge/extensions/)
 * [Cortana extensibility](https://channel9.msdn.com/Events/Build/2016/B834?ocid=player)
-
+* [Action Center in the cloud](https://channel9.msdn.com/Events/Build/2016/B871)
+    * Notification mirroring between desktop and phone - even on Android
+    * Sync live tiles
+    
 
 ### Visual Studio
 
