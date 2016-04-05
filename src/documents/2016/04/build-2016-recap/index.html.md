@@ -107,13 +107,14 @@ date: 2016-04-04
 * [ARM Template debugging](https://azure.microsoft.com/en-us/blog/debugging-arm-template-deployments/)
 
 
-### [Office](https://blogs.office.com/2016/03/31/office-at-build-2016-new-opportunities-for-developers/)
+### [Office 365](http://dev.office.com/blogs/build2016release)
 
 * Latest tools available today
 * Ribbon extensibility
 * GA Office 365 group connectors
 * GA of Skype for Business SDK
 * [Calendar integration](http://www.theverge.com/2016/3/30/11331174/windows-10-cortana-desktop-update)
+* Sideloading of add-ins
 
 
 ### SQL Server
