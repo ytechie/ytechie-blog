@@ -89,6 +89,7 @@ date: 2016-04-04
 * Service fabric
     * [GA](https://azure.microsoft.com/en-us/blog/azure-service-fabric-is-ga/)
     * Linux support
+* [IoT starter kits for sale](https://azure.microsoft.com/en-us/develop/iot/starter-kits/)
 * [Document DB](https://azure.microsoft.com/en-us/blog/documentdb-goes-planet-scale-with-global-databases-new-pricing-and-more-developer-choices/)
     * Global databases
     * Decouple size and perf
