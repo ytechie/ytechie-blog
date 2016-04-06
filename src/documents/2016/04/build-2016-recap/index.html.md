@@ -6,11 +6,11 @@ date: 2016-04-04
 
 ### Windows
 
-* [Windows Annoucement Highlights](https://www.youtube.com/watch?v=_8tEE2a6M0U)
+* [Windows Announcement Highlights](https://www.youtube.com/watch?v=_8tEE2a6M0U)
 * "Anniversary Update" free
 * 270 million installs
 * Edge will allow biometric authentication for websites
-* "Ink workspace" shows inking apps and recent pen apps
+* ["Ink workspace" shows inking apps and recent pen apps](http://thenextweb.com/microsoft/2016/04/02/hands-microsofts-new-inking-tools/)
 * Sticky notes are smart
 * Facebook, instagram, messenger bringing first party UWP apps to the store
 * [BASH coming to windows](https://blogs.windows.com/buildingapps/2016/03/30/run-bash-on-ubuntu-on-windows/)
