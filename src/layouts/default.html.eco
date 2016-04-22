@@ -68,7 +68,7 @@
 <%- @content %>
 <div class="container">
     <div class="navbar navbar-footer">
-        <p class="navbar-center navbar-text">Content copyright &copy; 2013 Jason Young</p>
+        <p class="navbar-center navbar-text">Content copyright &copy; 2016 Jason Young</p>
     </div>
 </div>
 
