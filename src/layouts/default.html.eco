@@ -39,7 +39,7 @@
             </button>
             <a class="navbar-brand" href="/">
                 <span class="text-primary"><%= @site.title %></span><br />
-                <span class="elevator-pitch">Azure Developer &amp; Evangelist</span>
+                <span class="elevator-pitch">Developer &amp; Happy Person</span>
             </a>
         </div>
         <div class="collapse navbar-collapse navbar-right">
