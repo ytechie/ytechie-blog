@@ -18,7 +18,7 @@ I boiled the design into a tree of classes:
 
 ![image](image1.png) 
 
-To greatly simply the design, I decided that each module would implement a common interface. After all, they all take in a tracking number, and return tracking data. Here is the ITracker interface:
+To greatly simplify the design, I decided that each module would implement a common interface. After all, they all take in a tracking number, and return tracking data. Here is the ITracker interface:
 
 	public interface ITracker
 	{
