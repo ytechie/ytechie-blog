@@ -18,7 +18,7 @@ The most interesting thing about this exercise is that Azure services are actual
 		<td>**Like AWS...**</td>
 	</tr>
 	
- <tr><td>Virtual Machines</td><td>Servers</td><td>Move existing apps to the cloud without changing them. You manage the entire computer.</td><td>EC2</td></tr>
+ <tr><td>Virtual Machines</td><td>Virtual Servers</td><td>Move existing VM to the cloud without changing them. You manage the entire OS.</td><td>EC2</td></tr>
  <tr><td>Cloud Services</td><td>Managed Virtual Machines</td><td>Run applications on virtual machines that you don't have to manage, but can partially manage.</td><td>&nbsp;</td></tr>
  <tr><td>Batch</td><td>Azure Distributed Processing</td><td>Work on a large chunk of data by divvying it up between a whole bunch of machines.</td><td>&nbsp;</td></tr>
  <tr><td>RemoteApp</td><td>Remote Desktop for Apps</td><td>Expose non-web apps to users. For example, run Excel on your iPad.</td><td>AppStream</td></tr>
