@@ -20,9 +20,5 @@ cacheable: false
 
     See a mistake? <a href="https://github.com/ytechie/ytechie-docpad/edit/master/src/documents<%= @url %>index.html.md">Edit this post!</a><br />
 
-    <% if @tags?: %>
-    <div class="post-tags">
-        Posted In: <%- ("<a href='#{@getTagUrl(tag)}'>#{tag}</a>" for tag in @tags).join(', ') %>
-    </div>
-    <% end %>
+   
 </article>
