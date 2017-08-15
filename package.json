@@ -1,11 +1,11 @@
 {
-  "name": "ewalnet-docpad",
+  "name": "ytechie-docpad",
   "version": "1.0.0",
-  "description": "Source for www.ewal.net",
-  "author": "Erv Walter <erv@ewal.net>",
+  "description": "Source for ytechie.com",
+  "author": "Jason Young",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ervwalter/ewalnet-docpad.git"
+    "url": "https://github.com/ytechie/ytechie-docpad"
   },
   "license": "MIT",
   "dependencies": {
@@ -14,7 +14,7 @@
     "docpad-plugin-cleanurls": "https://github.com/ervwalter/docpad-plugin-cleanurls/tarball/compiled",
     "docpad-plugin-coffeescript": "~2.2.2",
     "docpad-plugin-dateurls": "https://github.com/ervwalter/docpad-plugin-dateurls/tarball/compiled",
-    "docpad-plugin-eco": "~2.0.2",
+    "docpad-plugin-eco": "^2.2.1",
     "docpad-plugin-less": "~2.2.0",
     "docpad-plugin-marked": "~2.1.1",
     "docpad-plugin-paged": "https://github.com/ervwalter/docpad-plugin-paged/tarball/compiled",
