@@ -39,3 +39,6 @@ PoE (Power over Ethernet) Cameras
 
 What is Blue Iris?
 
+* Turn on direct write
+* Set up motion zones
+* Set up alerts
