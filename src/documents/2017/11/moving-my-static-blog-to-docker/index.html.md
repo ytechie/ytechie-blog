@@ -32,7 +32,7 @@ This also allows me to test the entire site locally. In fact, if you have docker
 
 Then run `docker ps` to get the local port number and browse to that!
 
-![Docker Commands](docker-run-command@2x.png)
+![Docker Commands](docker-run-command.png)
 
 ## Update my build process
 
