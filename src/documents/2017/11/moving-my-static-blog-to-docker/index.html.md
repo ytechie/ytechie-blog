@@ -36,7 +36,7 @@ Then run `docker ps` to get the local port number and browse to that!
 
 ## Update my build process
 
-I use VSTS to build my website, and it's complely free.
+I use VSTS to build my website, and it's completely free.
 
 Originally, I had the build configured to push directly to Azure once the build was finished. In hindsight, **it was very inelegant do have the build process also push the deployment.**
 
