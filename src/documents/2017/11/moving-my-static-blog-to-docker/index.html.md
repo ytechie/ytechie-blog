@@ -54,7 +54,7 @@ Note: I did get stuck at one point trying to get the paths to work properly. Som
 
 ## Azure Linux Web Apps
 
-Next, I created the Azure Linx Web App. After using `+ Create a Resource` in the Azure portal, search for `web app for containers`.
+Next, I created the Azure Linux Web App. After using `+ Create a Resource` in the Azure portal, search for `web app for containers`.
 
 ![Web App for Containers](web-app-for-containers@2x.png)
 
