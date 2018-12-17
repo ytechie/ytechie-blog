@@ -11,6 +11,7 @@
   "dependencies": {
     "cheerio": "~0.12.3",
     "coffee-script": "~1.6.3",
+    "docpad": "~6.79.4",
     "docpad-plugin-cleanurls": "https://github.com/ervwalter/docpad-plugin-cleanurls/tarball/compiled",
     "docpad-plugin-coffeescript": "~2.2.2",
     "docpad-plugin-dateurls": "https://github.com/ervwalter/docpad-plugin-dateurls/tarball/compiled",

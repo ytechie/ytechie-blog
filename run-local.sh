@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-docpad clean
+node_modules/.bin/docpad clean
 ulimit -S -n 2048
-docpad run
+node_modules/.bin/docpad run
