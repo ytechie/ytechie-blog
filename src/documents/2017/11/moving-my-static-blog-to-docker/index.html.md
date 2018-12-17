@@ -36,7 +36,7 @@ Then run `docker ps` to get the local port number and browse to that!
 
 ## Update my build process
 
-I use VSTS to build my website, and it's complely free.
+I use VSTS to build my website, and it's completely free.
 
 Originally, I had the build configured to push directly to Azure once the build was finished. In hindsight, **it was very inelegant do have the build process also push the deployment.**
 
@@ -54,7 +54,7 @@ Note: I did get stuck at one point trying to get the paths to work properly. Som
 
 ## Azure Linux Web Apps
 
-Next, I created the Azure Linx Web App. After using `+ Create a Resource` in the Azure portal, search for `web app for containers`.
+Next, I created the Azure Linux Web App. After using `+ Create a Resource` in the Azure portal, search for `web app for containers`.
 
 ![Web App for Containers](web-app-for-containers@2x.png)
 
