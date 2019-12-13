@@ -10,7 +10,7 @@ Manufacturing is responsible for the clothes you wear, the products you use ever
 
 In my role with Microsoft, I'm working with commercial software vendors on a daily basis to help them build cloud solutions. Manufacturing is becoming extremely competitive, to the point where the only survivors are those that can efficiently mine the insights from their data in real-time and adapt/react quickly. Thanks to technology, manufacturers in the United States have become the [most productive in the world][1].
 
-[1]: http://www.nam.org/Statistics-And-Data/Facts-About-Manufacturing/Landing.aspx "Facts About Manufacturing in the United States"
+[1]: https://vivipins.com/manufacturing-facts/ "Facts About Manufacturing in the United States"
 
 Within the [Technology Evangelism & Development (TED)](http://www.zdnet.com/microsoft-builds-a-deep-tech-team-to-attract-next-gen-developers-7000015270/) team, we're working hard to identify common patterns where we can build reusable open source frameworks. My goal is to bring these frameworks together in the context of manufacturing, while filling in some of the holes that exist currently. Microsoft already has a [reference architecture for Discrete Manufacturing](http://www.microsoft.com/enterprise/industry/manufacturing-and-resources/discrete-manufacturing/reference-architecture/) (DIRA). While the goals of the DIRA project are similar, our project complements those patterns with a concrete implementation showcasing Microsoft technologies.
 
